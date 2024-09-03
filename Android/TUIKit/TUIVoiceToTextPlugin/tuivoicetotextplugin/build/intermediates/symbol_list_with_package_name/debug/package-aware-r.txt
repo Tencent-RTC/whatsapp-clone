@@ -1,0 +1,17 @@
+com.tencent.qcloud.tuikit.tuivoicetotextplugin
+color convert_to_text_risk_tip_color
+drawable pop_menu_copy
+drawable pop_menu_forward
+drawable pop_menu_hide
+drawable pop_menu_voice_to_text
+drawable voice_to_text_loading
+id convert_loading_iv
+id convert_tv
+layout convert_content_layout
+string convert_to_text
+string convert_to_text_failed_tips
+string convert_to_text_risk_content_failed_tip
+string copy_action
+string copy_success_tip
+string forward_action
+string hide_action

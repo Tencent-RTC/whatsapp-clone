@@ -1,0 +1,43 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-b+my+Qaag/values-b+my+Qaag.xml",
+            "map": [
+                {
+                    "source": "/Users/vincepzhang/.gradle/caches/transforms-3/d6cf59670c5e26123c5aa21cb88b7493/transformed/jetified-push-6.11.0.300/res/values-b+my+Qaag/values-b+my+Qaag.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "72",
+                        "endOffsets": "123"
+                    },
+                    "to": {
+                        "startLines": "6",
+                        "startColumns": "4",
+                        "startOffsets": "891",
+                        "endColumns": "72",
+                        "endOffsets": "959"
+                    }
+                },
+                {
+                    "source": "/Users/vincepzhang/.gradle/caches/transforms-3/c63dea7a04921f8ffbf25cba486256cc/transformed/jetified-ui-6.9.0.300/res/values-b+my+Qaag/values-b+my+Qaag.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "55,245,574,644,891",
+                        "endColumns": "189,328,69,246,68",
+                        "endOffsets": "240,569,639,886,955"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,7",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "55,245,574,644,964",
+                        "endColumns": "189,328,69,246,68",
+                        "endOffsets": "240,569,639,886,1028"
+                    }
+                }
+            ]
+        }
+    ]
+}

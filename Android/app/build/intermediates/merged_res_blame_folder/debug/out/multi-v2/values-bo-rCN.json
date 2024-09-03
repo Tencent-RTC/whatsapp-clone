@@ -1,0 +1,60 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-bo-rCN/values-bo-rCN.xml",
+            "map": [
+                {
+                    "source": "/Users/vincepzhang/.gradle/caches/transforms-3/d6cf59670c5e26123c5aa21cb88b7493/transformed/jetified-push-6.11.0.300/res/values-bo-rCN/values-bo-rCN.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "73",
+                        "endOffsets": "124"
+                    },
+                    "to": {
+                        "startLines": "6",
+                        "startColumns": "4",
+                        "startOffsets": "928",
+                        "endColumns": "73",
+                        "endOffsets": "997"
+                    }
+                },
+                {
+                    "source": "/Users/vincepzhang/.gradle/caches/transforms-3/ff104cd4df75bb261fe64cf79124c3ab/transformed/jetified-oppo-vendor-3.1.0/res/values-bo-rCN/values-bo-rCN.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "87",
+                        "endOffsets": "138"
+                    },
+                    "to": {
+                        "startLines": "8",
+                        "startColumns": "4",
+                        "startOffsets": "1072",
+                        "endColumns": "87",
+                        "endOffsets": "1155"
+                    }
+                },
+                {
+                    "source": "/Users/vincepzhang/.gradle/caches/transforms-3/c63dea7a04921f8ffbf25cba486256cc/transformed/jetified-ui-6.9.0.300/res/values-bo-rCN/values-bo-rCN.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "55,240,547,615,928",
+                        "endColumns": "184,306,67,312,69",
+                        "endOffsets": "235,542,610,923,993"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,7",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "55,240,547,615,1002",
+                        "endColumns": "184,306,67,312,69",
+                        "endOffsets": "235,542,610,923,1067"
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.tencent.qcloud.tuikit.tuicustomerserviceplugin" >
+
+    <uses-sdk
+        android:minSdkVersion="19"
+        android:targetSdkVersion="30" />
+
+    <application>
+        <activity
+            android:name="com.tencent.qcloud.tuikit.tuicustomerserviceplugin.classicui.page.CustomerServiceMemberListActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.tencent.qcloud.tuikit.tuicustomerserviceplugin.classicui.page.CustomerServiceProfileActivity"
+            android:screenOrientation="portrait" />
+    </application>
+
+</manifest>

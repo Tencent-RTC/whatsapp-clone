@@ -1,0 +1,63 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUISearch/tuisearch/src/main/AndroidManifest.xml:2:1-40:12
+INJECTED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUISearch/tuisearch/src/main/AndroidManifest.xml:2:1-40:12
+INJECTED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUISearch/tuisearch/src/main/AndroidManifest.xml:2:1-40:12
+	package
+		INJECTED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUISearch/tuisearch/src/main/AndroidManifest.xml
+		ADDED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUISearch/tuisearch/src/main/AndroidManifest.xml:2:1-40:12
+		INJECTED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUISearch/tuisearch/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUISearch/tuisearch/src/main/AndroidManifest.xml:2:11-69
+application
+ADDED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUISearch/tuisearch/src/main/AndroidManifest.xml:4:5-39:19
+activity#com.tencent.qcloud.tuikit.tuisearch.classicui.page.SearchMainActivity
+ADDED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUISearch/tuisearch/src/main/AndroidManifest.xml:7:9-9:52
+	android:screenOrientation
+		ADDED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUISearch/tuisearch/src/main/AndroidManifest.xml:9:13-49
+	android:name
+		ADDED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUISearch/tuisearch/src/main/AndroidManifest.xml:8:13-97
+activity#com.tencent.qcloud.tuikit.tuisearch.classicui.page.SearchMoreListActivity
+ADDED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUISearch/tuisearch/src/main/AndroidManifest.xml:11:9-13:52
+	android:screenOrientation
+		ADDED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUISearch/tuisearch/src/main/AndroidManifest.xml:13:13-49
+	android:name
+		ADDED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUISearch/tuisearch/src/main/AndroidManifest.xml:12:13-101
+activity#com.tencent.qcloud.tuikit.tuisearch.classicui.page.SearchMoreMsgListActivity
+ADDED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUISearch/tuisearch/src/main/AndroidManifest.xml:15:9-17:52
+	android:screenOrientation
+		ADDED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUISearch/tuisearch/src/main/AndroidManifest.xml:17:13-49
+	android:name
+		ADDED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUISearch/tuisearch/src/main/AndroidManifest.xml:16:13-104
+activity#com.tencent.qcloud.tuikit.tuisearch.minimalistui.page.SearchMainMinimalistActivity
+ADDED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUISearch/tuisearch/src/main/AndroidManifest.xml:25:9-27:52
+	android:screenOrientation
+		ADDED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUISearch/tuisearch/src/main/AndroidManifest.xml:27:13-49
+	android:name
+		ADDED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUISearch/tuisearch/src/main/AndroidManifest.xml:26:13-110
+activity#com.tencent.qcloud.tuikit.tuisearch.minimalistui.page.SearchMoreListMinimalistActivity
+ADDED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUISearch/tuisearch/src/main/AndroidManifest.xml:29:9-31:52
+	android:screenOrientation
+		ADDED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUISearch/tuisearch/src/main/AndroidManifest.xml:31:13-49
+	android:name
+		ADDED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUISearch/tuisearch/src/main/AndroidManifest.xml:30:13-114
+activity#com.tencent.qcloud.tuikit.tuisearch.minimalistui.page.SearchMoreMsgListMinimalistActivity
+ADDED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUISearch/tuisearch/src/main/AndroidManifest.xml:33:9-35:52
+	android:screenOrientation
+		ADDED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUISearch/tuisearch/src/main/AndroidManifest.xml:35:13-49
+	android:name
+		ADDED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUISearch/tuisearch/src/main/AndroidManifest.xml:34:13-117
+uses-sdk
+INJECTED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUISearch/tuisearch/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUISearch/tuisearch/src/main/AndroidManifest.xml
+INJECTED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUISearch/tuisearch/src/main/AndroidManifest.xml
+INJECTED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUISearch/tuisearch/src/main/AndroidManifest.xml
+INJECTED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUISearch/tuisearch/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUISearch/tuisearch/src/main/AndroidManifest.xml
+		ADDED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUISearch/tuisearch/src/main/AndroidManifest.xml
+		INJECTED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUISearch/tuisearch/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUISearch/tuisearch/src/main/AndroidManifest.xml
+		ADDED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUISearch/tuisearch/src/main/AndroidManifest.xml
+		INJECTED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUISearch/tuisearch/src/main/AndroidManifest.xml

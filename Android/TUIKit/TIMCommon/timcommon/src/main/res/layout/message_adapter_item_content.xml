@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/message_content_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:clickable="false"
+    android:paddingStart="15.36dp"
+    android:paddingTop="8.6dp"
+    android:paddingEnd="15.36dp"
+    android:paddingBottom="8.6dp">
+
+    <TextView
+        android:id="@+id/message_top_time_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:includeFontPadding="false"
+        android:textColor="@color/text_tips_color"
+        android:textSize="12.6sp"
+        tools:text="12:00" />
+
+    <CheckBox
+        android:id="@+id/select_checkbox"
+        android:layout_width="21.12dp"
+        android:layout_height="21.12dp"
+        android:layout_below="@id/message_top_time_tv"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="11.52dp"
+        android:background="@drawable/chat_checkbox_selector"
+        android:button="@null"
+        android:visibility="gone"
+        tools:visibility="visible" />
+
+    <RelativeLayout
+        android:id="@+id/right_group_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/message_top_time_tv"
+        android:layout_toEndOf="@id/select_checkbox">
+
+        <com.tencent.qcloud.tuikit.timcommon.component.gatherimage.UserIconView
+            android:id="@+id/left_user_icon_view"
+            android:layout_width="41dp"
+            android:layout_height="41dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginEnd="11.52dp"
+            android:visibility="gone"
+            app:default_image="?attr/core_default_user_icon"
+            app:image_radius="20dp"
+            tools:visibility="visible" />
+
+        <com.tencent.qcloud.tuikit.timcommon.component.gatherimage.UserIconView
+            android:id="@+id/right_user_icon_view"
+            android:layout_width="41dp"
+            android:layout_height="41dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="11.52dp"
+            android:visibility="gone"
+            app:default_image="?attr/core_default_user_icon"
+            app:image_radius="20dp" />
+
+        <TextView
+            android:id="@+id/user_name_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginBottom="3.84dp"
+            android:layout_toEndOf="@id/left_user_icon_view"
+            android:textColor="@color/text_tips_color"
+            android:textSize="12.6sp"
+            android:visibility="gone"
+            tools:text="Leo"
+            tools:visibility="visible" />
+
+        <TextView
+            android:id="@+id/msg_detail_time_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/user_name_tv"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="3.36dp"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:textColor="#B0B0B0"
+            android:textSize="11.52sp"
+            android:visibility="gone"
+            tools:text="18:00"
+            tools:visibility="visible" />
+
+        <LinearLayout
+            android:id="@+id/msg_content_ll"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/user_name_tv"
+            android:layout_toStartOf="@id/right_user_icon_view"
+            android:layout_toEndOf="@id/left_user_icon_view"
+
+            android:orientation="horizontal">
+
+            <com.tencent.qcloud.tuikit.timcommon.component.UnreadCountTextView
+                android:id="@+id/audio_unread"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:visibility="visible" />
+
+            <ProgressBar
+                android:id="@+id/message_sending_pb"
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                android:layout_gravity="center_vertical"
+                android:layout_margin="10dp"
+                android:visibility="gone"
+                tools:visibility="visible" />
+
+            <TextView
+                android:id="@+id/is_read_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_marginEnd="6dp"
+                android:layout_marginBottom="2.88dp"
+                android:textColor="@color/text_gray1"
+                android:textSize="11sp"
+                tools:text="read" />
+
+            <ImageView
+                android:id="@+id/message_status_iv"
+                android:layout_width="18dp"
+                android:layout_height="18dp"
+                android:layout_gravity="center_vertical|bottom"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="5dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/message_send_fail"
+                android:visibility="gone"
+                tools:visibility="visible" />
+
+            <LinearLayout
+                android:id="@+id/msg_area_and_reply"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <com.tencent.qcloud.tuikit.timcommon.component.MaxWidthLinearLayout
+                    android:id="@+id/msg_area"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:transitionName="testImg"
+                    app:maxWidth="@dimen/chat_message_content_max_width">
+
+                    <!-- message content area -->
+                    <com.tencent.qcloud.tuikit.timcommon.component.MaxWidthFrameLayout
+                        android:id="@+id/msg_content_fl"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:maxWidth="@dimen/chat_message_content_max_width" />
+
+                    <!-- emoji react area -->
+                    <FrameLayout
+                        android:id="@+id/message_reaction_area"
+                        android:paddingTop="5dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                    <FrameLayout
+                        android:id="@+id/risk_content_line"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_marginTop="7dp"
+                            android:layout_marginBottom="7dp"
+                            android:background="#E5C7C7" />
+                    </FrameLayout>
+
+                    <TextView
+                        android:id="@+id/risk_content_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#FF584C"
+                        android:textSize="12sp"
+                        tools:text="Has Risk Content!" />
+
+                </com.tencent.qcloud.tuikit.timcommon.component.MaxWidthLinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <!-- translation content area -->
+        <LinearLayout
+            android:id="@+id/bottom_content_area"
+            android:orientation="horizontal"
+            android:layout_toStartOf="@id/right_user_icon_view"
+            android:layout_toEndOf="@id/left_user_icon_view"
+            android:layout_below="@id/msg_content_ll"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/bottom_failed_iv"
+                android:layout_width="18dp"
+                android:layout_height="18dp"
+                android:layout_gravity="center_vertical|bottom"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="5dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/message_send_fail"
+                android:visibility="gone"
+                tools:visibility="visible" />
+
+            <com.tencent.qcloud.tuikit.timcommon.component.MaxWidthFrameLayout
+                android:id="@+id/bottom_content_fl"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:background="@drawable/chat_message_bottom_area_bg"
+                android:visibility="gone"
+                app:maxWidth="@dimen/chat_message_content_max_width"
+                tools:visibility="visible" />
+        </LinearLayout>
+
+
+        <!-- quote content area -->
+        <com.tencent.qcloud.tuikit.timcommon.component.MaxWidthFrameLayout
+            android:id="@+id/quote_content_fl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/bottom_content_area"
+            android:layout_marginTop="5.76dp"
+            android:layout_toStartOf="@id/right_user_icon_view"
+            android:layout_toEndOf="@id/left_user_icon_view"
+            android:background="@drawable/quote_message_area_bg"
+            android:visibility="gone"
+            app:maxWidth="@dimen/chat_message_content_max_width"
+            tools:visibility="visible" />
+
+        <!-- reply details -->
+        <LinearLayout
+            android:id="@+id/msg_reply_detail_fl"
+            android:layout_width="wrap_content"
+            android:layout_height="14.4dp"
+            android:layout_below="@id/quote_content_fl"
+            android:layout_marginTop="3.84dp"
+            android:layout_toStartOf="@id/right_user_icon_view"
+            android:layout_toEndOf="@id/left_user_icon_view"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="11.52dp"
+                android:layout_height="11.52dp"
+                android:background="?attr/chat_reply_detail_icon" />
+
+            <TextView
+                android:id="@+id/reply_num"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="3.84dp"
+                android:textColor="?attr/core_primary_color"
+                android:textSize="11.52sp" />
+        </LinearLayout>
+
+    </RelativeLayout>
+</RelativeLayout>

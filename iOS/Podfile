@@ -1,0 +1,70 @@
+# Uncomment the next line to define a global platform for your project
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '13.0'
+install! 'cocoapods', :disable_input_output_paths => true
+
+target 'WhatsAppClone' do
+  # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
+  use_frameworks!
+  use_modular_headers!
+
+  # Pods for Example
+  pod 'TUIChat', '8.1.6116'
+  pod 'TIMCommon', '8.1.6116'
+  pod 'TUIConversation', '8.1.6116'
+  pod 'TUIContact', '8.1.6116'
+  pod 'TUIGroup', '8.1.6116'
+  pod 'TUISearch', '8.1.6116'
+  pod 'TIMPush', '8.1.6116'
+  pod 'TUIPollPlugin', '8.1.6116'
+  pod 'TUIGroupNotePlugin', '8.1.6116'
+  pod 'TUITranslationPlugin', '8.1.6116'
+  pod 'TUIConversationGroupPlugin', '8.1.6116'
+  pod 'TUIConversationMarkPlugin', '8.1.6116'
+  pod 'TUIVoiceToTextPlugin', '8.1.6116'
+  pod 'TUICustomerServicePlugin', '8.1.6116'
+  pod 'TUIEmojiPlugin', '8.1.6116'
+  pod 'TUICallKit_Swift','>= 2.5.0.1020'   
+  pod 'TUIRoomKit','>= 2.5.0'        
+  pod 'MJRefresh'
+  pod 'Masonry'
+
+end
+
+target 'pushservice' do
+  use_frameworks!
+  use_modular_headers!
+  pod 'TIMPush', '8.1.6116'
+end
+#Pods config
+#Fix Xcode14 Bundle target error
+post_install do |installer|
+    installer.pods_project.targets.each do |target|
+        target.build_configurations.each do |config|            
+            config.build_settings['EXPANDED_CODE_SIGN_IDENTITY'] = ""
+            config.build_settings['CODE_SIGNING_REQUIRED'] = "NO"
+            config.build_settings['CODE_SIGNING_ALLOWED'] = "NO"
+            config.build_settings['ENABLE_BITCODE'] = "NO"
+            config.build_settings['IPHONEOS_DEPLOYMENT_TARGET'] = "13.0"
+            
+            #Fix Xcode15 other links  flag  -ld64
+            xcode_version = `xcrun xcodebuild -version | grep Xcode | cut -d' ' -f2`.to_f
+            if xcode_version >= 15
+              xcconfig_path = config.base_configuration_reference.real_path
+              xcconfig = File.read(xcconfig_path)
+              if xcconfig.include?("OTHER_LDFLAGS") == false
+                xcconfig = xcconfig + "\n" + 'OTHER_LDFLAGS = $(inherited) "-ld64"'
+              else
+                if xcconfig.include?("OTHER_LDFLAGS = $(inherited)") == false
+                  xcconfig = xcconfig.sub("OTHER_LDFLAGS", "OTHER_LDFLAGS = $(inherited)")
+                end
+                if xcconfig.include?("-ld64") == false
+                  xcconfig = xcconfig.sub("OTHER_LDFLAGS = $(inherited)", 'OTHER_LDFLAGS = $(inherited) "-ld64"')
+                end
+              end
+              File.open(xcconfig_path, "w") { |file| file << xcconfig }
+            end
+            
+        end
+    end
+end

@@ -1,0 +1,110 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.tencent.qcloud.tuikit.tuigroup" >
+4
+5    <uses-sdk
+6        android:minSdkVersion="19"
+6-->/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUIGroup/tuigroup/src/main/AndroidManifest.xml
+7        android:targetSdkVersion="30" />
+7-->/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUIGroup/tuigroup/src/main/AndroidManifest.xml
+8
+9    <application>
+9-->/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUIGroup/tuigroup/src/main/AndroidManifest.xml:4:5-46:19
+10
+11        <!-- **************** Classic UI Activity Start **************** -->
+12        <activity
+12-->/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUIGroup/tuigroup/src/main/AndroidManifest.xml:7:9-8:52
+13            android:name="com.tencent.qcloud.tuikit.tuigroup.classicui.page.GroupNoticeActivity"
+13-->/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUIGroup/tuigroup/src/main/AndroidManifest.xml:7:19-103
+14            android:screenOrientation="portrait" />
+14-->/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUIGroup/tuigroup/src/main/AndroidManifest.xml:8:13-49
+15        <activity
+15-->/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUIGroup/tuigroup/src/main/AndroidManifest.xml:9:9-10:52
+16            android:name="com.tencent.qcloud.tuikit.tuigroup.classicui.page.SetGroupManagerActivity"
+16-->/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUIGroup/tuigroup/src/main/AndroidManifest.xml:9:19-107
+17            android:screenOrientation="portrait" />
+17-->/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUIGroup/tuigroup/src/main/AndroidManifest.xml:10:13-49
+18        <activity
+18-->/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUIGroup/tuigroup/src/main/AndroidManifest.xml:11:9-12:52
+19            android:name="com.tencent.qcloud.tuikit.tuigroup.classicui.page.GroupMemberActivity"
+19-->/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUIGroup/tuigroup/src/main/AndroidManifest.xml:11:19-103
+20            android:screenOrientation="portrait" />
+20-->/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUIGroup/tuigroup/src/main/AndroidManifest.xml:12:13-49
+21        <activity
+21-->/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUIGroup/tuigroup/src/main/AndroidManifest.xml:13:9-14:52
+22            android:name="com.tencent.qcloud.tuikit.tuigroup.classicui.page.ManageGroupActivity"
+22-->/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUIGroup/tuigroup/src/main/AndroidManifest.xml:13:19-103
+23            android:screenOrientation="portrait" />
+23-->/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUIGroup/tuigroup/src/main/AndroidManifest.xml:14:13-49
+24        <activity
+24-->/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUIGroup/tuigroup/src/main/AndroidManifest.xml:15:9-16:52
+25            android:name="com.tencent.qcloud.tuikit.tuigroup.classicui.page.GroupInfoActivity"
+25-->/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUIGroup/tuigroup/src/main/AndroidManifest.xml:15:19-101
+26            android:screenOrientation="portrait" />
+26-->/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUIGroup/tuigroup/src/main/AndroidManifest.xml:16:13-49
+27        <activity
+27-->/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUIGroup/tuigroup/src/main/AndroidManifest.xml:17:9-19:73
+28            android:name="com.tencent.qcloud.tuikit.tuigroup.classicui.page.GroupApplyManagerActivity"
+28-->/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUIGroup/tuigroup/src/main/AndroidManifest.xml:17:19-109
+29            android:screenOrientation="portrait"
+29-->/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUIGroup/tuigroup/src/main/AndroidManifest.xml:18:13-49
+30            android:windowSoftInputMode="stateAlwaysHidden|adjustPan" />
+30-->/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUIGroup/tuigroup/src/main/AndroidManifest.xml:19:13-70
+31        <activity
+31-->/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUIGroup/tuigroup/src/main/AndroidManifest.xml:20:9-22:69
+32            android:name="com.tencent.qcloud.tuikit.tuigroup.classicui.page.GroupApplyDetailActivity"
+32-->/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUIGroup/tuigroup/src/main/AndroidManifest.xml:20:19-108
+33            android:screenOrientation="portrait"
+33-->/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUIGroup/tuigroup/src/main/AndroidManifest.xml:21:9-45
+34            android:windowSoftInputMode="stateAlwaysHidden|adjustPan" />
+34-->/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUIGroup/tuigroup/src/main/AndroidManifest.xml:22:9-66
+35
+36        <!-- **************** Classic UI Activity End **************** -->
+37
+38
+39        <!-- **************** Minimalist UI Activity Start **************** -->
+40        <activity
+40-->/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUIGroup/tuigroup/src/main/AndroidManifest.xml:30:9-31:52
+41            android:name="com.tencent.qcloud.tuikit.tuigroup.minimalistui.page.GroupNoticeMinimalistActivity"
+41-->/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUIGroup/tuigroup/src/main/AndroidManifest.xml:30:19-116
+42            android:screenOrientation="portrait" />
+42-->/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUIGroup/tuigroup/src/main/AndroidManifest.xml:31:13-49
+43        <activity
+43-->/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUIGroup/tuigroup/src/main/AndroidManifest.xml:32:9-33:52
+44            android:name="com.tencent.qcloud.tuikit.tuigroup.minimalistui.page.GroupMemberMinimalistActivity"
+44-->/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUIGroup/tuigroup/src/main/AndroidManifest.xml:32:19-116
+45            android:screenOrientation="portrait" />
+45-->/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUIGroup/tuigroup/src/main/AndroidManifest.xml:33:13-49
+46        <activity
+46-->/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUIGroup/tuigroup/src/main/AndroidManifest.xml:34:9-35:52
+47            android:name="com.tencent.qcloud.tuikit.tuigroup.minimalistui.page.ManageGroupMinimalistActivity"
+47-->/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUIGroup/tuigroup/src/main/AndroidManifest.xml:34:19-116
+48            android:screenOrientation="portrait" />
+48-->/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUIGroup/tuigroup/src/main/AndroidManifest.xml:35:13-49
+49        <activity
+49-->/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUIGroup/tuigroup/src/main/AndroidManifest.xml:36:9-37:52
+50            android:name="com.tencent.qcloud.tuikit.tuigroup.minimalistui.page.GroupInfoMinimalistActivity"
+50-->/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUIGroup/tuigroup/src/main/AndroidManifest.xml:36:19-114
+51            android:screenOrientation="portrait" />
+51-->/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUIGroup/tuigroup/src/main/AndroidManifest.xml:37:13-49
+52        <activity
+52-->/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUIGroup/tuigroup/src/main/AndroidManifest.xml:38:9-40:73
+53            android:name="com.tencent.qcloud.tuikit.tuigroup.minimalistui.page.GroupApplyManagerMinimalistActivity"
+53-->/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUIGroup/tuigroup/src/main/AndroidManifest.xml:38:19-122
+54            android:screenOrientation="portrait"
+54-->/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUIGroup/tuigroup/src/main/AndroidManifest.xml:39:13-49
+55            android:windowSoftInputMode="stateAlwaysHidden|adjustPan" />
+55-->/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUIGroup/tuigroup/src/main/AndroidManifest.xml:40:13-70
+56        <activity
+56-->/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUIGroup/tuigroup/src/main/AndroidManifest.xml:41:9-43:72
+57            android:name="com.tencent.qcloud.tuikit.tuigroup.minimalistui.page.GroupApplyDetailMinimalistActivity"
+57-->/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUIGroup/tuigroup/src/main/AndroidManifest.xml:41:19-121
+58            android:screenOrientation="portrait"
+58-->/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUIGroup/tuigroup/src/main/AndroidManifest.xml:42:13-49
+59            android:windowSoftInputMode="stateAlwaysHidden|adjustPan" />
+59-->/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUIGroup/tuigroup/src/main/AndroidManifest.xml:43:13-70
+60        <!-- **************** Minimalist UI Activity End **************** -->
+61
+62    </application>
+63
+64</manifest>

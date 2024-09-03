@@ -1,0 +1,49 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.tencent.qcloud.tuikit.tuiconversation" >
+4
+5    <uses-sdk
+6        android:minSdkVersion="19"
+6-->/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUIConversation/tuiconversation/src/main/AndroidManifest.xml
+7        android:targetSdkVersion="30" />
+7-->/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUIConversation/tuiconversation/src/main/AndroidManifest.xml
+8
+9    <application>
+9-->/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUIConversation/tuiconversation/src/main/AndroidManifest.xml:4:5-31:19
+10
+11        <!-- **************** Classic UI Activity Start **************** -->
+12        <activity
+12-->/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUIConversation/tuiconversation/src/main/AndroidManifest.xml:7:9-9:52
+13            android:name="com.tencent.qcloud.tuikit.tuiconversation.classicui.page.TUIForwardSelectActivity"
+13-->/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUIConversation/tuiconversation/src/main/AndroidManifest.xml:8:13-109
+14            android:screenOrientation="portrait" />
+14-->/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUIConversation/tuiconversation/src/main/AndroidManifest.xml:9:13-49
+15        <activity
+15-->/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUIConversation/tuiconversation/src/main/AndroidManifest.xml:11:9-13:52
+16            android:name="com.tencent.qcloud.tuikit.tuiconversation.classicui.page.TUIFoldedConversationActivity"
+16-->/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUIConversation/tuiconversation/src/main/AndroidManifest.xml:12:13-114
+17            android:screenOrientation="portrait" />
+17-->/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUIConversation/tuiconversation/src/main/AndroidManifest.xml:13:13-49
+18        <!-- **************** Classic UI Activity End **************** -->
+19
+20
+21        <!-- **************** Minimalist UI Activity Start **************** -->
+22        <activity
+22-->/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUIConversation/tuiconversation/src/main/AndroidManifest.xml:21:9-24:52
+23            android:name="com.tencent.qcloud.tuikit.tuiconversation.minimalistui.page.TUIForwardSelectMinimalistActivity"
+23-->/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUIConversation/tuiconversation/src/main/AndroidManifest.xml:22:13-122
+24            android:screenOrientation="portrait"
+24-->/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUIConversation/tuiconversation/src/main/AndroidManifest.xml:24:13-49
+25            android:theme="@style/ConversationTransparentPopActivityStyle" />
+25-->/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUIConversation/tuiconversation/src/main/AndroidManifest.xml:23:13-75
+26        <activity
+26-->/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUIConversation/tuiconversation/src/main/AndroidManifest.xml:26:9-28:52
+27            android:name="com.tencent.qcloud.tuikit.tuiconversation.minimalistui.page.TUIFoldedConversationMinimalistActivity"
+27-->/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUIConversation/tuiconversation/src/main/AndroidManifest.xml:27:13-127
+28            android:screenOrientation="portrait" />
+28-->/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUIConversation/tuiconversation/src/main/AndroidManifest.xml:28:13-49
+29        <!-- **************** Minimalist UI Activity End **************** -->
+30
+31    </application>
+32
+33</manifest>

@@ -1,0 +1,995 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.tencent.qcloud.tim.tuikit"
+    android:versionCode="1"
+    android:versionName="8.1.6116" >
+
+    <uses-sdk
+        android:minSdkVersion="19"
+        android:targetSdkVersion="33" />
+    <!-- ********魅族推送权限设置******** -->
+    <!-- 兼容flyme5.0以下版本，魅族内部集成pushSDK必填，不然无法收到消息 -->
+    <uses-permission android:name="com.meizu.flyme.push.permission.RECEIVE" />
+
+    <permission
+        android:name="com.tencent.qcloud.tim.tuikit.push.permission.MESSAGE"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="com.tencent.qcloud.tim.tuikit.push.permission.MESSAGE" /> <!-- 兼容flyme3.0配置权限 -->
+    <uses-permission android:name="com.meizu.c2dm.permission.RECEIVE" />
+
+    <permission
+        android:name="com.tencent.qcloud.tim.tuikit.permission.C2D_MESSAGE"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="com.tencent.qcloud.tim.tuikit.permission.C2D_MESSAGE" /> <!-- ********OPPO 推送 start******** -->
+    <uses-permission android:name="com.coloros.mcs.permission.RECIEVE_MCS_MESSAGE" />
+    <uses-permission android:name="com.heytap.mcs.permission.RECIEVE_MCS_MESSAGE" /> <!-- ********华为推送权限设置******** -->
+    <uses-permission android:name="com.huawei.android.launcher.permission.CHANGE_BADGE" />
+
+    <queries>
+        <intent>
+            <action android:name="com.hihonor.push.action.BIND_PUSH_SERVICE" />
+        </intent>
+
+        <package android:name="com.huawei.multimedia.audioengine" />
+
+        <intent>
+            <action android:name="com.huawei.hms.core.aidlservice" />
+        </intent>
+        <intent>
+            <action android:name="com.huawei.hms.core" />
+        </intent>
+    </queries>
+
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        android:maxSdkVersion="28" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_CAMERA" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_MICROPHONE" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_CONNECTED_DEVICE" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <uses-permission
+        android:name="android.permission.BLUETOOTH"
+        android:maxSdkVersion="30" />
+    <uses-permission
+        android:name="android.permission.BLUETOOTH_ADMIN"
+        android:maxSdkVersion="30" /> <!-- Support Android S(31) Bluetooth -->
+    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
+    <uses-permission android:name="android.permission.ACCESS_NOTIFICATION_POLICY" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    <uses-permission android:name="android.permission.MANAGE_OWN_CALLS" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.VIBRATE" /> <!-- 这里applicationId为app的包名 -->
+    <permission
+        android:name="com.tencent.qcloud.tim.tuikit.permission.MIPUSH_RECEIVE"
+        android:protectionLevel="signature" /> <!-- 这里applicationId为app的包名 -->
+    <uses-permission android:name="com.tencent.qcloud.tim.tuikit.permission.MIPUSH_RECEIVE" />
+
+    <permission
+        android:name="com.tencent.qcloud.tim.tuikit.permission.PROCESS_PUSH_MSG"
+        android:protectionLevel="signature" /> <!-- PUSH_PROVIDER and PUSH_WRITE_PROVIDER are both provider registered permissions for the notification switch. -->
+    <!-- The SDK's notification bar switch, EMUI 9.x becomes write to the local sp, sharing the file through the provider to the push-rom, which reads the sp file to get the status of the notification bar switch. -->
+    <permission
+        android:name="com.tencent.qcloud.tim.tuikit.permission.PUSH_PROVIDER"
+        android:protectionLevel="signature" />
+    <permission
+        android:name="com.tencent.qcloud.tim.tuikit.permission.PUSH_WRITE_PROVIDER"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="com.tencent.qcloud.tim.tuikit.permission.PROCESS_PUSH_MSG" />
+    <uses-permission android:name="com.tencent.qcloud.tim.tuikit.permission.PUSH_PROVIDER" />
+    <uses-permission android:name="com.hihonor.push.permission.READ_PUSH_NOTIFICATION_INFO" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_MEDIA_PROJECTION" />
+
+    <application
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:name="com.tencent.qcloud.tim.demo.DemoApplication"
+        android:allowBackup="false"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+        android:debuggable="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/demo_app_name"
+        android:supportsRtl="true"
+        android:theme="@style/DemoAppTheme"
+        android:usesCleartextTraffic="true" >
+        <activity
+            android:name="com.tencent.qcloud.tim.demo.SplashActivity"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/SplashTheme" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="com.tencent.qloud.splash" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.tencent.qcloud.tim.demo.login.LoginForDevActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.tencent.qcloud.tim.demo.login.LanguageSelectActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.tencent.qcloud.tim.demo.login.ThemeSelectActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.tencent.qcloud.tim.demo.login.StyleSelectActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.tencent.qcloud.tim.demo.main.MainActivity"
+            android:exported="true"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/DemoAppTheme"
+            android:windowSoftInputMode="adjustResize|stateHidden" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="com.tencent.qcloud"
+                    android:path="/detail"
+                    android:scheme="pushscheme" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.tencent.qcloud.tim.demo.profile.SelfDetailActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.tencent.qcloud.tim.demo.profile.AboutIMActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.tencent.qcloud.tim.demo.main.MainMinimalistActivity"
+            android:exported="true"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/DemoAppTheme"
+            android:windowSoftInputMode="adjustResize|stateHidden" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="com.tencent.qcloud"
+                    android:path="/detail"
+                    android:scheme="pushscheme" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.tencent.qcloud.tim.demo.profile.SelfDetailMinamalistActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.tencent.qcloud.tim.demo.profile.AboutIMMinamalistActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.tencent.qcloud.tim.push.TIMPushOpenActivity"
+            android:exported="true"
+            android:launchMode="singleTask"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:windowSoftInputMode="adjustResize|stateHidden" >
+
+            <!-- 离线推送打开应用内页面 -->
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="com.tencent.qcloud.uniapp"
+                    android:path="/detail"
+                    android:scheme="pushscheme" />
+            </intent-filter>
+        </activity>
+
+        <service
+            android:name="com.tencent.qcloud.tim.push.notification.NotificationResourceDownloader"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="com.tencent.timpush.intentservice" />
+            </intent-filter>
+        </service>
+
+        <provider
+            android:name="com.tencent.qcloud.tim.push.TIMPushEntry"
+            android:authorities="com.tencent.qcloud.tim.tuikit.TIMPush.Init"
+            android:enabled="true"
+            android:exported="false"
+            android:initOrder="8000" />
+        <provider
+            android:name="com.tencent.timpush.fcm.TIMPushFCMService"
+            android:authorities="com.tencent.qcloud.tim.tuikit.fcmPush.Init"
+            android:enabled="true"
+            android:exported="false"
+            android:initOrder="8001" /> <!-- ********海外google云消息传递start******** -->
+        <service
+            android:name="com.tencent.timpush.fcm.TIMPushFCMMsgService"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service> <!-- [START fcm_default_icon] -->
+        <!--
+             Set custom default icon. This is used when no icon is set for incoming notification messages.
+             See README(https://goo.gl/l4GJaQ) for more.
+        -->
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_icon"
+            android:resource="@drawable/fcm_private_icon" />
+        <!--
+             Set color used with incoming notification messages. This is used when no color is set for the incoming
+             notification message. See README(https://goo.gl/6BKBk7) for more.
+        -->
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_color"
+            android:resource="@android:color/white" /> <!-- 合规 -->
+        <meta-data
+            android:name="supportGetAndroidID"
+            android:value="false" />
+
+        <provider
+            android:name="com.tencent.timpush.xiaomi.TIMPushXiaoMiService"
+            android:authorities="com.tencent.qcloud.tim.tuikit.xiaomiPush.Init"
+            android:enabled="true"
+            android:exported="false"
+            android:initOrder="8001" /> <!-- 自实现小米推送的接收广播 -->
+        <receiver
+            android:name="com.tencent.timpush.xiaomi.TIMPushXiaoMiMsgReceiver"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="com.xiaomi.mipush.RECEIVE_MESSAGE" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.xiaomi.mipush.MESSAGE_ARRIVED" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.xiaomi.mipush.ERROR" />
+            </intent-filter>
+        </receiver>
+
+        <provider
+            android:name="com.tencent.timpush.meizu.TIMPushMeiZuService"
+            android:authorities="com.tencent.qcloud.tim.tuikit.meizuPush.Init"
+            android:enabled="true"
+            android:exported="false"
+            android:initOrder="8001" /> <!-- ********魅族推送设置start******** -->
+        <receiver
+            android:name="com.tencent.timpush.meizu.TIMPushMeiZuReceiver"
+            android:exported="true" >
+            <intent-filter>
+
+                <!-- 接收push消息 -->
+                <action android:name="com.meizu.flyme.push.intent.MESSAGE" />
+                <!-- 接收register消息 -->
+                <action android:name="com.meizu.flyme.push.intent.REGISTER.FEEDBACK" />
+                <!-- 接收unregister消息 -->
+                <action android:name="com.meizu.flyme.push.intent.UNREGISTER.FEEDBACK" />
+                <!-- 兼容低版本Flyme3推送服务配置 -->
+                <action android:name="com.meizu.c2dm.intent.REGISTRATION" />
+                <action android:name="com.meizu.c2dm.intent.RECEIVE" />
+
+                <category android:name="com.tencent.qcloud.tim.tuikit" />
+            </intent-filter>
+        </receiver>
+
+        <provider
+            android:name="com.tencent.timpush.oppo.TIMPushOPPOService"
+            android:authorities="com.tencent.qcloud.tim.tuikit.oppoPush.Init"
+            android:enabled="true"
+            android:exported="false"
+            android:initOrder="8001" /> <!-- ********OPPO 推送 start******** -->
+        <service
+            android:name="com.heytap.msp.push.service.CompatibleDataMessageCallbackService"
+            android:exported="true"
+            android:permission="com.coloros.mcs.permission.SEND_MCS_MESSAGE" >
+            <intent-filter>
+                <action android:name="com.coloros.mcs.action.RECEIVE_MCS_MESSAGE" />
+            </intent-filter>
+        </service> <!-- 兼容Q以下版本 -->
+        <service
+            android:name="com.heytap.msp.push.service.DataMessageCallbackService"
+            android:exported="true"
+            android:permission="com.heytap.mcs.permission.SEND_PUSH_MESSAGE" >
+            <intent-filter>
+                <action android:name="com.heytap.mcs.action.RECEIVE_MCS_MESSAGE" />
+                <action android:name="com.heytap.msp.push.RECEIVE_MCS_MESSAGE" />
+            </intent-filter>
+        </service>
+
+        <provider
+            android:name="com.tencent.timpush.vivo.TIMPushVIVOService"
+            android:authorities="com.tencent.qcloud.tim.tuikit.vivoPush.Init"
+            android:enabled="true"
+            android:exported="false"
+            android:initOrder="8001" /> <!-- ********vivo推送设置start******** -->
+        <service
+            android:name="com.vivo.push.sdk.service.CommandClientService"
+            android:exported="true"
+            android:permission="com.push.permission.UPSTAGESERVICE" /> <!-- push应用定义消息receiver声明 -->
+        <receiver
+            android:name="com.tencent.timpush.vivo.TIMPushVIVOMessageReceiverImpl"
+            android:exported="false" >
+            <intent-filter>
+
+                <!-- 接收push消息 -->
+                <action android:name="com.vivo.pushclient.action.RECEIVE" />
+            </intent-filter>
+        </receiver>
+
+        <provider
+            android:name="com.tencent.timpush.huawei.TIMPushHuaWeiService"
+            android:authorities="com.tencent.qcloud.tim.tuikit.huaweiPush.Init"
+            android:enabled="true"
+            android:exported="false"
+            android:initOrder="8001" /> <!-- ********华为推送设置start******** -->
+        <service
+            android:name="com.tencent.timpush.huawei.TIMPushHmsMessageService"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="com.huawei.push.action.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <meta-data
+            android:name="com.huawei.messaging.default_notification_icon"
+            android:resource="@drawable/huawei_private_icon" />
+
+        <provider
+            android:name="com.tencent.timpush.honor.TIMPushHonorService"
+            android:authorities="com.tencent.qcloud.tim.tuikit.honorPush.Init"
+            android:enabled="true"
+            android:exported="false"
+            android:initOrder="8001" /> <!-- ********荣耀推送设置start******** -->
+        <service
+            android:name="com.tencent.timpush.honor.TIMPushHonorMessageService"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="com.hihonor.push.action.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <meta-data
+            android:name="com.hihonor.push.app_id"
+            android:value=" " />
+
+        <activity
+            android:name="com.tencent.qcloud.tuikit.tuicommunity.ui.page.TopicInfoActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize|stateHidden" />
+        <activity
+            android:name="com.tencent.qcloud.tuikit.tuicommunity.ui.page.CommunitySettingsActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize|stateHidden" />
+        <activity
+            android:name="com.tencent.qcloud.tuikit.tuicommunity.ui.page.CreateTopicActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize|stateHidden" />
+        <activity
+            android:name="com.tencent.qcloud.tuikit.tuicommunity.ui.page.CommunityMemberActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize|stateHidden" />
+        <activity
+            android:name="com.tencent.qcloud.tuikit.tuicommunity.ui.page.JoinCommunityActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize|stateHidden" />
+        <activity
+            android:name="com.tencent.qcloud.tuikit.tuicommunity.ui.page.CreateCommunityActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize|stateHidden" /> <!-- **************** Classic UI Activity Start **************** -->
+        <activity
+            android:name="com.tencent.qcloud.tuikit.tuiconversation.classicui.page.TUIForwardSelectActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.tencent.qcloud.tuikit.tuiconversation.classicui.page.TUIFoldedConversationActivity"
+            android:screenOrientation="portrait" /> <!-- **************** Classic UI Activity End **************** -->
+        <!-- **************** Minimalist UI Activity Start **************** -->
+        <activity
+            android:name="com.tencent.qcloud.tuikit.tuiconversation.minimalistui.page.TUIForwardSelectMinimalistActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/ConversationTransparentPopActivityStyle" />
+        <activity
+            android:name="com.tencent.qcloud.tuikit.tuiconversation.minimalistui.page.TUIFoldedConversationMinimalistActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.tencent.qcloud.tuikit.tuicustomerserviceplugin.classicui.page.CustomerServiceMemberListActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.tencent.qcloud.tuikit.tuicustomerserviceplugin.classicui.page.CustomerServiceProfileActivity"
+            android:screenOrientation="portrait" /> <!-- **************** Classic UI Activity Start **************** -->
+        <activity
+            android:name="com.tencent.qcloud.tuikit.tuicontact.classicui.pages.AddMoreActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.tencent.qcloud.tuikit.tuicontact.classicui.pages.FriendProfileActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.tencent.qcloud.tuikit.tuicontact.classicui.pages.NewFriendActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.tencent.qcloud.tuikit.tuicontact.classicui.pages.BlackListActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.tencent.qcloud.tuikit.tuicontact.classicui.pages.GroupListActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.tencent.qcloud.tuikit.tuicontact.classicui.pages.StartC2CChatActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.tencent.qcloud.tuikit.tuicontact.classicui.pages.StartGroupChatActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustPan" />
+        <activity
+            android:name="com.tencent.qcloud.tuikit.tuicontact.classicui.pages.ForwardSelectGroupActivity"
+            android:launchMode="singleInstance"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.tencent.qcloud.tuikit.tuicontact.classicui.pages.StartGroupMemberSelectActivity"
+            android:launchMode="singleInstance"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.tencent.qcloud.tuikit.tuicontact.classicui.pages.CreateGroupActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.tencent.qcloud.tuikit.tuicontact.classicui.pages.GroupTypeSelectActivity"
+            android:screenOrientation="portrait" /> <!-- **************** Classic UI Activity End **************** -->
+        <!-- **************** Minimalist UI Activity Start **************** -->
+        <activity
+            android:name="com.tencent.qcloud.tuikit.tuicontact.minimalistui.pages.FriendProfileMinimalistActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.tencent.qcloud.tuikit.tuicontact.minimalistui.pages.NewFriendApplicationMinimalistActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.tencent.qcloud.tuikit.tuicontact.minimalistui.pages.NewFriendApplicationDetailMinimalistActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.tencent.qcloud.tuikit.tuicontact.minimalistui.pages.BlackListMinimalistActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.tencent.qcloud.tuikit.tuicontact.minimalistui.pages.GroupListMinimalistActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.tencent.qcloud.tuikit.tuicontact.minimalistui.pages.StartC2CChatMinimalistActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/ContactTransparentPopActivityStyle" />
+        <activity
+            android:name="com.tencent.qcloud.tuikit.tuicontact.minimalistui.pages.StartGroupChatMinimalistActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/ContactTransparentPopActivityStyle"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustPan" />
+        <activity
+            android:name="com.tencent.qcloud.tuikit.tuicontact.minimalistui.pages.StartGroupMemberSelectMinimalistActivity"
+            android:launchMode="singleInstance"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.tencent.qcloud.tuikit.tuicontact.minimalistui.pages.CreateGroupMinimalistActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/ContactTransparentPopActivityStyle" />
+        <activity
+            android:name="com.tencent.qcloud.tuikit.tuicontact.minimalistui.pages.GroupTypeSelectMinimalistActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/ContactTransparentPopActivityStyle" />
+        <activity
+            android:name="com.tencent.qcloud.tuikit.tuichat.component.imagevideoscan.ImageVideoScanActivity"
+            android:configChanges="screenSize|keyboardHidden|orientation"
+            android:launchMode="singleTask" /> <!-- **************** Classic UI Start **************** -->
+        <activity
+            android:name="com.tencent.qcloud.tuikit.tuichat.classicui.page.MessageReplyDetailActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize|stateHidden" />
+        <activity
+            android:name="com.tencent.qcloud.tuikit.tuichat.classicui.page.TUIForwardChatActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.tencent.qcloud.tuikit.tuichat.classicui.page.TUIC2CChatActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.tencent.qcloud.tuikit.tuichat.classicui.page.TUIGroupChatActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustNothing|stateHidden" />
+        <activity
+            android:name="com.tencent.qcloud.tuikit.tuichat.classicui.page.MessageReceiptDetailActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.tencent.qcloud.tuikit.tuichat.component.camera.CameraActivity"
+            android:screenOrientation="portrait" /> <!-- **************** Classic UI End **************** -->
+        <!-- **************** Minimalist UI Start **************** -->
+        <activity
+            android:name="com.tencent.qcloud.tuikit.tuichat.minimalistui.widget.messagepopmenu.ChatPopActivity"
+            android:launchMode="singleTask"
+            android:theme="@style/ChatTransparentPopActivityStyle"
+            android:windowSoftInputMode="adjustNothing|stateHidden" />
+        <activity
+            android:name="com.tencent.qcloud.tuikit.tuichat.minimalistui.page.TUIC2CChatMinimalistActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustNothing|stateHidden" />
+        <activity
+            android:name="com.tencent.qcloud.tuikit.tuichat.minimalistui.page.TUIGroupChatMinimalistActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustNothing|stateHidden" />
+        <activity
+            android:name="com.tencent.qcloud.tuikit.tuichat.minimalistui.page.MessageDetailMinimalistActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.tencent.qcloud.tuikit.tuichat.minimalistui.page.TUIForwardChatMinimalistActivity"
+            android:screenOrientation="portrait" /> <!-- **************** Classic UI Activity Start **************** -->
+        <activity
+            android:name="com.tencent.qcloud.tuikit.tuisearch.classicui.page.SearchMainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.tencent.qcloud.tuikit.tuisearch.classicui.page.SearchMoreListActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.tencent.qcloud.tuikit.tuisearch.classicui.page.SearchMoreMsgListActivity"
+            android:screenOrientation="portrait" /> <!-- **************** Classic UI Activity End **************** -->
+        <!-- **************** Minimalist UI Activity Start **************** -->
+        <activity
+            android:name="com.tencent.qcloud.tuikit.tuisearch.minimalistui.page.SearchMainMinimalistActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.tencent.qcloud.tuikit.tuisearch.minimalistui.page.SearchMoreListMinimalistActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.tencent.qcloud.tuikit.tuisearch.minimalistui.page.SearchMoreMsgListMinimalistActivity"
+            android:screenOrientation="portrait" /> <!-- **************** Classic UI Activity Start **************** -->
+        <activity
+            android:name="com.tencent.qcloud.tuikit.tuigroup.classicui.page.GroupNoticeActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.tencent.qcloud.tuikit.tuigroup.classicui.page.SetGroupManagerActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.tencent.qcloud.tuikit.tuigroup.classicui.page.GroupMemberActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.tencent.qcloud.tuikit.tuigroup.classicui.page.ManageGroupActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.tencent.qcloud.tuikit.tuigroup.classicui.page.GroupInfoActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.tencent.qcloud.tuikit.tuigroup.classicui.page.GroupApplyManagerActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustPan" />
+        <activity
+            android:name="com.tencent.qcloud.tuikit.tuigroup.classicui.page.GroupApplyDetailActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustPan" /> <!-- **************** Classic UI Activity End **************** -->
+        <!-- **************** Minimalist UI Activity Start **************** -->
+        <activity
+            android:name="com.tencent.qcloud.tuikit.tuigroup.minimalistui.page.GroupNoticeMinimalistActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.tencent.qcloud.tuikit.tuigroup.minimalistui.page.GroupMemberMinimalistActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.tencent.qcloud.tuikit.tuigroup.minimalistui.page.ManageGroupMinimalistActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.tencent.qcloud.tuikit.tuigroup.minimalistui.page.GroupInfoMinimalistActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.tencent.qcloud.tuikit.tuigroup.minimalistui.page.GroupApplyManagerMinimalistActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustPan" />
+        <activity
+            android:name="com.tencent.qcloud.tuikit.tuigroup.minimalistui.page.GroupApplyDetailMinimalistActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustPan" />
+        <activity
+            android:name="com.tencent.qcloud.tuikit.tuicallkit.view.CallKitActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+
+        <provider
+            android:name="com.tencent.qcloud.tuikit.tuicallkit.internal.ServiceInitializer"
+            android:authorities="com.tencent.qcloud.tim.tuikit.ServiceInitializer"
+            android:enabled="true"
+            android:exported="false" />
+
+        <service
+            android:name="com.tencent.qcloud.tuikit.tuicallkit.extensions.TUICallService"
+            android:enabled="true"
+            android:exported="false"
+            android:foregroundServiceType="microphone" />
+        <service
+            android:name="com.tencent.qcloud.tuikit.tuicallkit.view.component.floatview.FloatWindowService"
+            android:enabled="true"
+            android:exported="false" />
+
+        <activity
+            android:name="com.tencent.qcloud.tuikit.tuicallkit.extensions.inviteuser.SelectGroupMemberActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+
+        <receiver
+            android:name="com.tencent.qcloud.tuikit.tuicallkit.view.component.incomingview.IncomingCallReceiver"
+            android:enabled="true"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="reject_call_action" />
+            </intent-filter>
+        </receiver> <!-- **************** Classic UI Start **************** -->
+        <activity
+            android:name="com.tencent.qcloud.tuikit.tuigroupnoteplugin.classicui.page.TUIGroupNoteCreatorActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize|stateHidden" />
+        <activity
+            android:name="com.tencent.qcloud.tuikit.tuigroupnoteplugin.classicui.page.TUIGroupNoteActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize|stateHidden" /> <!-- **************** Classic UI Start **************** -->
+        <activity
+            android:name="com.tencent.qcloud.tuikit.tuipollplugin.classicui.page.TUIPollCreatorActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name="com.tencent.qcloud.tuikit.tuipollplugin.classicui.page.TUIPollParticipantsActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize|stateHidden" />
+        <activity
+            android:name="com.tencent.qcloud.tuikit.tuiconversationgroupplugin.classicui.page.ConversationGroupSettingActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.tencent.qcloud.tuikit.tuiconversationgroupplugin.classicui.page.AddConversationGroupActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.tencent.qcloud.tuikit.tuiconversationgroupplugin.classicui.page.ConversationGroupSelectActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.tencent.qcloud.tuikit.timcommon.component.activities.SelectionActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.tencent.qcloud.tuikit.timcommon.component.activities.ImageSelectActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.tencent.qcloud.tuikit.timcommon.component.activities.SelectionMinimalistActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.tencent.qcloud.tuikit.timcommon.component.activities.ImageSelectMinimalistActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.tencent.qcloud.tuikit.timcommon.util.ActivityResultResolver$ActivityResultProxyActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:launchMode="singleTask"
+            android:multiprocess="true"
+            android:theme="@style/CoreActivityTranslucent"
+            android:windowSoftInputMode="stateHidden|stateAlwaysHidden" />
+
+        <provider
+            android:name="com.tencent.qcloud.tuikit.timcommon.util.FileProvider"
+            android:authorities="com.tencent.qcloud.tim.tuikit.timcommon.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true" >
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths_public" />
+        </provider>
+
+        <activity
+            android:name="com.tencent.qcloud.tuicore.permission.PermissionActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:launchMode="singleTask"
+            android:theme="@style/CoreActivityTranslucent"
+            android:windowSoftInputMode="stateHidden|stateAlwaysHidden" />
+        <activity
+            android:name="com.tencent.qcloud.tuicore.util.PermissionRequester$PermissionActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:launchMode="singleTask"
+            android:multiprocess="true"
+            android:theme="@style/CoreActivityTranslucent"
+            android:windowSoftInputMode="stateHidden|stateAlwaysHidden" />
+
+        <provider
+            android:name="com.tencent.qcloud.tuicore.ServiceInitializer"
+            android:authorities="com.tencent.qcloud.tim.tuikit.TUICore.Init"
+            android:enabled="true"
+            android:exported="false"
+            android:initOrder="99999" />
+
+        <receiver
+            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+            android:exported="true"
+            android:permission="com.google.android.c2dm.permission.SEND" >
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+            </intent-filter>
+        </receiver>
+        <!--
+             FirebaseMessagingService performs security checks at runtime,
+             but set to not exported to explicitly avoid allowing another app to call it.
+        -->
+        <service
+            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+            android:directBootAware="true"
+            android:exported="false" >
+            <intent-filter android:priority="-500" >
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <service
+            android:name="com.google.firebase.components.ComponentDiscoveryService"
+            android:directBootAware="true"
+            android:exported="false" >
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+        </service>
+
+        <activity
+            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <meta-data
+            android:name="MIPUSH_SDK_VERSION_CODE"
+            android:value="50909" />
+        <meta-data
+            android:name="MIPUSH_SDK_VERSION_NAME"
+            android:value="5_9_9-C" />
+
+        <service
+            android:name="com.xiaomi.push.service.XMPushService"
+            android:enabled="true"
+            android:process=":pushservice" /> <!-- 注：此service必须在3.0.1版本以后（包括3.0.1版本）加入 -->
+        <service
+            android:name="com.xiaomi.push.service.XMJobService"
+            android:enabled="true"
+            android:exported="false"
+            android:permission="android.permission.BIND_JOB_SERVICE"
+            android:process=":pushservice" /> <!-- 注：com.xiaomi.xmsf.permission.MIPUSH_RECEIVE这里的包名不能改为app的包名 -->
+        <service
+            android:name="com.xiaomi.mipush.sdk.PushMessageHandler"
+            android:enabled="true"
+            android:exported="true"
+            android:permission="com.xiaomi.xmsf.permission.MIPUSH_RECEIVE" /> <!-- 注：此service必须在2.2.5版本以后（包括2.2.5版本）加入 -->
+        <service
+            android:name="com.xiaomi.mipush.sdk.MessageHandleService"
+            android:enabled="true" />
+
+        <receiver
+            android:name="com.xiaomi.push.service.receivers.PingReceiver"
+            android:exported="false"
+            android:process=":pushservice" >
+            <intent-filter>
+                <action android:name="com.xiaomi.push.PING_TIMER" />
+            </intent-filter>
+        </receiver> <!-- 支持VoIP和场景化通过透明页点击跳转 -->
+        <!-- 对于targetSdkVersion变更为S及以上的应用，需要接入MiPushSDK 4.9.1及以上版本(海外版需接入4.8.6及以上版本)，并声明NotificationClickedActivity -->
+        <activity
+            android:name="com.xiaomi.mipush.sdk.NotificationClickedActivity"
+            android:enabled="true"
+            android:excludeFromRecents="true"
+            android:exported="true"
+            android:launchMode="singleInstance"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+            <meta-data
+                android:name="supportStyle"
+                android:value="scene|voip" />
+        </activity>
+
+        <service
+            android:name="com.meizu.cloud.pushsdk.NotificationService"
+            android:exported="true"
+            android:permission="com.meizu.cloud.push.permission.MESSAGE" />
+
+        <receiver
+            android:name="com.meizu.cloud.pushsdk.MzPushSystemReceiver"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="com.meizu.flyme.push.intent.PUSH_SYSTEM" />
+            </intent-filter>
+        </receiver>
+
+        <meta-data
+            android:name="sdkVersion"
+            android:value="3100" /> <!-- vendor-version:4.0.0.0 -->
+        <!-- Vivo Push开放平台中应用的appid 和api key -->
+        <meta-data
+            android:name="com.vivo.push.api_key"
+            android:value=" " />
+        <meta-data
+            android:name="com.vivo.push.app_id"
+            android:value=" " /> <!-- 该字段大于等于480，则表示支持点击消息直接打开应用activity，优化启动慢问题。 -->
+        <meta-data
+            android:name="sdk_version_vivo"
+            android:value="500" />
+        <meta-data
+            android:name="local_iv"
+            android:value="MzMsMzQsMzUsMzYsMzcsMzgsMzksNDAsNDEsMzIsMzgsMzcsMzYsMzUsMzQsMzMsI0AzNCwzMiwzMywzNywzMywzNCwzMiwzMywzMywzMywzNCw0MSwzNSwzNSwzMiwzMiwjQDMzLDM0LDM1LDM2LDM3LDM4LDM5LDQwLDQxLDMyLDM4LDM3LDMzLDM1LDM0LDMzLCNAMzQsMzIsMzMsMzcsMzMsMzQsMzIsMzMsMzMsMzMsMzQsNDEsMzUsMzIsMzIsMzI" /> <!-- 支持性能监控 -->
+        <meta-data
+            android:name="com.vivo.push.support_monitor"
+            android:value="1" />
+
+        <receiver
+            android:name="com.huawei.hms.support.api.push.PushMsgReceiver"
+            android:directBootAware="true"
+            android:exported="true"
+            android:permission="com.tencent.qcloud.tim.tuikit.permission.PROCESS_PUSH_MSG" >
+            <intent-filter>
+
+                <!-- Mandatory, be used to receive notification bar message click event. -->
+                <action android:name="com.huawei.intent.action.PUSH_DELAY_NOTIFY" />
+                <!-- Optional, compatible with old huawei phones. -->
+                <action android:name="com.huawei.intent.action.PUSH" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.huawei.hms.support.api.push.PushReceiver"
+            android:directBootAware="true"
+            android:exported="true"
+            android:permission="com.tencent.qcloud.tim.tuikit.permission.PROCESS_PUSH_MSG" >
+            <intent-filter>
+
+                <!-- Mandatory, be used to receive tokens. -->
+                <action android:name="com.huawei.android.push.intent.REGISTRATION" />
+                <!-- Mandatory, be used to receive messages. -->
+                <action android:name="com.huawei.android.push.intent.RECEIVE" />
+            </intent-filter>
+        </receiver> <!-- Definition of receiving service for notification bar and pass-through message of non-huawei mobile phone. -->
+        <service
+            android:name="com.huawei.hms.support.api.push.service.HmsMsgService"
+            android:directBootAware="true"
+            android:enabled="true"
+            android:exported="true"
+            android:process=":pushservice" >
+            <intent-filter>
+                <action android:name="com.huawei.push.msg.NOTIFY_MSG" />
+                <action android:name="com.huawei.push.msg.PASSBY_MSG" />
+            </intent-filter>
+        </service>
+
+        <provider
+            android:name="com.huawei.hms.support.api.push.PushProvider"
+            android:authorities="com.tencent.qcloud.tim.tuikit.huawei.push.provider"
+            android:exported="true"
+            android:readPermission="com.tencent.qcloud.tim.tuikit.permission.PUSH_PROVIDER"
+            android:writePermission="com.tencent.qcloud.tim.tuikit.permission.PUSH_WRITE_PROVIDER" />
+
+        <meta-data
+            android:name="com.huawei.hms.client.service.name:push"
+            android:value="push:6.11.0.300" />
+        <meta-data
+            android:name="com.huawei.hms.min_api_level:push:push"
+            android:value="1" />
+
+        <activity
+            android:name="com.huawei.hms.support.api.push.TransActivity"
+            android:exported="false" />
+
+        <meta-data
+            android:name="com.hihonor.push.sdk_version"
+            android:value="7.0.61.302" />
+
+        <activity
+            android:name="com.tencent.rtmp.video.TXScreenCapture$TXScreenCaptureAssistantActivity"
+            android:theme="@android:style/Theme.Translucent" />
+
+        <service
+            android:name="com.tencent.rtmp.video.ScreenCaptureService"
+            android:exported="false"
+            android:foregroundServiceType="mediaProjection" />
+
+        <provider
+            android:name="com.google.firebase.provider.FirebaseInitProvider"
+            android:authorities="com.tencent.qcloud.tim.tuikit.firebaseinitprovider"
+            android:directBootAware="true"
+            android:exported="false"
+            android:initOrder="100" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <service
+            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+            android:exported="false" >
+            <meta-data
+                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+                android:value="cct" />
+        </service>
+        <service
+            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+            android:exported="false"
+            android:permission="android.permission.BIND_JOB_SERVICE" >
+        </service>
+
+        <receiver
+            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+            android:exported="false" />
+
+        <provider
+            android:name="com.huawei.hms.aaid.InitProvider"
+            android:authorities="com.tencent.qcloud.tim.tuikit.aaidinitprovider"
+            android:exported="false"
+            android:initOrder="500" />
+
+        <meta-data
+            android:name="com.huawei.hms.client.service.name:opendevice"
+            android:value="opendevice:6.11.0.300" />
+        <meta-data
+            android:name="com.huawei.hms.min_api_level:opendevice:push"
+            android:value="1" /> <!-- 为后续统计第三方app集成了哪些Kit，因此需要Kit在自己的AndroidManifest.xml文件中定义业务标签元数据 -->
+        <meta-data
+            android:name="com.huawei.hms.client.service.name:base"
+            android:value="base:6.9.0.300" /> <!-- SDK依赖的HMSCore的最低api level元数据 -->
+        <meta-data
+            android:name="com.huawei.hms.min_api_level:base:hmscore"
+            android:value="1" /> <!-- 用于判断是否集成了本lib -->
+        <meta-data
+            android:name="availableLoaded"
+            android:value="yes" />
+
+        <activity
+            android:name="com.huawei.hms.activity.BridgeActivity"
+            android:configChanges="orientation|locale|layoutDirection|fontScale|screenSize|smallestScreenSize|screenLayout|uiMode"
+            android:excludeFromRecents="true"
+            android:exported="false"
+            android:hardwareAccelerated="true"
+            android:screenOrientation="behind"
+            android:theme="@style/Base_Translucent" >
+            <meta-data
+                android:name="hwc-theme"
+                android:value="androidhwext:style/Theme.Emui.Translucent" />
+        </activity>
+        <activity
+            android:name="com.huawei.hms.activity.EnableServiceActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize|smallestScreenSize|screenLayout"
+            android:exported="false" >
+        </activity>
+
+        <provider
+            android:name="com.huawei.agconnect.core.provider.AGConnectInitializeProvider"
+            android:authorities="com.tencent.qcloud.tim.tuikit.AGCInitializeProvider"
+            android:exported="false" />
+
+        <service
+            android:name="com.huawei.agconnect.core.ServiceDiscovery"
+            android:exported="false" />
+    </application>
+
+</manifest>

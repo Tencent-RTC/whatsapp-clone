@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="group_invite_type">
+        <item>@string/forbid_invite</item>
+        <item>@string/manager_judge</item>
+        <item>@string/auto_judge</item>
+    </string-array>
+    <string-array name="group_join_type">
+        <item>@string/forbid_join</item>
+        <item>@string/manager_judge</item>
+        <item>@string/auto_judge</item>
+    </string-array>
+    <attr format="reference" name="group_add_icon"/>
+    <attr format="reference" name="group_chat_extension_title_bar_more_menu"/>
+    <color name="black">#000000</color>
+    <color name="black_font_color">#181818</color>
+    <color name="btn_negative">#ffffff</color>
+    <color name="btn_negative_hover">#cc3428</color>
+    <color name="btn_positive">#00a4ff</color>
+    <color name="btn_positive_hover">#006eff</color>
+    <color name="dark_line">#AAAAAA</color>
+    <color name="dialog_line_bg">#c6c6c6</color>
+    <color name="font_blue">#066fff</color>
+    <color name="green">#70C160</color>
+    <color name="group_btn_negative">#ffffff</color>
+    <color name="group_minimalist_profile_item_bg_color">#F0F9F9F9</color>
+    <color name="group_minimalist_profile_item_warning_text_color">#FFFF584C</color>
+    <color name="group_profile_member_name_text_color">#888888</color>
+    <color name="item_split_color">#cccccc</color>
+    <color name="line">#DDDDDD</color>
+    <color name="text_color_black">#000</color>
+    <color name="text_color_gray">#696969</color>
+    <color name="text_gray1">#777777</color>
+    <color name="white">#FFFFFF</color>
+    <dimen name="group_profile_face_margin_left">15.36dp</dimen>
+    <dimen name="group_profile_face_margin_right">15.36dp</dimen>
+    <dimen name="group_profile_face_margin_top">11.5dp</dimen>
+    <dimen name="group_profile_face_size">46.08dp</dimen>
+    <dimen name="group_profile_group_id_size">12.48dp</dimen>
+    <dimen name="group_profile_group_name_size">17.28sp</dimen>
+    <dimen name="group_profile_height">69.12dp</dimen>
+    <dimen name="group_profile_item_height">46.08dp</dimen>
+    <dimen name="group_profile_member_grid_padding_left_right">19.2dp</dimen>
+    <dimen name="group_profile_member_grid_padding_top">11.52dp</dimen>
+    <dimen name="group_profile_member_item_name_size">9.6sp</dimen>
+    <dimen name="group_profile_member_item_width">48dp</dimen>
+    <dimen name="item_width">49.35dp</dimen>
+    <dimen name="page_margin">10dp</dimen>
+    <dimen name="page_title_height">45dp</dimen>
+    <dimen name="switch_thumb_height">23dp</dimen>
+    <dimen name="switch_thumb_padding">2dp</dimen>
+    <dimen name="switch_thumb_radius">20dp</dimen>
+    <dimen name="switch_thumb_width">23dp</dimen>
+    <string name="accept">Agree</string>
+    <string name="accepted">Agreed</string>
+    <string name="add_group_member">Add Member</string>
+    <string name="auto_judge">Auto Approval</string>
+    <string name="chat_background_title">Background</string>
+    <string name="chat_room">Chatroom</string>
+    <string name="chat_room_tip">The request to join chat room is reviewed automatically. Unable to modify it.</string>
+    <string name="chat_to_top">Pin</string>
+    <string name="clear_group_msg_tip">Are you sure you want to clear the chat history?</string>
+    <string name="clear_message">Clear Chat History</string>
+    <string name="community_group">Community</string>
+    <string name="dismiss_group_tip">Disband the group?</string>
+    <string name="dismiss_tip_after">is disbanded.</string>
+    <string name="dismiss_tip_before">Your group</string>
+    <string name="dissolve">Disband Group</string>
+    <string name="exit_group">Leave</string>
+    <string name="fold_this_group_chat">Fold this group chat</string>
+    <string name="forbid_invite">Prohibited from Inviting</string>
+    <string name="forbid_join">Prohibited from Joining</string>
+    <string name="get_system_notice">Received a custom system notification: </string>
+    <string name="group_account_tag">ID : </string>
+    <string name="group_add_manager_count_label">Manager (%d)</string>
+    <string name="group_add_manager_label">Add Admin</string>
+    <string name="group_add_mute_member_tip">Add members to mute</string>
+    <string name="group_apply_members">Request to Join Group</string>
+    <string name="group_cancel_mute_label">Cancel Mute</string>
+    <string name="group_choose_avatar">Choose Avatar</string>
+    <string name="group_clear_message">Clear Chat History</string>
+    <string name="group_delete">Delete</string>
+    <string name="group_detail">Group Chat Details</string>
+    <string name="group_edit">Edit</string>
+    <string name="group_group_application_detail_title">Info</string>
+    <string name="group_icon">Change Group Profile Photo</string>
+    <string name="group_id">Group ID</string>
+    <string name="group_invite_type">Group Inviting Method</string>
+    <string name="group_join_type">Group Joining Method</string>
+    <string name="group_manager">Manage</string>
+    <string name="group_manager_label">Administrator</string>
+    <string name="group_member_info">Info</string>
+    <string name="group_member_label">Member</string>
+    <string name="group_members">Group Members</string>
+    <string name="group_modify_remark_rule">Only letters, digits, underscores, and Chinese characters.</string>
+    <string name="group_mute_all">Mute All</string>
+    <string name="group_mute_tip">When Mute All is enabled, only the group owner and admins are allowed to send messages.</string>
+    <string name="group_name">Group Chat Name</string>
+    <string name="group_not_support_mute_member">Unable to mute specified members for this type of group chat.</string>
+    <string name="group_not_support_set_manager">Unable to set an admin for this type of group chat.</string>
+    <string name="group_notice">Group Notice</string>
+    <string name="group_notice_empty_tip">No group notice</string>
+    <string name="group_over_limit_tip">Max allowed: %d</string>
+    <string name="group_owner_label">Group Owner</string>
+    <string name="group_plus_add_group_member">+ Add members</string>
+    <string name="group_profile_audio_call">Audio</string>
+    <string name="group_profile_message">Message</string>
+    <string name="group_profile_video_call">Video</string>
+    <string name="group_remove_manager_label">Cancel Admin</string>
+    <string name="group_remove_manager_tip">Admin canceled successfully.</string>
+    <string name="group_remove_member">Remove</string>
+    <string name="group_set_admin">Set Administrator</string>
+    <string name="group_set_manager">Set as Admin</string>
+    <string name="group_transfer_group_owner">Transfer Group Owner</string>
+    <string name="group_type">Group Type</string>
+    <string name="group_validation_message">Validation Message</string>
+    <string name="group_view_more_group_members">View more group members</string>
+    <string name="group_you">You</string>
+    <string name="in_group_nick_name">My Alias in Group</string>
+    <string name="input_tip">No nickname. Enter again.</string>
+    <string name="invite">invite</string>
+    <string name="invite_fail">Invitation failed:</string>
+    <string name="invite_group_type">Group Inviting Method</string>
+    <string name="invite_suc">Member invited</string>
+    <string name="join_group_tip">You have been invited to the group: </string>
+    <string name="join_group_type">Group Joining Method</string>
+    <string name="joined_tip">You have joined the group: </string>
+    <string name="kick_group">You have been kicked out of the group: </string>
+    <string name="manager">Manage</string>
+    <string name="manager_judge">Admin Approval</string>
+    <string name="modify_group_name">Edit Group Name</string>
+    <string name="modify_group_name_success">Edited</string>
+    <string name="modify_group_notice">Edit Group Notice</string>
+    <string name="modify_group_notice_success">Edited</string>
+    <string name="modify_icon_fail">Editing failed</string>
+    <string name="modify_icon_suc">Edited</string>
+    <string name="modify_nick_name_in_goup">Edit My Alias in Group</string>
+    <string name="modify_nickname_success">Edited</string>
+    <string name="private_group">Discussion Group</string>
+    <string name="profile_chat_background">Chat background</string>
+    <string name="profile_msgrev_opt">Mute Notifications</string>
+    <string name="public_group">Public Group</string>
+    <string name="quit_group_tip">Leave the group?</string>
+    <string name="refuse">Decline</string>
+    <string name="refused">Declined</string>
+    <string name="reject_join_tip">You are rejected from joining the group: </string>
+    <string name="remove">Remove</string>
+    <string name="remove_fail_tip">Removal failed</string>
+    <string name="remove_group_member">Delete Member</string>
+    <string name="remove_member">Delete Member</string>
+    <string name="remove_tip_fail">Deletion failed: </string>
+    <string name="remove_tip_suc">Deleted</string>
+    <string name="request_wait">Invitation sent. Waiting for response.</string>
+    <string name="search_call_hint">Enter Group Member\'s Name</string>
+    <style name="BottomSelectSheet" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+    <style name="BottomSelectSheet_Anim">
+        <item name="android:windowExitAnimation">@anim/bottom_select_sheet_exit</item>
+        <item name="android:windowEnterAnimation">@anim/bottom_select_sheet_enter</item>
+    </style>
+    <style name="TUIGroupLightTheme" parent="TUIBaseLightTheme">
+        <item name="group_add_icon">@drawable/group_add_icon_light</item>
+        <item name="group_chat_extension_title_bar_more_menu">@drawable/group_chat_extension_title_bar_more_menu_light</item>
+
+    </style>
+    <style name="TUIGroupLivelyTheme" parent="TUIBaseLivelyTheme">
+        <item name="group_add_icon">@drawable/group_add_icon_lively</item>
+        <item name="group_chat_extension_title_bar_more_menu">@drawable/group_chat_extension_title_bar_more_menu_lively</item>
+
+    </style>
+    <style name="TUIGroupSeriousTheme" parent="TUIBaseSeriousTheme">
+        <item name="group_add_icon">@drawable/group_add_icon_serious</item>
+        <item name="group_chat_extension_title_bar_more_menu">@drawable/group_chat_extension_title_bar_more_menu_serious</item>
+    </style>
+</resources>

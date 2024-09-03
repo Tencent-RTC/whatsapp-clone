@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="common_phrases_list">
+        <item>Is it in stock?</item>
+        <item>Can it be cheaper?</item>
+        <item>Is there a giveaway?</item>
+        <item>What is the shipping date?</item>
+        <item>Which express company is it?</item>
+        <item>When will it arrive?</item>
+    </string-array>
+    <attr format="reference" name="customer_service_icon"/>
+    <attr format="reference" name="customer_service_item_arrow"/>
+    <attr format="reference|color" name="customer_service_item_text_color"/>
+    <attr format="reference|color" name="customer_service_reply_quote_text_color"/>
+    <attr format="reference" name="evaluation_number_active_bg"/>
+    <attr format="reference" name="number_default_bg"/>
+    <attr format="reference|color" name="number_default_color"/>
+    <attr format="reference|color" name="product_close_color"/>
+    <attr format="reference" name="send_suggest_icon"/>
+    <attr format="reference|color" name="submit_bg_color"/>
+    <attr format="reference" name="title_refresh"/>
+    <color name="bot_message_bg">#FBFBFB</color>
+    <color name="bot_title_color">#171538</color>
+    <color name="card_desc_color">#ff6c2e</color>
+    <color name="customer_service_item_text_color_light">#368DFF</color>
+    <color name="customer_service_item_text_color_lively">#ff7756</color>
+    <color name="customer_service_item_text_color_serious">#368DFF</color>
+    <color name="customer_service_reply_quote_text_color_light">#888888</color>
+    <color name="customer_service_reply_quote_text_color_lively">#FFE1EC</color>
+    <color name="customer_service_reply_quote_text_color_serious">#D4E2FF</color>
+    <color name="customer_service_tips_color">#9a9a9a</color>
+    <color name="customer_service_title_color">#171538</color>
+    <color name="evaluation_background_color">#fbfbfb</color>
+    <color name="evaluation_number_active_color">#ffffff</color>
+    <color name="evaluation_number_background_disable_color">#80ffffff</color>
+    <color name="evaluation_number_default_color_light">#006eff</color>
+    <color name="evaluation_number_default_color_lively">#ff7756</color>
+    <color name="evaluation_number_default_color_serious">#006eff</color>
+    <color name="float_layer_text_color">#999999</color>
+    <color name="grey_line_color">#eeeeee</color>
+    <color name="make_an_evaluation_color">#1c1c1c</color>
+    <color name="product_close_color_light">#3370ff</color>
+    <color name="product_close_color_lively">#ff5739</color>
+    <color name="product_close_color_serious">#3370ff</color>
+    <color name="submit_an_evaluation_disable_color">#80ffffff</color>
+    <color name="submit_bg_color_light">#3370ff</color>
+    <color name="submit_bg_color_lively">#ff9d85</color>
+    <color name="submit_bg_color_serious">#3370ff</color>
+    <string name="chat_bot">ChatBot</string>
+    <string name="chat_bot_buying_guidelines">Tencent Cloud Instant messaging IM Group</string>
+    <string name="chat_bot_unsupport_tips">ChatBot is a value-added payment feature, which is currently in the internal testing stage. Click to enter [Tencent Cloud Instant messaging IM Group] to apply for activation and trial.</string>
+    <string name="common_phrases">Common Phrases</string>
+    <string name="customer_service">Customer Service</string>
+    <string name="customer_service_buying_guidelines">Tencent Cloud Instant messaging IM Group</string>
+    <string name="customer_service_i_know">I got it</string>
+    <string name="customer_service_unsupport_tips">Customer Service is a value-added payment feature, which is currently in the internal testing stage. Click to enter [Tencent Cloud Instant messaging IM Group] to apply for activation and trial.</string>
+    <string name="extension_satisfaction_evaluation">Satisfaction Evaluation</string>
+    <string name="invite_to_evaluation">Thank you for using our service, please rate this service.</string>
+    <string name="product_card_close">Close</string>
+    <string name="product_card_confirm">Confirm</string>
+    <string name="product_card_description">Description</string>
+    <string name="product_card_input_info">Please fill in the product information</string>
+    <string name="product_card_jump_url">Jump Url</string>
+    <string name="product_card_name">Name</string>
+    <string name="product_card_picture_url">Picture Url</string>
+    <string name="product_info_input_empty">Input cannot be empty</string>
+    <string name="refresh_questions">Change it</string>
+    <string name="satisfaction_evaluation">Satisfaction Evaluation</string>
+    <string name="send_product_info">Send Product Information</string>
+    <string name="session_end">Session End</string>
+    <string name="session_timeout">Session Timeout</string>
+    <string name="submit_the_evaluation">Submit the evaluation.</string>
+    <string name="suggest">suggest</string>
+    <style name="TUICustomerServiceLightTheme" parent="TUIBaseLightTheme">
+        <item name="customer_service_item_text_color">@color/customer_service_item_text_color_light</item>
+        <item name="product_close_color">@color/product_close_color_light</item>
+        <item name="number_default_color">@color/evaluation_number_default_color_light</item>
+        <item name="submit_bg_color">@color/submit_bg_color_light</item>
+        <item name="customer_service_icon">@drawable/customer_service_icon_light</item>
+        <item name="customer_service_item_arrow">@drawable/customer_service_item_arrow_light</item>
+        <item name="evaluation_number_active_bg">@drawable/evaluation_number_active_bg_light</item>
+        <item name="send_suggest_icon">@drawable/send_suggest_icon_light</item>
+        <item name="number_default_bg">@drawable/evaluation_number_default_bg_light</item>
+        <item name="title_refresh">@drawable/title_refresh_light</item>
+    </style>
+    <style name="TUICustomerServiceLivelyTheme" parent="TUIBaseLivelyTheme">
+        <item name="customer_service_item_text_color">@color/customer_service_item_text_color_lively</item>
+        <item name="product_close_color">@color/product_close_color_lively</item>
+        <item name="number_default_color">@color/evaluation_number_default_color_lively</item>
+        <item name="submit_bg_color">@color/submit_bg_color_lively</item>
+        <item name="customer_service_icon">@drawable/customer_service_icon_lively</item>
+        <item name="customer_service_item_arrow">@drawable/customer_service_item_arrow_lively</item>
+        <item name="evaluation_number_active_bg">@drawable/evaluation_number_active_bg_lively</item>
+        <item name="send_suggest_icon">@drawable/send_suggest_icon_lively</item>
+        <item name="number_default_bg">@drawable/evaluation_number_default_bg_lively</item>
+        <item name="title_refresh">@drawable/title_refresh_lively</item>
+    </style>
+    <style name="TUICustomerServiceSeriousTheme" parent="TUIBaseSeriousTheme">
+        <item name="customer_service_item_text_color">@color/customer_service_item_text_color_serious</item>
+        <item name="product_close_color">@color/product_close_color_serious</item>
+        <item name="number_default_color">@color/evaluation_number_default_color_serious</item>
+        <item name="submit_bg_color">@color/submit_bg_color_serious</item>
+        <item name="customer_service_icon">@drawable/customer_service_icon_serious</item>
+        <item name="customer_service_item_arrow">@drawable/customer_service_item_arrow_serious</item>
+        <item name="evaluation_number_active_bg">@drawable/evaluation_number_active_bg_serious</item>
+        <item name="send_suggest_icon">@drawable/send_suggest_icon_serious</item>
+        <item name="number_default_bg">@drawable/evaluation_number_default_bg_serious</item>
+        <item name="title_refresh">@drawable/title_refresh_serious</item>
+    </style>
+</resources>
