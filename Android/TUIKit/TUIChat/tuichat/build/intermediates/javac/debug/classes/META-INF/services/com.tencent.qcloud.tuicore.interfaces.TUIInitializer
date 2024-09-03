@@ -1,0 +1,3 @@
+com.tencent.qcloud.tuikit.tuichat.TUIChatService
+com.tencent.qcloud.tuikit.tuichat.classicui.ClassicUIService
+com.tencent.qcloud.tuikit.tuichat.minimalistui.MinimalistUIService

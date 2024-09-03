@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="LineControllerView">
+        <attr name="name" format="string"/>
+        <attr name="subject" format="string"/>
+        <attr name="isBottom" format="boolean"/>
+        <attr name="canNav" format="boolean"/>
+        <attr name="isSwitch" format="boolean"/>
+    </declare-styleable>
+
+</resources>

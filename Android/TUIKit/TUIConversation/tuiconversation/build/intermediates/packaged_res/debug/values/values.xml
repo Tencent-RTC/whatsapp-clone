@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr format="reference|color" name="conversation_tab_selected"/>
+    <color name="black">#000000</color>
+    <color name="black_font_color">#181818</color>
+    <color name="btn_positive">#00a4ff</color>
+    <color name="btn_positive_hover">#006eff</color>
+    <color name="conversation_bottom_bg">#F9F9F9</color>
+    <color name="conversation_delete_swipe_bg">#F24D4C</color>
+    <color name="conversation_divide_line_color">#D9D9D9</color>
+    <color name="conversation_hide_swipe_bg">#F29340</color>
+    <color name="conversation_item_clicked_color">#D9D9D9</color>
+    <color name="conversation_item_time_color">#b0b0b0</color>
+    <color name="conversation_item_top_color">#F4F4F4</color>
+    <color name="conversation_mark_swipe_bg">#147AFF</color>
+    <color name="conversation_mark_swipe_dark_bg">#666666</color>
+    <color name="conversation_page_bg">#FFFFFF</color>
+    <color name="conversation_tab_bg_color">#EBECF0</color>
+    <color name="conversation_tab_selected_light">#147AFF</color>
+    <color name="conversation_tab_selected_lively">#FF3B30</color>
+    <color name="conversation_tab_selected_serious">#006EFF</color>
+    <color name="custom_transparent">#B3000000</color>
+    <color name="dialog_line_bg">#c6c6c6</color>
+    <color name="font_blue">#066fff</color>
+    <color name="gray_400">#FFBDBDBD</color>
+    <color name="gray_600">#FF757575</color>
+    <color name="green">#70C160</color>
+    <color name="light_blue_400">#FF29B6F6</color>
+    <color name="light_blue_600">#FF039BE5</color>
+    <color name="line">#DDDDDD</color>
+    <color name="list_bottom_text_bg">#999999</color>
+    <color name="navigation_bar_color">#F7F7F7</color>
+    <color name="read_dot_bg">#f74c31</color>
+    <color name="text_color_gray">#696969</color>
+    <color name="text_gray1">#777777</color>
+    <color name="text_tips_color">#A5A5A5</color>
+    <color name="transparent">#00000000</color>
+    <color name="white">#FFFFFF</color>
+    <dimen name="btn_height">40dp</dimen>
+    <dimen name="btn_margin_bottom">8dp</dimen>
+    <dimen name="btn_margin_left">12dp</dimen>
+    <dimen name="btn_margin_middle">10dp</dimen>
+    <dimen name="btn_margin_right">12dp</dimen>
+    <dimen name="btn_margin_top">36dp</dimen>
+    <dimen name="btn_padding_left">16dp</dimen>
+    <dimen name="btn_padding_right">16dp</dimen>
+    <dimen name="conversation_list_avatar_height">46.08dp</dimen>
+    <dimen name="conversation_list_avatar_width">46.08dp</dimen>
+    <dimen name="conversation_list_divide_line_height">0.55dp</dimen>
+    <dimen name="conversation_list_item_height">69.91dp</dimen>
+    <dimen name="conversation_list_text_margin_bottom">12.96dp</dimen>
+    <dimen name="conversation_list_time_margin_right">15.35dp</dimen>
+    <dimen name="forward_margin">55dp</dimen>
+    <dimen name="item_height">49.35dp</dimen>
+    <dimen name="item_width">49.35dp</dimen>
+    <dimen name="page_margin">10dp</dimen>
+    <dimen name="page_title_height">45dp</dimen>
+    <string name="chat_delete">Delete</string>
+    <string name="chat_top">Pin</string>
+    <string name="clear_message">Clear Chat History</string>
+    <string name="conversation_add_new_conversation">Add Conversation</string>
+    <string name="conversation_delete_tips">The conversation and chat history will all be deleted</string>
+    <string name="conversation_forward">Forward</string>
+    <string name="conversation_minimalist_chat">Chat</string>
+    <string name="conversation_minimalist_chat_connecting">Connecting...</string>
+    <string name="conversation_minimalist_chat_disconnected">Disconnected</string>
+    <string name="conversation_minimalist_chat_loading">Loading...</string>
+    <string name="conversation_minimalist_done">Done</string>
+    <string name="conversation_minimalist_search">Search</string>
+    <string name="conversation_null_text">No Conversation for %1$s</string>
+    <string name="conversation_page_all">All</string>
+    <string name="conversation_risk_message_extra">[Violation message]</string>
+    <string name="conversation_title_edit">Edit</string>
+    <string name="create_group_chat">Create Group Chat</string>
+    <string name="drafts">[Drafts]</string>
+    <string name="folded_group_chat">folded group chat</string>
+    <string name="forward_alert_title">Are you sure you want to forward?</string>
+    <string name="forward_list_label">Recent Conversations</string>
+    <string name="forward_select_from_contact">Select from contact</string>
+    <string name="forward_select_new_chat">Create new chat</string>
+    <string name="has_all_read">Read All</string>
+    <string name="mark_read">Read</string>
+    <string name="mark_unread">Unread</string>
+    <string name="message_num">messages</string>
+    <string name="more_text">More</string>
+    <string name="not_display">Hide</string>
+    <string name="quit_chat_top">Unpin</string>
+    <string name="start_conversation">New Chat</string>
+    <string name="titlebar_cancle">Cancel</string>
+    <string name="titlebar_close">Close</string>
+    <string name="titlebar_mutiselect">Select</string>
+    <string name="ui_at_all">[@All]</string>
+    <string name="ui_at_all_me">[@All][Someone @ me]</string>
+    <string name="ui_at_me">[Someone @ me]</string>
+    <style name="ConversationTransparentPopActivityStyle" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:statusBarColor">#99000000</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Translucent</item>
+    </style>
+    <style name="TUIConversationLightTheme" parent="TUIBaseLightTheme">
+        <item name="conversation_tab_selected">@color/conversation_tab_selected_light</item>
+    </style>
+    <style name="TUIConversationLivelyTheme" parent="TUIBaseLivelyTheme">
+        <item name="conversation_tab_selected">@color/conversation_tab_selected_lively</item>
+    </style>
+    <style name="TUIConversationSeriousTheme" parent="TUIBaseSeriousTheme">
+        <item name="conversation_tab_selected">@color/conversation_tab_selected_serious</item>
+    </style>
+    <declare-styleable name="MinimalistHeaderView">
+        <attr format="string" name="header_title"/>
+    </declare-styleable>
+    <declare-styleable name="SynthesizedImageView">
+        <attr format="color" name="synthesized_image_bg"/>
+        <attr format="reference" name="synthesized_default_image"/>
+        <attr format="dimension" name="synthesized_image_size"/>
+        <attr format="dimension" name="synthesized_image_gap"/>
+    </declare-styleable>
+    <declare-styleable name="UserIconView">
+        <attr format="reference" name="default_image"/>
+        <attr format="dimension" name="image_radius"/>
+    </declare-styleable>
+</resources>

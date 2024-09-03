@@ -1,0 +1,137 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.tencent.qcloud.tuikit.tuichat" >
+4
+5    <uses-sdk
+6        android:minSdkVersion="19"
+6-->/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUIChat/tuichat/src/main/AndroidManifest.xml
+7        android:targetSdkVersion="30" />
+7-->/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUIChat/tuichat/src/main/AndroidManifest.xml
+8
+9    <uses-permission
+9-->/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUIChat/tuichat/src/main/AndroidManifest.xml:4:5-5:38
+10        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+10-->/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUIChat/tuichat/src/main/AndroidManifest.xml:4:22-78
+11        android:maxSdkVersion="28" />
+11-->/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUIChat/tuichat/src/main/AndroidManifest.xml:5:9-35
+12    <uses-permission android:name="android.permission.CAMERA" />
+12-->/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUIChat/tuichat/src/main/AndroidManifest.xml:7:5-65
+12-->/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUIChat/tuichat/src/main/AndroidManifest.xml:7:22-62
+13    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+13-->/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUIChat/tuichat/src/main/AndroidManifest.xml:8:5-71
+13-->/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUIChat/tuichat/src/main/AndroidManifest.xml:8:22-68
+14    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+14-->/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUIChat/tuichat/src/main/AndroidManifest.xml:9:5-80
+14-->/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUIChat/tuichat/src/main/AndroidManifest.xml:9:22-77
+15
+16    <application>
+16-->/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUIChat/tuichat/src/main/AndroidManifest.xml:11:5-82:19
+17        <activity
+17-->/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUIChat/tuichat/src/main/AndroidManifest.xml:12:9-15:77
+18            android:name="com.tencent.qcloud.tuikit.tuichat.component.imagevideoscan.ImageVideoScanActivity"
+18-->/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUIChat/tuichat/src/main/AndroidManifest.xml:13:13-109
+19            android:configChanges="screenSize|keyboardHidden|orientation"
+19-->/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUIChat/tuichat/src/main/AndroidManifest.xml:15:13-74
+20            android:launchMode="singleTask" />
+20-->/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUIChat/tuichat/src/main/AndroidManifest.xml:14:13-44
+21
+22        <!-- **************** Classic UI Start **************** -->
+23        <activity
+23-->/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUIChat/tuichat/src/main/AndroidManifest.xml:19:9-22:52
+24            android:name="com.tencent.qcloud.tuikit.tuichat.classicui.page.MessageReplyDetailActivity"
+24-->/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUIChat/tuichat/src/main/AndroidManifest.xml:20:13-103
+25            android:screenOrientation="portrait"
+25-->/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUIChat/tuichat/src/main/AndroidManifest.xml:22:13-49
+26            android:windowSoftInputMode="adjustResize|stateHidden" />
+26-->/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUIChat/tuichat/src/main/AndroidManifest.xml:21:13-67
+27        <activity
+27-->/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUIChat/tuichat/src/main/AndroidManifest.xml:23:9-25:52
+28            android:name="com.tencent.qcloud.tuikit.tuichat.classicui.page.TUIForwardChatActivity"
+28-->/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUIChat/tuichat/src/main/AndroidManifest.xml:24:13-99
+29            android:screenOrientation="portrait" />
+29-->/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUIChat/tuichat/src/main/AndroidManifest.xml:25:13-49
+30        <activity
+30-->/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUIChat/tuichat/src/main/AndroidManifest.xml:26:9-30:55
+31            android:name="com.tencent.qcloud.tuikit.tuichat.classicui.page.TUIC2CChatActivity"
+31-->/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUIChat/tuichat/src/main/AndroidManifest.xml:27:13-95
+32            android:launchMode="singleTask"
+32-->/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUIChat/tuichat/src/main/AndroidManifest.xml:28:13-44
+33            android:screenOrientation="portrait"
+33-->/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUIChat/tuichat/src/main/AndroidManifest.xml:29:13-49
+34            android:windowSoftInputMode="adjustPan" />
+34-->/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUIChat/tuichat/src/main/AndroidManifest.xml:30:13-52
+35        <activity
+35-->/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUIChat/tuichat/src/main/AndroidManifest.xml:33:9-37:70
+36            android:name="com.tencent.qcloud.tuikit.tuichat.classicui.page.TUIGroupChatActivity"
+36-->/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUIChat/tuichat/src/main/AndroidManifest.xml:34:13-97
+37            android:launchMode="singleTask"
+37-->/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUIChat/tuichat/src/main/AndroidManifest.xml:35:13-44
+38            android:screenOrientation="portrait"
+38-->/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUIChat/tuichat/src/main/AndroidManifest.xml:36:13-49
+39            android:windowSoftInputMode="adjustNothing|stateHidden" />
+39-->/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUIChat/tuichat/src/main/AndroidManifest.xml:37:13-68
+40        <activity
+40-->/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUIChat/tuichat/src/main/AndroidManifest.xml:39:9-41:52
+41            android:name="com.tencent.qcloud.tuikit.tuichat.classicui.page.MessageReceiptDetailActivity"
+41-->/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUIChat/tuichat/src/main/AndroidManifest.xml:40:13-105
+42            android:screenOrientation="portrait" />
+42-->/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUIChat/tuichat/src/main/AndroidManifest.xml:41:13-49
+43        <activity
+43-->/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUIChat/tuichat/src/main/AndroidManifest.xml:42:9-44:52
+44            android:name="com.tencent.qcloud.tuikit.tuichat.component.camera.CameraActivity"
+44-->/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUIChat/tuichat/src/main/AndroidManifest.xml:43:13-93
+45            android:screenOrientation="portrait" />
+45-->/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUIChat/tuichat/src/main/AndroidManifest.xml:44:13-49
+46
+47        <!-- **************** Classic UI End **************** -->
+48
+49
+50        <!-- **************** Minimalist UI Start **************** -->
+51        <activity
+51-->/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUIChat/tuichat/src/main/AndroidManifest.xml:53:9-57:71
+52            android:name="com.tencent.qcloud.tuikit.tuichat.minimalistui.widget.messagepopmenu.ChatPopActivity"
+52-->/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUIChat/tuichat/src/main/AndroidManifest.xml:54:13-112
+53            android:launchMode="singleTask"
+53-->/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUIChat/tuichat/src/main/AndroidManifest.xml:56:13-44
+54            android:theme="@style/ChatTransparentPopActivityStyle"
+54-->/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUIChat/tuichat/src/main/AndroidManifest.xml:55:13-67
+55            android:windowSoftInputMode="adjustNothing|stateHidden" />
+55-->/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUIChat/tuichat/src/main/AndroidManifest.xml:57:13-68
+56        <activity
+56-->/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUIChat/tuichat/src/main/AndroidManifest.xml:59:9-63:71
+57            android:name="com.tencent.qcloud.tuikit.tuichat.minimalistui.page.TUIC2CChatMinimalistActivity"
+57-->/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUIChat/tuichat/src/main/AndroidManifest.xml:60:13-108
+58            android:launchMode="singleTask"
+58-->/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUIChat/tuichat/src/main/AndroidManifest.xml:61:13-44
+59            android:screenOrientation="portrait"
+59-->/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUIChat/tuichat/src/main/AndroidManifest.xml:62:13-49
+60            android:windowSoftInputMode="adjustNothing|stateHidden" />
+60-->/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUIChat/tuichat/src/main/AndroidManifest.xml:63:13-68
+61        <activity
+61-->/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUIChat/tuichat/src/main/AndroidManifest.xml:65:9-69:71
+62            android:name="com.tencent.qcloud.tuikit.tuichat.minimalistui.page.TUIGroupChatMinimalistActivity"
+62-->/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUIChat/tuichat/src/main/AndroidManifest.xml:66:13-110
+63            android:launchMode="singleTask"
+63-->/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUIChat/tuichat/src/main/AndroidManifest.xml:67:13-44
+64            android:screenOrientation="portrait"
+64-->/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUIChat/tuichat/src/main/AndroidManifest.xml:68:13-49
+65            android:windowSoftInputMode="adjustNothing|stateHidden" />
+65-->/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUIChat/tuichat/src/main/AndroidManifest.xml:69:13-68
+66        <activity
+66-->/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUIChat/tuichat/src/main/AndroidManifest.xml:71:9-73:52
+67            android:name="com.tencent.qcloud.tuikit.tuichat.minimalistui.page.MessageDetailMinimalistActivity"
+67-->/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUIChat/tuichat/src/main/AndroidManifest.xml:72:13-111
+68            android:screenOrientation="portrait" />
+68-->/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUIChat/tuichat/src/main/AndroidManifest.xml:73:13-49
+69        <activity
+69-->/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUIChat/tuichat/src/main/AndroidManifest.xml:75:9-77:52
+70            android:name="com.tencent.qcloud.tuikit.tuichat.minimalistui.page.TUIForwardChatMinimalistActivity"
+70-->/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUIChat/tuichat/src/main/AndroidManifest.xml:76:13-112
+71            android:screenOrientation="portrait" />
+71-->/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUIChat/tuichat/src/main/AndroidManifest.xml:77:13-49
+72
+73        <!-- **************** Minimalist UI End **************** -->
+74
+75    </application>
+76
+77</manifest>

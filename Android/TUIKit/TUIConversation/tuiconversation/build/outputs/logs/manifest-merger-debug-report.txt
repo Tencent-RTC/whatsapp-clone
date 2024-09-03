@@ -1,0 +1,53 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUIConversation/tuiconversation/src/main/AndroidManifest.xml:2:1-33:12
+INJECTED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUIConversation/tuiconversation/src/main/AndroidManifest.xml:2:1-33:12
+INJECTED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUIConversation/tuiconversation/src/main/AndroidManifest.xml:2:1-33:12
+	package
+		INJECTED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUIConversation/tuiconversation/src/main/AndroidManifest.xml
+		ADDED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUIConversation/tuiconversation/src/main/AndroidManifest.xml:2:1-33:12
+		INJECTED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUIConversation/tuiconversation/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUIConversation/tuiconversation/src/main/AndroidManifest.xml:2:11-69
+application
+ADDED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUIConversation/tuiconversation/src/main/AndroidManifest.xml:4:5-31:19
+activity#com.tencent.qcloud.tuikit.tuiconversation.classicui.page.TUIForwardSelectActivity
+ADDED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUIConversation/tuiconversation/src/main/AndroidManifest.xml:7:9-9:52
+	android:screenOrientation
+		ADDED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUIConversation/tuiconversation/src/main/AndroidManifest.xml:9:13-49
+	android:name
+		ADDED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUIConversation/tuiconversation/src/main/AndroidManifest.xml:8:13-109
+activity#com.tencent.qcloud.tuikit.tuiconversation.classicui.page.TUIFoldedConversationActivity
+ADDED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUIConversation/tuiconversation/src/main/AndroidManifest.xml:11:9-13:52
+	android:screenOrientation
+		ADDED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUIConversation/tuiconversation/src/main/AndroidManifest.xml:13:13-49
+	android:name
+		ADDED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUIConversation/tuiconversation/src/main/AndroidManifest.xml:12:13-114
+activity#com.tencent.qcloud.tuikit.tuiconversation.minimalistui.page.TUIForwardSelectMinimalistActivity
+ADDED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUIConversation/tuiconversation/src/main/AndroidManifest.xml:21:9-24:52
+	android:screenOrientation
+		ADDED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUIConversation/tuiconversation/src/main/AndroidManifest.xml:24:13-49
+	android:theme
+		ADDED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUIConversation/tuiconversation/src/main/AndroidManifest.xml:23:13-75
+	android:name
+		ADDED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUIConversation/tuiconversation/src/main/AndroidManifest.xml:22:13-122
+activity#com.tencent.qcloud.tuikit.tuiconversation.minimalistui.page.TUIFoldedConversationMinimalistActivity
+ADDED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUIConversation/tuiconversation/src/main/AndroidManifest.xml:26:9-28:52
+	android:screenOrientation
+		ADDED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUIConversation/tuiconversation/src/main/AndroidManifest.xml:28:13-49
+	android:name
+		ADDED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUIConversation/tuiconversation/src/main/AndroidManifest.xml:27:13-127
+uses-sdk
+INJECTED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUIConversation/tuiconversation/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUIConversation/tuiconversation/src/main/AndroidManifest.xml
+INJECTED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUIConversation/tuiconversation/src/main/AndroidManifest.xml
+INJECTED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUIConversation/tuiconversation/src/main/AndroidManifest.xml
+INJECTED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUIConversation/tuiconversation/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUIConversation/tuiconversation/src/main/AndroidManifest.xml
+		ADDED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUIConversation/tuiconversation/src/main/AndroidManifest.xml
+		INJECTED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUIConversation/tuiconversation/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUIConversation/tuiconversation/src/main/AndroidManifest.xml
+		ADDED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUIConversation/tuiconversation/src/main/AndroidManifest.xml
+		INJECTED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUIConversation/tuiconversation/src/main/AndroidManifest.xml

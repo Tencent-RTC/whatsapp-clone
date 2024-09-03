@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="convert_to_text_risk_tip_color">#DA2222</color>
+    <string name="convert_to_text">Convert to text</string>
+    <string name="convert_to_text_failed_tips">Convert failed</string>
+    <string name="convert_to_text_risk_content_failed_tip">Contains sensitive content, text conversion failed</string>
+    <string name="copy_action">Copy</string>
+    <string name="copy_success_tip">Copy Success</string>
+    <string name="forward_action">Forward</string>
+    <string name="hide_action">Hide</string>
+</resources>

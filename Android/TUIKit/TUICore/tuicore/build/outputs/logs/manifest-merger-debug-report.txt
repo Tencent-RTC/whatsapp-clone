@@ -1,0 +1,65 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUICore/tuicore/src/main/AndroidManifest.xml:2:1-28:12
+INJECTED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUICore/tuicore/src/main/AndroidManifest.xml:2:1-28:12
+INJECTED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUICore/tuicore/src/main/AndroidManifest.xml:2:1-28:12
+	package
+		INJECTED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUICore/tuicore/src/main/AndroidManifest.xml
+		ADDED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUICore/tuicore/src/main/AndroidManifest.xml:2:1-28:12
+		INJECTED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUICore/tuicore/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUICore/tuicore/src/main/AndroidManifest.xml:2:11-69
+application
+ADDED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUICore/tuicore/src/main/AndroidManifest.xml:4:5-27:19
+activity#com.tencent.qcloud.tuicore.permission.PermissionActivity
+ADDED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUICore/tuicore/src/main/AndroidManifest.xml:5:9-10:75
+	android:launchMode
+		ADDED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUICore/tuicore/src/main/AndroidManifest.xml:8:13-44
+	android:windowSoftInputMode
+		ADDED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUICore/tuicore/src/main/AndroidManifest.xml:10:13-72
+	android:configChanges
+		ADDED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUICore/tuicore/src/main/AndroidManifest.xml:7:13-74
+	android:theme
+		ADDED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUICore/tuicore/src/main/AndroidManifest.xml:9:13-59
+	android:name
+		ADDED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUICore/tuicore/src/main/AndroidManifest.xml:6:13-84
+activity#com.tencent.qcloud.tuicore.util.PermissionRequester$PermissionActivity
+ADDED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUICore/tuicore/src/main/AndroidManifest.xml:12:9-18:75
+	android:multiprocess
+		ADDED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUICore/tuicore/src/main/AndroidManifest.xml:15:13-40
+	android:launchMode
+		ADDED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUICore/tuicore/src/main/AndroidManifest.xml:16:13-44
+	android:windowSoftInputMode
+		ADDED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUICore/tuicore/src/main/AndroidManifest.xml:18:13-72
+	android:configChanges
+		ADDED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUICore/tuicore/src/main/AndroidManifest.xml:14:13-74
+	android:theme
+		ADDED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUICore/tuicore/src/main/AndroidManifest.xml:17:13-59
+	android:name
+		ADDED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUICore/tuicore/src/main/AndroidManifest.xml:13:13-98
+provider#com.tencent.qcloud.tuicore.ServiceInitializer
+ADDED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUICore/tuicore/src/main/AndroidManifest.xml:20:9-25:39
+	android:enabled
+		ADDED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUICore/tuicore/src/main/AndroidManifest.xml:24:13-35
+	android:authorities
+		ADDED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUICore/tuicore/src/main/AndroidManifest.xml:22:13-64
+	android:exported
+		ADDED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUICore/tuicore/src/main/AndroidManifest.xml:25:13-37
+	android:initOrder
+		ADDED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUICore/tuicore/src/main/AndroidManifest.xml:23:13-38
+	android:name
+		ADDED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUICore/tuicore/src/main/AndroidManifest.xml:21:13-73
+uses-sdk
+INJECTED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUICore/tuicore/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUICore/tuicore/src/main/AndroidManifest.xml
+INJECTED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUICore/tuicore/src/main/AndroidManifest.xml
+INJECTED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUICore/tuicore/src/main/AndroidManifest.xml
+INJECTED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUICore/tuicore/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUICore/tuicore/src/main/AndroidManifest.xml
+		ADDED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUICore/tuicore/src/main/AndroidManifest.xml
+		INJECTED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUICore/tuicore/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUICore/tuicore/src/main/AndroidManifest.xml
+		ADDED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUICore/tuicore/src/main/AndroidManifest.xml
+		INJECTED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUICore/tuicore/src/main/AndroidManifest.xml

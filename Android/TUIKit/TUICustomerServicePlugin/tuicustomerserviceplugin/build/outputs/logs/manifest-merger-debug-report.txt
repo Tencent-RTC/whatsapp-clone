@@ -1,0 +1,39 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUICustomerServicePlugin/tuicustomerserviceplugin/src/main/AndroidManifest.xml:2:1-14:12
+INJECTED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUICustomerServicePlugin/tuicustomerserviceplugin/src/main/AndroidManifest.xml:2:1-14:12
+INJECTED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUICustomerServicePlugin/tuicustomerserviceplugin/src/main/AndroidManifest.xml:2:1-14:12
+	package
+		INJECTED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUICustomerServicePlugin/tuicustomerserviceplugin/src/main/AndroidManifest.xml
+		ADDED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUICustomerServicePlugin/tuicustomerserviceplugin/src/main/AndroidManifest.xml:2:1-14:12
+		INJECTED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUICustomerServicePlugin/tuicustomerserviceplugin/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUICustomerServicePlugin/tuicustomerserviceplugin/src/main/AndroidManifest.xml:2:11-69
+application
+ADDED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUICustomerServicePlugin/tuicustomerserviceplugin/src/main/AndroidManifest.xml:4:5-12:19
+activity#com.tencent.qcloud.tuikit.tuicustomerserviceplugin.classicui.page.CustomerServiceMemberListActivity
+ADDED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUICustomerServicePlugin/tuicustomerserviceplugin/src/main/AndroidManifest.xml:5:9-7:52
+	android:screenOrientation
+		ADDED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUICustomerServicePlugin/tuicustomerserviceplugin/src/main/AndroidManifest.xml:7:13-49
+	android:name
+		ADDED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUICustomerServicePlugin/tuicustomerserviceplugin/src/main/AndroidManifest.xml:6:13-127
+activity#com.tencent.qcloud.tuikit.tuicustomerserviceplugin.classicui.page.CustomerServiceProfileActivity
+ADDED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUICustomerServicePlugin/tuicustomerserviceplugin/src/main/AndroidManifest.xml:9:9-11:52
+	android:screenOrientation
+		ADDED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUICustomerServicePlugin/tuicustomerserviceplugin/src/main/AndroidManifest.xml:11:13-49
+	android:name
+		ADDED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUICustomerServicePlugin/tuicustomerserviceplugin/src/main/AndroidManifest.xml:10:13-124
+uses-sdk
+INJECTED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUICustomerServicePlugin/tuicustomerserviceplugin/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUICustomerServicePlugin/tuicustomerserviceplugin/src/main/AndroidManifest.xml
+INJECTED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUICustomerServicePlugin/tuicustomerserviceplugin/src/main/AndroidManifest.xml
+INJECTED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUICustomerServicePlugin/tuicustomerserviceplugin/src/main/AndroidManifest.xml
+INJECTED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUICustomerServicePlugin/tuicustomerserviceplugin/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUICustomerServicePlugin/tuicustomerserviceplugin/src/main/AndroidManifest.xml
+		ADDED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUICustomerServicePlugin/tuicustomerserviceplugin/src/main/AndroidManifest.xml
+		INJECTED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUICustomerServicePlugin/tuicustomerserviceplugin/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUICustomerServicePlugin/tuicustomerserviceplugin/src/main/AndroidManifest.xml
+		ADDED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUICustomerServicePlugin/tuicustomerserviceplugin/src/main/AndroidManifest.xml
+		INJECTED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUICustomerServicePlugin/tuicustomerserviceplugin/src/main/AndroidManifest.xml

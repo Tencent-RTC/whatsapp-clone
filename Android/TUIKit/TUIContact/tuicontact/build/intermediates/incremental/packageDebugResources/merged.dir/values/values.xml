@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="group_join_type">
+        <item>@string/forbid_join</item>
+        <item>@string/manager_judge</item>
+        <item>@string/auto_judge</item>
+    </string-array>
+    <string-array name="group_type">
+        <item>Work</item>
+        <item>Public</item>
+        <item>Meeting</item>
+        <item>Community</item>
+    </string-array>
+    <attr format="reference" name="contact_black_list_icon"/>
+    <attr format="reference" name="contact_chat_extension_title_bar_more_menu"/>
+    <attr format="reference" name="contact_group_list_icon"/>
+    <attr format="reference" name="contact_new_friend_icon"/>
+    <color name="black">#000000</color>
+    <color name="black_font_color">#181818</color>
+    <color name="btn_negative">#ffffff</color>
+    <color name="btn_negative_hover">#cc3428</color>
+    <color name="btn_positive">#00a4ff</color>
+    <color name="btn_positive_hover">#006eff</color>
+    <color name="contact_line_controller_color">#F0F9F9F9</color>
+    <color name="contact_minimalist_profile_item_bg_color">#F0F9F9F9</color>
+    <color name="contact_minimalist_profile_item_warning_text_color">#FFFF584C</color>
+    <color name="contact_profile_btn_negative_color">#FF584C</color>
+    <color name="contact_profile_btn_positive_color">#147AFF</color>
+    <color name="contact_profile_btn_pressed_color">#E6E9EB</color>
+    <color name="contact_profile_member_name_text_color">#888888</color>
+    <color name="dialog_line_bg">#c6c6c6</color>
+    <color name="font_blue">#066fff</color>
+    <color name="green">#70C160</color>
+    <color name="line">#DDDDDD</color>
+    <color name="list_bottom_text_bg">#999999</color>
+    <color name="navigation_bar_color">#F7F7F7</color>
+    <color name="partTranslucent">#39000000</color>
+    <color name="read_dot_bg">#f74c31</color>
+    <color name="slide_bar_hint_color">#CCCCCC</color>
+    <color name="split_lint_color">#D9D9D9</color>
+    <color name="text_color_gray">#696969</color>
+    <color name="text_gray1">#777777</color>
+    <color name="text_negative">#fb6155</color>
+    <color name="text_negative_hover">#FFFFFF</color>
+    <color name="text_positive">#ffffff</color>
+    <color name="text_positive_hover">#ffffff</color>
+    <color name="text_tips_color">#A5A5A5</color>
+    <color name="title_bar_font_color">#016fff</color>
+    <color name="transparent">#00000000</color>
+    <color name="white">#FFFFFF</color>
+    <dimen name="btn_height">40dp</dimen>
+    <dimen name="btn_margin_bottom">8dp</dimen>
+    <dimen name="btn_margin_left">12dp</dimen>
+    <dimen name="btn_margin_middle">10dp</dimen>
+    <dimen name="btn_margin_right">12dp</dimen>
+    <dimen name="btn_margin_top">36dp</dimen>
+    <dimen name="btn_padding_left">16dp</dimen>
+    <dimen name="btn_padding_right">16dp</dimen>
+    <dimen name="btn_text_size">14dp</dimen>
+    <dimen name="contact_add_item_height">90.24dp</dimen>
+    <dimen name="contact_avatar_height">38.4dp</dimen>
+    <dimen name="contact_avatar_width">38.4dp</dimen>
+    <dimen name="contact_group_profile_face_margin_left">15.36dp</dimen>
+    <dimen name="contact_group_profile_face_margin_right">15.36dp</dimen>
+    <dimen name="contact_group_profile_face_margin_top">11.5dp</dimen>
+    <dimen name="contact_group_profile_face_size">46.08dp</dimen>
+    <dimen name="contact_group_profile_group_id_size">12.48dp</dimen>
+    <dimen name="contact_group_profile_group_name_size">17.28sp</dimen>
+    <dimen name="contact_group_profile_height">69.12dp</dimen>
+    <dimen name="contact_group_profile_item_height">46.08dp</dimen>
+    <dimen name="contact_group_profile_member_grid_padding_left_right">19.2dp</dimen>
+    <dimen name="contact_group_profile_member_grid_padding_top">11.52dp</dimen>
+    <dimen name="contact_group_profile_member_item_name_size">9.6sp</dimen>
+    <dimen name="contact_group_profile_member_item_width">48dp</dimen>
+    <dimen name="contact_list_item_height">69.91dp</dimen>
+    <dimen name="contact_profile_account_text_size">12.48sp</dimen>
+    <dimen name="contact_profile_btn_height">53.76dp</dimen>
+    <dimen name="contact_profile_btn_text_size">16.32sp</dimen>
+    <dimen name="contact_profile_face_margin_left">5.36dp</dimen>
+    <dimen name="contact_profile_face_margin_right">15.36dp</dimen>
+    <dimen name="contact_profile_face_margin_top">-12dp</dimen>
+    <dimen name="contact_profile_face_radius">4.61dp</dimen>
+    <dimen name="contact_profile_face_size">46.08dp</dimen>
+    <dimen name="contact_profile_item_height">46.08dp</dimen>
+    <dimen name="contact_profile_nick_name_text_size">17.28sp</dimen>
+    <dimen name="contact_profile_self_height">90.24dp</dimen>
+    <dimen name="contact_profile_signature_text_size">12.48sp</dimen>
+    <dimen name="contact_profile_text_margin">3.84dp</dimen>
+    <dimen name="forward_margin">55dp</dimen>
+    <dimen name="page_margin">10dp</dimen>
+    <dimen name="page_title_height">45dp</dimen>
+    <dimen name="search_bar_height">38.4dp</dimen>
+    <dimen name="search_bar_margin">15.36dp</dimen>
+    <dimen name="search_bar_width">329.28dp</dimen>
+    <dimen name="switch_thumb_height">23dp</dimen>
+    <dimen name="switch_thumb_padding">2dp</dimen>
+    <dimen name="switch_thumb_radius">20dp</dimen>
+    <dimen name="switch_thumb_width">23dp</dimen>
+    <dimen name="view_margin_bottom">20dp</dimen>
+    <string name="accept">Agree</string>
+    <string name="accepted">Agreed</string>
+    <string name="add_friend">Add Contact</string>
+    <string name="add_group">Add Group</string>
+    <string name="add_group_allready_member">The user is a group member</string>
+    <string name="add_group_full_member">The number of group members has reached the limit</string>
+    <string name="add_group_member">Add Member</string>
+    <string name="add_group_not_found">The group does not exist</string>
+    <string name="add_group_permission_deny">Prohibited from Joining</string>
+    <string name="add_wording">Verification Message</string>
+    <string name="at_all">All</string>
+    <string name="auto_judge">Auto Approval</string>
+    <string name="blacklist">Blocked List</string>
+    <string name="chat_background_title">Background</string>
+    <string name="chat_to_top">Pin</string>
+    <string name="clear_msg_tip">Are you sure you want to clear the chat history?</string>
+    <string name="community_id_edit_format_tips">Community ID prefix must be @TGS#_ !</string>
+    <string name="contact_account_tag">ID : </string>
+    <string name="contact_add">Add</string>
+    <string name="contact_add_failed">Failed</string>
+    <string name="contact_add_friend_default_validation">I am %s</string>
+    <string name="contact_add_friend_remark">Remark</string>
+    <string name="contact_add_more_info">Info</string>
+    <string name="contact_add_more_send_request_text">Send</string>
+    <string name="contact_add_success">Successful</string>
+    <string name="contact_add_wording">Verification Message：</string>
+    <string name="contact_buying_guidelines">price description</string>
+    <string name="contact_community">Community</string>
+    <string name="contact_count">%d contact(s)</string>
+    <string name="contact_create">Create</string>
+    <string name="contact_delete_friend_tip">Are you sure you want to delete the contact?</string>
+    <string name="contact_friend_application_detail_title">Info</string>
+    <string name="contact_friend_group">Group</string>
+    <string name="contact_friend_remark">Set Alias</string>
+    <string name="contact_group_type_tag">Group Type : </string>
+    <string name="contact_i_know">I got it</string>
+    <string name="contact_im_flagship">Premium Edition</string>
+    <string name="contact_im_flagship_edition_update_tip">%s function is the IM Premium Edition function, which can be used after purchasing the Premium Edition package. Please refer to the price description for details.</string>
+    <string name="contact_minimalist_contacts">Contacts</string>
+    <string name="contact_modify_remark_rule">Only letters, digits, underscores, and Chinese characters.</string>
+    <string name="contact_my_friend">My Contacts</string>
+    <string name="contact_my_user_id">My User ID : %s</string>
+    <string name="contact_new_application_title">%d New Application</string>
+    <string name="contact_next_step">Next</string>
+    <string name="contact_no_block_list">Block list is empty</string>
+    <string name="contact_no_group">Group chats is empty</string>
+    <string name="contact_no_more_reminders">No more reminders</string>
+    <string name="contact_no_new_friend_application">Friend request is empty</string>
+    <string name="contact_no_status">No status</string>
+    <string name="contact_no_such_group">This group chat does not exist.</string>
+    <string name="contact_no_such_user">This user does not exist.</string>
+    <string name="contact_not_found_info">No information</string>
+    <string name="contact_over_limit_tip">At most %d can be selected.</string>
+    <string name="contact_profile_audio_call">Audio</string>
+    <string name="contact_profile_message">`Message`</string>
+    <string name="contact_profile_title_edit">Edit</string>
+    <string name="contact_profile_video_call">Video</string>
+    <string name="contact_search">Search</string>
+    <string name="contact_selected_group_member">Participants</string>
+    <string name="contact_set_add_wording">Verification Message</string>
+    <string name="contact_set_remark_and_group">Remark And Group</string>
+    <string name="contact_signature_tag">Status : </string>
+    <string name="contact_title">Contacts</string>
+    <string name="contact_validation_message">Validation Message</string>
+    <string name="create_chat_room">Create Chat Room</string>
+    <string name="create_community">Create Community</string>
+    <string name="create_group">Create Group</string>
+    <string name="create_group_chat">Create Group Chat</string>
+    <string name="create_private_group">Create Discussion Group</string>
+    <string name="forbid_add_friend">This user has disabled contact request.</string>
+    <string name="forbid_join">Prohibited from Joining</string>
+    <string name="friend_limit">The number of your contacts exceeds the limit.</string>
+    <string name="group">Group Chats</string>
+    <string name="group_avatar_text">Group Avatar</string>
+    <string name="group_choose_avatar">Choose Avatar</string>
+    <string name="group_commnity_des">Community(Community)：After creation, you can enter and leave at will, support up to 100,000 people, support historical message storage, and after users search for group ID and initiate a group application, they can join the group without administrator approval.</string>
+    <string name="group_commnity_type">Community(Community)</string>
+    <string name="group_created">Create</string>
+    <string name="group_id_edit_exceed_tips">Group ID up to 48 bytes!</string>
+    <string name="group_id_edit_format_tips">Group ID prefix cannot be @TGS# !</string>
+    <string name="group_id_option">Group ID (optional)</string>
+    <string name="group_join_type">Group Joining Method</string>
+    <string name="group_meeting_des">Temporary meeting group (Meeting): After creation, you can enter and leave at will, and support viewing of messages before joining the group; it is suitable for audio and video conference scenarios, online education scenarios, and other scenarios that are combined with real-time audio and video products.</string>
+    <string name="group_meeting_type">Temporary Meeting group(Meeting）</string>
+    <string name="group_name_edit_exceed_tips">Group name up to 30 bytes!</string>
+    <string name="group_name_edit_null_tips">Group name cannot be empty!</string>
+    <string name="group_name_text">Group Name</string>
+    <string name="group_public_des">Stranger social group (Public): Similar to QQ group, the group owner can designate the group administrator after creation. After the user searches for the group ID and initiates a group application, the group owner or administrator must approve it before joining the group.</string>
+    <string name="group_public_type">Stranger Social group(Public）</string>
+    <string name="group_type_content_button">View product documentation</string>
+    <string name="group_type_content_title">See details product documentation</string>
+    <string name="group_type_content_url">product documentation</string>
+    <string name="group_type_select_text">Select group type</string>
+    <string name="group_type_text">Group Type</string>
+    <string name="group_work_content">Friends work group (Work): Similar to ordinary WeChat groups, after creation, only friends who are already in the group can be invited to join the group, and there is no need for the approval of the invitee or the approval of the group owner.</string>
+    <string name="group_work_type">Friends Working group(Work)</string>
+    <string name="have_be_friend">You two are already contacts of each other</string>
+    <string name="hint_add_user_id">Enter ID</string>
+    <string name="hint_add_wording">Enter verification message</string>
+    <string name="hint_search_group_id">Search by group ID</string>
+    <string name="hint_search_user_id">Search by user ID</string>
+    <string name="in_blacklist">You have blocked this user.</string>
+    <string name="input_tip">No nickname. Enter again.</string>
+    <string name="manager_judge">Admin Approval</string>
+    <string name="modify_group_id">Edit Group ID</string>
+    <string name="modify_group_name">Edit Group Name</string>
+    <string name="new_friend">New Contacts</string>
+    <string name="no_friend_apply">No contact request</string>
+    <string name="other_friend_limit">The number of the other user\'s contacts exceeds the limit.</string>
+    <string name="profile_add_wording">Verification Message</string>
+    <string name="profile_black">Block</string>
+    <string name="profile_chat">Send Message</string>
+    <string name="profile_chat_background">Chat background</string>
+    <string name="profile_clear_message">Clear Chat History</string>
+    <string name="profile_delete_friend">Delete Contact</string>
+    <string name="profile_detail">Details</string>
+    <string name="profile_id">Account</string>
+    <string name="profile_msgrev_opt">Mute Notifications</string>
+    <string name="profile_remark">Alias</string>
+    <string name="profile_remark_edit">Edit Alias</string>
+    <string name="profile_video_chat">Video Call</string>
+    <string name="profile_voice_chat">Voice Call</string>
+    <string name="refuse">Decline</string>
+    <string name="refused">Declined</string>
+    <string name="request_accepted">Accepted</string>
+    <string name="request_agree">Accept</string>
+    <string name="request_waiting">Pending</string>
+    <string name="select_chat">Select Chat User</string>
+    <string name="send_request">Request sent</string>
+    <string name="set_in_blacklist">You have been blocked.</string>
+    <string name="start_conversation">New Chat</string>
+    <string name="success">Successful</string>
+    <string name="tips_empty_group_member">Select members</string>
+    <string name="tips_empty_group_type">Select a method to join the group</string>
+    <string name="user_id">ID</string>
+    <string name="wait_agree_friend">Request sent</string>
+    <style name="ContactPopActivityStyle" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowBackground">#BF000000</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+    <style name="ContactTransparentPopActivityStyle" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:statusBarColor">#99000000</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Translucent</item>
+    </style>
+    <style name="TUIContactLightTheme" parent="TUIBaseLightTheme">
+        <item name="contact_new_friend_icon">@drawable/contact_new_friend_icon_light</item>
+        <item name="contact_group_list_icon">@drawable/contact_group_list_icon_light</item>
+        <item name="contact_black_list_icon">@drawable/contact_black_list_icon_light</item>
+
+        <item name="contact_chat_extension_title_bar_more_menu">@drawable/contact_chat_extension_title_bar_more_menu_light</item>
+    </style>
+    <style name="TUIContactLivelyTheme" parent="TUIBaseLivelyTheme">
+        <item name="contact_new_friend_icon">@drawable/contact_new_friend_icon_lively</item>
+        <item name="contact_group_list_icon">@drawable/contact_group_list_icon_lively</item>
+        <item name="contact_black_list_icon">@drawable/contact_black_list_icon_lively</item>
+
+        <item name="contact_chat_extension_title_bar_more_menu">@drawable/contact_chat_extension_title_bar_more_menu_light</item>
+
+    </style>
+    <style name="TUIContactSeriousTheme" parent="TUIBaseSeriousTheme">
+        <item name="contact_new_friend_icon">@drawable/contact_new_friend_icon_serious</item>
+        <item name="contact_group_list_icon">@drawable/contact_group_list_icon_serious</item>
+        <item name="contact_black_list_icon">@drawable/contact_black_list_icon_serious</item>
+
+        <item name="contact_chat_extension_title_bar_more_menu">@drawable/contact_chat_extension_title_bar_more_menu_light</item>
+
+    </style>
+</resources>

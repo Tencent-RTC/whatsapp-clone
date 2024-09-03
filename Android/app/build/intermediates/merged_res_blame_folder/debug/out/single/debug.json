@@ -1,0 +1,662 @@
+[
+    {
+        "merged": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/build/intermediates/merged_res/debug/drawable_demo_overseas_main_tab_settings_normal_bg.png.flat",
+        "source": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/src/main/res/drawable/demo_overseas_main_tab_settings_normal_bg.png"
+    },
+    {
+        "merged": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/build/intermediates/merged_res/debug/layout_minimalist_activity_about_im.xml.flat",
+        "source": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/src/main/res/layout/minimalist_activity_about_im.xml"
+    },
+    {
+        "merged": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/build/intermediates/merged_res/debug/drawable_demo_overseas_main_tab_conversation_selected.png.flat",
+        "source": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/src/main/res/drawable/demo_overseas_main_tab_conversation_selected.png"
+    },
+    {
+        "merged": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/build/intermediates/merged_res/debug/layout_login_for_dev_activity.xml.flat",
+        "source": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/src/main/res/layout/login_for_dev_activity.xml"
+    },
+    {
+        "merged": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/build/intermediates/merged_res/debug/drawable-xxhdpi_loading_image7.png.flat",
+        "source": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/src/main/res/drawable-xxhdpi/loading_image7.png"
+    },
+    {
+        "merged": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/build/intermediates/merged_res/debug/color_positive_text.xml.flat",
+        "source": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/src/main/res/color/positive_text.xml"
+    },
+    {
+        "merged": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/build/intermediates/merged_res/debug/drawable-xxhdpi_demo_main_tab_profile_selected_lively.png.flat",
+        "source": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/src/main/res-lively/drawable-xxhdpi/demo_main_tab_profile_selected_lively.png"
+    },
+    {
+        "merged": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/build/intermediates/merged_res/debug/drawable_loading_animation.xml.flat",
+        "source": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/src/main/res/drawable/loading_animation.xml"
+    },
+    {
+        "merged": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/build/intermediates/merged_res/debug/raw_private_ring.mp3.flat",
+        "source": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/src/main/res/raw/private_ring.mp3"
+    },
+    {
+        "merged": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/build/intermediates/merged_res/debug/drawable-xxhdpi_theme_style_setting_im_serious.png.flat",
+        "source": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/src/main/res-serious/drawable-xxhdpi/theme_style_setting_im_serious.png"
+    },
+    {
+        "merged": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/build/intermediates/merged_res/debug/layout_minimalist_profile_settings_select_style.xml.flat",
+        "source": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/src/main/res/layout/minimalist_profile_settings_select_style.xml"
+    },
+    {
+        "merged": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/build/intermediates/merged_res/debug/drawable-xxhdpi_loading_image0.png.flat",
+        "source": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/src/main/res/drawable-xxhdpi/loading_image0.png"
+    },
+    {
+        "merged": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/build/intermediates/merged_res/debug/drawable-xxhdpi_demo_recent_calls_not_selected_light.png.flat",
+        "source": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/src/main/res-light/drawable-xxhdpi/demo_recent_calls_not_selected_light.png"
+    },
+    {
+        "merged": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/build/intermediates/merged_res/debug/layout_profile_settings_allow_type.xml.flat",
+        "source": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/src/main/res/layout/profile_settings_allow_type.xml"
+    },
+    {
+        "merged": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/build/intermediates/merged_res/debug/layout_minimalist_profile_settings_about_im.xml.flat",
+        "source": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/src/main/res/layout/minimalist_profile_settings_about_im.xml"
+    },
+    {
+        "merged": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/build/intermediates/merged_res/debug/drawable-xxhdpi_demo_login_theme_icon_light.png.flat",
+        "source": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/src/main/res-light/drawable-xxhdpi/demo_login_theme_icon_light.png"
+    },
+    {
+        "merged": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/build/intermediates/merged_res/debug/drawable-xxhdpi_demo_permission_icon_mic.png.flat",
+        "source": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/src/main/res/drawable-xxhdpi/demo_permission_icon_mic.png"
+    },
+    {
+        "merged": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/build/intermediates/merged_res/debug/drawable-xxhdpi_demo_community_not_selected.png.flat",
+        "source": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/src/main/res/drawable-xxhdpi/demo_community_not_selected.png"
+    },
+    {
+        "merged": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/build/intermediates/merged_res/debug/drawable-xxhdpi_demo_minimalist_recent_calls_selected.png.flat",
+        "source": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/src/main/res/drawable-xxhdpi/demo_minimalist_recent_calls_selected.png"
+    },
+    {
+        "merged": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/build/intermediates/merged_res/debug/drawable-xxhdpi_demo_recent_calls_not_selected_serious.png.flat",
+        "source": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/src/main/res-serious/drawable-xxhdpi/demo_recent_calls_not_selected_serious.png"
+    },
+    {
+        "merged": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/build/intermediates/merged_res/debug/drawable_button_border.xml.flat",
+        "source": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/src/main/res/drawable/button_border.xml"
+    },
+    {
+        "merged": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/build/intermediates/merged_res/debug/drawable-xxhdpi_demo_login_language_arrow_lively.png.flat",
+        "source": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/src/main/res-lively/drawable-xxhdpi/demo_login_language_arrow_lively.png"
+    },
+    {
+        "merged": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/build/intermediates/merged_res/debug/layout_minimalist_profile_status_layout.xml.flat",
+        "source": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/src/main/res/layout/minimalist_profile_status_layout.xml"
+    },
+    {
+        "merged": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/build/intermediates/merged_res/debug/color_bg_negative_btn.xml.flat",
+        "source": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/src/main/res/color/bg_negative_btn.xml"
+    },
+    {
+        "merged": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/build/intermediates/merged_res/debug/drawable_editor_border_gray.xml.flat",
+        "source": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/src/main/res/drawable/editor_border_gray.xml"
+    },
+    {
+        "merged": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/build/intermediates/merged_res/debug/drawable_item_selected_border.xml.flat",
+        "source": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/src/main/res/drawable/item_selected_border.xml"
+    },
+    {
+        "merged": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/build/intermediates/merged_res/debug/drawable-xxhdpi_demo_theme_select_bg_light.png.flat",
+        "source": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/src/main/res-light/drawable-xxhdpi/demo_theme_select_bg_light.png"
+    },
+    {
+        "merged": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/build/intermediates/merged_res/debug/drawable-xxhdpi_demo_login_language_icon_serious.png.flat",
+        "source": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/src/main/res-serious/drawable-xxhdpi/demo_login_language_icon_serious.png"
+    },
+    {
+        "merged": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/build/intermediates/merged_res/debug/drawable-xxhdpi_demo_search_icon.png.flat",
+        "source": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/src/main/res/drawable-xxhdpi/demo_search_icon.png"
+    },
+    {
+        "merged": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/build/intermediates/merged_res/debug/drawable-xxhdpi_demo_main_tab_community_selected_serious.png.flat",
+        "source": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/src/main/res-serious/drawable-xxhdpi/demo_main_tab_community_selected_serious.png"
+    },
+    {
+        "merged": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/build/intermediates/merged_res/debug/layout_minimalist_profile_fragment.xml.flat",
+        "source": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/src/main/res/layout/minimalist_profile_fragment.xml"
+    },
+    {
+        "merged": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/build/intermediates/merged_res/debug/drawable-xxhdpi_demo_main_tab_conversation_selected_light.png.flat",
+        "source": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/src/main/res-light/drawable-xxhdpi/demo_main_tab_conversation_selected_light.png"
+    },
+    {
+        "merged": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/build/intermediates/merged_res/debug/drawable_edit_text_bg.xml.flat",
+        "source": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/src/main/res/drawable/edit_text_bg.xml"
+    },
+    {
+        "merged": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/build/intermediates/merged_res/debug/drawable-xxhdpi_demo_contact_not_selected.png.flat",
+        "source": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/src/main/res/drawable-xxhdpi/demo_contact_not_selected.png"
+    },
+    {
+        "merged": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/build/intermediates/merged_res/debug/drawable_demo_overseas_main_tab_settings_selected_bg.png.flat",
+        "source": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/src/main/res/drawable/demo_overseas_main_tab_settings_selected_bg.png"
+    },
+    {
+        "merged": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/build/intermediates/merged_res/debug/layout_main_classic_bottom_tab_item_layout.xml.flat",
+        "source": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/src/main/res/layout/main_classic_bottom_tab_item_layout.xml"
+    },
+    {
+        "merged": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/build/intermediates/merged_res/debug/drawable-xxhdpi_live_selected.png.flat",
+        "source": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/src/main/res/drawable-xxhdpi/live_selected.png"
+    },
+    {
+        "merged": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/build/intermediates/merged_res/debug/drawable-xxhdpi_demo_phone_login_logo_light.png.flat",
+        "source": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/src/main/res-light/drawable-xxhdpi/demo_phone_login_logo_light.png"
+    },
+    {
+        "merged": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/build/intermediates/merged_res/debug/drawable-xxhdpi_loading_image1.png.flat",
+        "source": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/src/main/res/drawable-xxhdpi/loading_image1.png"
+    },
+    {
+        "merged": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/build/intermediates/merged_res/debug/drawable_checkbox_selector.xml.flat",
+        "source": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/src/main/res/drawable/checkbox_selector.xml"
+    },
+    {
+        "merged": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/build/intermediates/merged_res/debug/drawable_fcm_private_icon.png.flat",
+        "source": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/src/main/res/drawable/fcm_private_icon.png"
+    },
+    {
+        "merged": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/build/intermediates/merged_res/debug/drawable-xxhdpi_live_normal.png.flat",
+        "source": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/src/main/res/drawable-xxhdpi/live_normal.png"
+    },
+    {
+        "merged": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/build/intermediates/merged_res/debug/drawable_blue_btn_bg.xml.flat",
+        "source": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/src/main/res/drawable/blue_btn_bg.xml"
+    },
+    {
+        "merged": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/build/intermediates/merged_res/debug/drawable-xxhdpi_demo_ic_logo_serious.png.flat",
+        "source": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/src/main/res-serious/drawable-xxhdpi/demo_ic_logo_serious.png"
+    },
+    {
+        "merged": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/build/intermediates/merged_res/debug/drawable-xxhdpi_demo_permission_icon_file.png.flat",
+        "source": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/src/main/res/drawable-xxhdpi/demo_permission_icon_file.png"
+    },
+    {
+        "merged": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/build/intermediates/merged_res/debug/drawable-xxhdpi_check_box_unselected.png.flat",
+        "source": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/src/main/res/drawable-xxhdpi/check_box_unselected.png"
+    },
+    {
+        "merged": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/build/intermediates/merged_res/debug/drawable_demo_profile_button_border.xml.flat",
+        "source": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/src/main/res/drawable/demo_profile_button_border.xml"
+    },
+    {
+        "merged": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/build/intermediates/merged_res/debug/layout_layout_ensure_dialog.xml.flat",
+        "source": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/src/main/res/layout/layout_ensure_dialog.xml"
+    },
+    {
+        "merged": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/build/intermediates/merged_res/debug/drawable-xxhdpi_demo_theme_select_bg_lively.png.flat",
+        "source": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/src/main/res-lively/drawable-xxhdpi/demo_theme_select_bg_lively.png"
+    },
+    {
+        "merged": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/build/intermediates/merged_res/debug/layout_profile_layout.xml.flat",
+        "source": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/src/main/res/layout/profile_layout.xml"
+    },
+    {
+        "merged": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/build/intermediates/merged_res/debug/drawable-xxhdpi_demo_main_tab_profile_selected_light.png.flat",
+        "source": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/src/main/res-light/drawable-xxhdpi/demo_main_tab_profile_selected_light.png"
+    },
+    {
+        "merged": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/build/intermediates/merged_res/debug/drawable-xxhdpi_demo_title_bar_more_serious.png.flat",
+        "source": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/src/main/res-serious/drawable-xxhdpi/demo_title_bar_more_serious.png"
+    },
+    {
+        "merged": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/build/intermediates/merged_res/debug/drawable-xxhdpi_theme_style_setting_bg_serious.png.flat",
+        "source": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/src/main/res-serious/drawable-xxhdpi/theme_style_setting_bg_serious.png"
+    },
+    {
+        "merged": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/build/intermediates/merged_res/debug/layout_activity_self_detail.xml.flat",
+        "source": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/src/main/res/layout/activity_self_detail.xml"
+    },
+    {
+        "merged": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/build/intermediates/merged_res/debug/layout_minimalist_profile_settings_recent_calls.xml.flat",
+        "source": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/src/main/res/layout/minimalist_profile_settings_recent_calls.xml"
+    },
+    {
+        "merged": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/build/intermediates/merged_res/debug/drawable-xxhdpi_demo_login_theme_icon_serious.png.flat",
+        "source": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/src/main/res-serious/drawable-xxhdpi/demo_login_theme_icon_serious.png"
+    },
+    {
+        "merged": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/build/intermediates/merged_res/debug/drawable_demo_overseas_main_tab_conversation_normal.png.flat",
+        "source": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/src/main/res/drawable/demo_overseas_main_tab_conversation_normal.png"
+    },
+    {
+        "merged": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/build/intermediates/merged_res/debug/drawable_demo_shape_side_bar_bg.xml.flat",
+        "source": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/src/main/res/drawable/demo_shape_side_bar_bg.xml"
+    },
+    {
+        "merged": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/build/intermediates/merged_res/debug/drawable-xxhdpi_demo_title_bar_more_lively.png.flat",
+        "source": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/src/main/res-lively/drawable-xxhdpi/demo_title_bar_more_lively.png"
+    },
+    {
+        "merged": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/build/intermediates/merged_res/debug/layout_main_activity.xml.flat",
+        "source": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/src/main/res/layout/main_activity.xml"
+    },
+    {
+        "merged": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/build/intermediates/merged_res/debug/drawable-xxhdpi_demo_profile_not_selected.png.flat",
+        "source": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/src/main/res/drawable-xxhdpi/demo_profile_not_selected.png"
+    },
+    {
+        "merged": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/build/intermediates/merged_res/debug/drawable-xxhdpi_check_box_selected.png.flat",
+        "source": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/src/main/res/drawable-xxhdpi/check_box_selected.png"
+    },
+    {
+        "merged": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/build/intermediates/merged_res/debug/drawable-xxhdpi_loading_image6.png.flat",
+        "source": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/src/main/res/drawable-xxhdpi/loading_image6.png"
+    },
+    {
+        "merged": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/build/intermediates/merged_res/debug/layout_profile_settings_select_theme.xml.flat",
+        "source": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/src/main/res/layout/profile_settings_select_theme.xml"
+    },
+    {
+        "merged": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/build/intermediates/merged_res/debug/layout_layout_theme_select_item.xml.flat",
+        "source": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/src/main/res/layout/layout_theme_select_item.xml"
+    },
+    {
+        "merged": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/build/intermediates/merged_res/debug/layout_profile_fragment.xml.flat",
+        "source": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/src/main/res/layout/profile_fragment.xml"
+    },
+    {
+        "merged": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/build/intermediates/merged_res/debug/drawable_huawei_private_icon.png.flat",
+        "source": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/src/main/res/drawable/huawei_private_icon.png"
+    },
+    {
+        "merged": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/build/intermediates/merged_res/debug/drawable_demo_search_bg.xml.flat",
+        "source": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/src/main/res/drawable/demo_search_bg.xml"
+    },
+    {
+        "merged": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/build/intermediates/merged_res/debug/drawable-xxhdpi_demo_login_language_arrow_serious.png.flat",
+        "source": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/src/main/res-serious/drawable-xxhdpi/demo_login_language_arrow_serious.png"
+    },
+    {
+        "merged": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/build/intermediates/merged_res/debug/layout_demo_profile_minimalist_header_view_layout.xml.flat",
+        "source": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/src/main/res/layout/demo_profile_minimalist_header_view_layout.xml"
+    },
+    {
+        "merged": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/build/intermediates/merged_res/debug/drawable-xxhdpi_demo_back.png.flat",
+        "source": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/src/main/res/drawable-xxhdpi/demo_back.png"
+    },
+    {
+        "merged": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/build/intermediates/merged_res/debug/drawable-xxhdpi_demo_main_tab_contact_selected_light.png.flat",
+        "source": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/src/main/res-light/drawable-xxhdpi/demo_main_tab_contact_selected_light.png"
+    },
+    {
+        "merged": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/build/intermediates/merged_res/debug/drawable-xxhdpi_theme_style_setting_about_light.png.flat",
+        "source": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/src/main/res-light/drawable-xxhdpi/theme_style_setting_about_light.png"
+    },
+    {
+        "merged": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/build/intermediates/merged_res/debug/drawable_login_input_bg.xml.flat",
+        "source": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/src/main/res/drawable/login_input_bg.xml"
+    },
+    {
+        "merged": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/build/intermediates/merged_res/debug/drawable_nagetive_btn_bg.xml.flat",
+        "source": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/src/main/res/drawable/nagetive_btn_bg.xml"
+    },
+    {
+        "merged": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/build/intermediates/merged_res/debug/drawable-xxhdpi_demo_main_tab_community_selected_light.png.flat",
+        "source": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/src/main/res-light/drawable-xxhdpi/demo_main_tab_community_selected_light.png"
+    },
+    {
+        "merged": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/build/intermediates/merged_res/debug/drawable-xxhdpi_loading_image3.png.flat",
+        "source": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/src/main/res/drawable-xxhdpi/loading_image3.png"
+    },
+    {
+        "merged": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/build/intermediates/merged_res/debug/drawable-xxhdpi_demo_recent_calls_selected_light.png.flat",
+        "source": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/src/main/res-light/drawable-xxhdpi/demo_recent_calls_selected_light.png"
+    },
+    {
+        "merged": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/build/intermediates/merged_res/debug/drawable-xxhdpi_white_button_border.xml.flat",
+        "source": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/src/main/res-light/drawable-xxhdpi/white_button_border.xml"
+    },
+    {
+        "merged": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/build/intermediates/merged_res/debug/drawable-xxhdpi_demo_login_select_list.png.flat",
+        "source": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/src/main/res/drawable-xxhdpi/demo_login_select_list.png"
+    },
+    {
+        "merged": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/build/intermediates/merged_res/debug/layout_profile_settings_select_style.xml.flat",
+        "source": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/src/main/res/layout/profile_settings_select_style.xml"
+    },
+    {
+        "merged": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/build/intermediates/merged_res/debug/layout_im_about_layout.xml.flat",
+        "source": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/src/main/res/layout/im_about_layout.xml"
+    },
+    {
+        "merged": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/build/intermediates/merged_res/debug/drawable_positive_btn_pressed_bg.xml.flat",
+        "source": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/src/main/res/drawable/positive_btn_pressed_bg.xml"
+    },
+    {
+        "merged": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/build/intermediates/merged_res/debug/drawable-xxhdpi_login_im_bg_lively.png.flat",
+        "source": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/src/main/res-lively/drawable-xxhdpi/login_im_bg_lively.png"
+    },
+    {
+        "merged": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/build/intermediates/merged_res/debug/drawable_button_border_light.xml.flat",
+        "source": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/src/main/res/drawable/button_border_light.xml"
+    },
+    {
+        "merged": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/build/intermediates/merged_res/debug/drawable-xxhdpi_demo_add_group.png.flat",
+        "source": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/src/main/res/drawable-xxhdpi/demo_add_group.png"
+    },
+    {
+        "merged": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/build/intermediates/merged_res/debug/drawable-xxhdpi_demo_main_tab_community_selected_lively.png.flat",
+        "source": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/src/main/res-lively/drawable-xxhdpi/demo_main_tab_community_selected_lively.png"
+    },
+    {
+        "merged": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/build/intermediates/merged_res/debug/drawable-xxhdpi_theme_style_setting_bg_light.png.flat",
+        "source": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/src/main/res-light/drawable-xxhdpi/theme_style_setting_bg_light.png"
+    },
+    {
+        "merged": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/build/intermediates/merged_res/debug/drawable-xxhdpi_theme_style_setting_im_lively.png.flat",
+        "source": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/src/main/res-lively/drawable-xxhdpi/theme_style_setting_im_lively.png"
+    },
+    {
+        "merged": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/build/intermediates/merged_res/debug/layout_theme_style_layout.xml.flat",
+        "source": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/src/main/res/layout/theme_style_layout.xml"
+    },
+    {
+        "merged": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/build/intermediates/merged_res/debug/drawable-xxhdpi_arrow_right.png.flat",
+        "source": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/src/main/res/drawable-xxhdpi/arrow_right.png"
+    },
+    {
+        "merged": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/build/intermediates/merged_res/debug/layout_minimalist_profile_settings_allow_type.xml.flat",
+        "source": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/src/main/res/layout/minimalist_profile_settings_allow_type.xml"
+    },
+    {
+        "merged": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/build/intermediates/merged_res/debug/drawable_button_border_serious.xml.flat",
+        "source": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/src/main/res/drawable/button_border_serious.xml"
+    },
+    {
+        "merged": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/build/intermediates/merged_res/debug/drawable-xxhdpi_theme_style_setting_about_lively.png.flat",
+        "source": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/src/main/res-lively/drawable-xxhdpi/theme_style_setting_about_lively.png"
+    },
+    {
+        "merged": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/build/intermediates/merged_res/debug/layout_profile_settings_recent_calls.xml.flat",
+        "source": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/src/main/res/layout/profile_settings_recent_calls.xml"
+    },
+    {
+        "merged": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/build/intermediates/merged_res/debug/drawable-xxhdpi_demo_permission_icon_camera.png.flat",
+        "source": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/src/main/res/drawable-xxhdpi/demo_permission_icon_camera.png"
+    },
+    {
+        "merged": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/build/intermediates/merged_res/debug/drawable_gray_btn_bg.xml.flat",
+        "source": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/src/main/res/drawable/gray_btn_bg.xml"
+    },
+    {
+        "merged": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/build/intermediates/merged_res/debug/layout_activity_splash.xml.flat",
+        "source": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/src/main/res/layout/activity_splash.xml"
+    },
+    {
+        "merged": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/build/intermediates/merged_res/debug/drawable-xxhdpi_demo_add_friend.png.flat",
+        "source": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/src/main/res/drawable-xxhdpi/demo_add_friend.png"
+    },
+    {
+        "merged": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/build/intermediates/merged_res/debug/drawable_trans_bg.png.flat",
+        "source": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/src/main/res/drawable/trans_bg.png"
+    },
+    {
+        "merged": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/build/intermediates/merged_res/debug/drawable-xxhdpi_create_c2c.png.flat",
+        "source": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/src/main/res/drawable-xxhdpi/create_c2c.png"
+    },
+    {
+        "merged": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/build/intermediates/merged_res/debug/drawable-xxhdpi_privacy_dialog_bg.xml.flat",
+        "source": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/src/main/res-light/drawable-xxhdpi/privacy_dialog_bg.xml"
+    },
+    {
+        "merged": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/build/intermediates/merged_res/debug/drawable-xxhdpi_login_im_bg_serious.png.flat",
+        "source": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/src/main/res-serious/drawable-xxhdpi/login_im_bg_serious.png"
+    },
+    {
+        "merged": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/build/intermediates/merged_res/debug/drawable-xxhdpi_ic_personal_member.png.flat",
+        "source": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/src/main/res/drawable-xxhdpi/ic_personal_member.png"
+    },
+    {
+        "merged": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/build/intermediates/merged_res/debug/drawable-xxhdpi_loading_image4.png.flat",
+        "source": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/src/main/res/drawable-xxhdpi/loading_image4.png"
+    },
+    {
+        "merged": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/build/intermediates/merged_res/debug/drawable-xxhdpi_theme_style_setting_bg_lively.png.flat",
+        "source": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/src/main/res-lively/drawable-xxhdpi/theme_style_setting_bg_lively.png"
+    },
+    {
+        "merged": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/build/intermediates/merged_res/debug/layout_profile_status_layout.xml.flat",
+        "source": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/src/main/res/layout/profile_status_layout.xml"
+    },
+    {
+        "merged": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/build/intermediates/merged_res/debug/drawable_popu_dialog_bg.xml.flat",
+        "source": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/src/main/res/drawable/popu_dialog_bg.xml"
+    },
+    {
+        "merged": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/build/intermediates/merged_res/debug/drawable-xxhdpi_demo_main_tab_contact_selected_serious.png.flat",
+        "source": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/src/main/res-serious/drawable-xxhdpi/demo_main_tab_contact_selected_serious.png"
+    },
+    {
+        "merged": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/build/intermediates/merged_res/debug/drawable-xxhdpi_theme_style_setting_im_light.png.flat",
+        "source": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/src/main/res-light/drawable-xxhdpi/theme_style_setting_im_light.png"
+    },
+    {
+        "merged": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/build/intermediates/merged_res/debug/layout_overseas_main_activity.xml.flat",
+        "source": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/src/main/res/layout/overseas_main_activity.xml"
+    },
+    {
+        "merged": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/build/intermediates/merged_res/debug/drawable-xxhdpi_ic_launcher.png.flat",
+        "source": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/src/main/res/drawable-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/build/intermediates/merged_res/debug/drawable-xxhdpi_group_icon.png.flat",
+        "source": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/src/main/res/drawable-xxhdpi/group_icon.png"
+    },
+    {
+        "merged": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/build/intermediates/merged_res/debug/drawable-xxhdpi_demo_theme_select_bg_serious.png.flat",
+        "source": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/src/main/res-serious/drawable-xxhdpi/demo_theme_select_bg_serious.png"
+    },
+    {
+        "merged": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/build/intermediates/merged_res/debug/drawable-xxhdpi_demo_recent_calls_not_selected_lively.png.flat",
+        "source": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/src/main/res-lively/drawable-xxhdpi/demo_recent_calls_not_selected_lively.png"
+    },
+    {
+        "merged": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/build/intermediates/merged_res/debug/layout_pop_menu_layout.xml.flat",
+        "source": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/src/main/res/layout/pop_menu_layout.xml"
+    },
+    {
+        "merged": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/build/intermediates/merged_res/debug/drawable-xxhdpi_demo_ic_logo_light.png.flat",
+        "source": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/src/main/res-light/drawable-xxhdpi/demo_ic_logo_light.png"
+    },
+    {
+        "merged": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/build/intermediates/merged_res/debug/drawable-xxhdpi_demo_cancel_account_red_icon.png.flat",
+        "source": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/src/main/res/drawable-xxhdpi/demo_cancel_account_red_icon.png"
+    },
+    {
+        "merged": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/build/intermediates/merged_res/debug/drawable_demo_overseas_main_tab_contact_normal_bg.png.flat",
+        "source": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/src/main/res/drawable/demo_overseas_main_tab_contact_normal_bg.png"
+    },
+    {
+        "merged": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/build/intermediates/merged_res/debug/drawable_demo_checkbox_unselect_bg.xml.flat",
+        "source": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/src/main/res/drawable/demo_checkbox_unselect_bg.xml"
+    },
+    {
+        "merged": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/build/intermediates/merged_res/debug/layout_minimalist_activity_self_detail.xml.flat",
+        "source": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/src/main/res/layout/minimalist_activity_self_detail.xml"
+    },
+    {
+        "merged": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/build/intermediates/merged_res/debug/drawable-xxhdpi_demo_recent_calls_selected_lively.png.flat",
+        "source": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/src/main/res-lively/drawable-xxhdpi/demo_recent_calls_selected_lively.png"
+    },
+    {
+        "merged": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/build/intermediates/merged_res/debug/drawable-xxhdpi_demo_phone_login_logo_serious.png.flat",
+        "source": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/src/main/res-serious/drawable-xxhdpi/demo_phone_login_logo_serious.png"
+    },
+    {
+        "merged": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/build/intermediates/merged_res/debug/drawable-xxhdpi_title_bar_left_icon.png.flat",
+        "source": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/src/main/res/drawable-xxhdpi/title_bar_left_icon.png"
+    },
+    {
+        "merged": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/build/intermediates/merged_res/debug/drawable-xxhdpi_theme_style_setting_about_serious.png.flat",
+        "source": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/src/main/res-serious/drawable-xxhdpi/theme_style_setting_about_serious.png"
+    },
+    {
+        "merged": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/build/intermediates/merged_res/debug/drawable_alert_bg.9.png.flat",
+        "source": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/src/main/res/drawable/alert_bg.9.png"
+    },
+    {
+        "merged": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/build/intermediates/merged_res/debug/drawable_positive_btn_bg.xml.flat",
+        "source": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/src/main/res/drawable/positive_btn_bg.xml"
+    },
+    {
+        "merged": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/build/intermediates/merged_res/debug/drawable-xxhdpi_privacy_agree_btn_bg.xml.flat",
+        "source": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/src/main/res-light/drawable-xxhdpi/privacy_agree_btn_bg.xml"
+    },
+    {
+        "merged": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/build/intermediates/merged_res/debug/layout_minimalist_profile_settings_select_theme.xml.flat",
+        "source": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/src/main/res/layout/minimalist_profile_settings_select_theme.xml"
+    },
+    {
+        "merged": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/build/intermediates/merged_res/debug/drawable-xxhdpi_loading_image5.png.flat",
+        "source": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/src/main/res/drawable-xxhdpi/loading_image5.png"
+    },
+    {
+        "merged": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/build/intermediates/merged_res/debug/drawable-xxhdpi_ic_contact_join_group.png.flat",
+        "source": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/src/main/res/drawable-xxhdpi/ic_contact_join_group.png"
+    },
+    {
+        "merged": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/build/intermediates/merged_res/debug/drawable_button_border_lively.xml.flat",
+        "source": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/src/main/res/drawable/button_border_lively.xml"
+    },
+    {
+        "merged": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/build/intermediates/merged_res/debug/drawable-xxhdpi_demo_minimalist_recent_calls_not_selected.png.flat",
+        "source": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/src/main/res/drawable-xxhdpi/demo_minimalist_recent_calls_not_selected.png"
+    },
+    {
+        "merged": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/build/intermediates/merged_res/debug/drawable-xxhdpi_loading_image2.png.flat",
+        "source": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/src/main/res/drawable-xxhdpi/loading_image2.png"
+    },
+    {
+        "merged": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/build/intermediates/merged_res/debug/drawable-xxhdpi_demo_ic_logo_lively.png.flat",
+        "source": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/src/main/res-lively/drawable-xxhdpi/demo_ic_logo_lively.png"
+    },
+    {
+        "merged": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/build/intermediates/merged_res/debug/layout_main_minimalist_bottom_tab_item_layout.xml.flat",
+        "source": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/src/main/res/layout/main_minimalist_bottom_tab_item_layout.xml"
+    },
+    {
+        "merged": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/build/intermediates/merged_res/debug/drawable-xxhdpi_demo_phone_login_logo_lively.png.flat",
+        "source": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/src/main/res-lively/drawable-xxhdpi/demo_phone_login_logo_lively.png"
+    },
+    {
+        "merged": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/build/intermediates/merged_res/debug/drawable-xxhdpi_demo_main_tab_conversation_selected_serious.png.flat",
+        "source": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/src/main/res-serious/drawable-xxhdpi/demo_main_tab_conversation_selected_serious.png"
+    },
+    {
+        "merged": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/build/intermediates/merged_res/debug/drawable-xxhdpi_theme_select_item_bg.xml.flat",
+        "source": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/src/main/res-light/drawable-xxhdpi/theme_select_item_bg.xml"
+    },
+    {
+        "merged": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/build/intermediates/merged_res/debug/drawable-xxhdpi_demo_conversation_not_selected.png.flat",
+        "source": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/src/main/res/drawable-xxhdpi/demo_conversation_not_selected.png"
+    },
+    {
+        "merged": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/build/intermediates/merged_res/debug/layout_profile_settings_about_im.xml.flat",
+        "source": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/src/main/res/layout/profile_settings_about_im.xml"
+    },
+    {
+        "merged": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/build/intermediates/merged_res/debug/drawable-xxhdpi_demo_login_theme_icon_lively.png.flat",
+        "source": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/src/main/res-lively/drawable-xxhdpi/demo_login_theme_icon_lively.png"
+    },
+    {
+        "merged": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/build/intermediates/merged_res/debug/layout_activity_about_im.xml.flat",
+        "source": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/src/main/res/layout/activity_about_im.xml"
+    },
+    {
+        "merged": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/build/intermediates/merged_res/debug/drawable_positive_btn_normal_bg.xml.flat",
+        "source": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/src/main/res/drawable/positive_btn_normal_bg.xml"
+    },
+    {
+        "merged": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/build/intermediates/merged_res/debug/layout_activity_theme_language_select.xml.flat",
+        "source": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/src/main/res/layout/activity_theme_language_select.xml"
+    },
+    {
+        "merged": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/build/intermediates/merged_res/debug/drawable-xxhdpi_login_im_bg_light.png.flat",
+        "source": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/src/main/res-light/drawable-xxhdpi/login_im_bg_light.png"
+    },
+    {
+        "merged": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/build/intermediates/merged_res/debug/drawable-xxhdpi_demo_login_language_icon_lively.png.flat",
+        "source": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/src/main/res-lively/drawable-xxhdpi/demo_login_language_icon_lively.png"
+    },
+    {
+        "merged": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/build/intermediates/merged_res/debug/drawable-xxhdpi_demo_main_tab_profile_selected_serious.png.flat",
+        "source": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/src/main/res-serious/drawable-xxhdpi/demo_main_tab_profile_selected_serious.png"
+    },
+    {
+        "merged": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/build/intermediates/merged_res/debug/layout_minimalist_profile_layout.xml.flat",
+        "source": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/src/main/res/layout/minimalist_profile_layout.xml"
+    },
+    {
+        "merged": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/build/intermediates/merged_res/debug/color_negative_text.xml.flat",
+        "source": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/src/main/res/color/negative_text.xml"
+    },
+    {
+        "merged": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/build/intermediates/merged_res/debug/drawable-xxhdpi_demo_login_language_arrow_light.png.flat",
+        "source": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/src/main/res-light/drawable-xxhdpi/demo_login_language_arrow_light.png"
+    },
+    {
+        "merged": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/build/intermediates/merged_res/debug/drawable-xxhdpi_logo_title.png.flat",
+        "source": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/src/main/res/drawable-xxhdpi/logo_title.png"
+    },
+    {
+        "merged": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/build/intermediates/merged_res/debug/drawable-xxhdpi_demo_recent_calls_selected_serious.png.flat",
+        "source": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/src/main/res-serious/drawable-xxhdpi/demo_recent_calls_selected_serious.png"
+    },
+    {
+        "merged": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/build/intermediates/merged_res/debug/drawable_demo_overseas_main_tab_contact_selected_bg.png.flat",
+        "source": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/src/main/res/drawable/demo_overseas_main_tab_contact_selected_bg.png"
+    },
+    {
+        "merged": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/build/intermediates/merged_res/debug/layout_profile_about_activity.xml.flat",
+        "source": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/src/main/res/layout/profile_about_activity.xml"
+    },
+    {
+        "merged": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/build/intermediates/merged_res/debug/drawable-xxhdpi_demo_main_tab_conversation_selected_lively.png.flat",
+        "source": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/src/main/res-lively/drawable-xxhdpi/demo_main_tab_conversation_selected_lively.png"
+    },
+    {
+        "merged": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/build/intermediates/merged_res/debug/drawable_my_cursor.xml.flat",
+        "source": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/src/main/res/drawable/my_cursor.xml"
+    },
+    {
+        "merged": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/build/intermediates/merged_res/debug/drawable_edit_cursor.xml.flat",
+        "source": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/src/main/res/drawable/edit_cursor.xml"
+    },
+    {
+        "merged": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/build/intermediates/merged_res/debug/drawable-xxhdpi_demo_title_bar_more_light.png.flat",
+        "source": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/src/main/res-light/drawable-xxhdpi/demo_title_bar_more_light.png"
+    },
+    {
+        "merged": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/build/intermediates/merged_res/debug/drawable-xxhdpi_demo_main_tab_contact_selected_lively.png.flat",
+        "source": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/src/main/res-lively/drawable-xxhdpi/demo_main_tab_contact_selected_lively.png"
+    },
+    {
+        "merged": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/build/intermediates/merged_res/debug/drawable-xxhdpi_demo_login_language_icon_light.png.flat",
+        "source": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/src/main/res-light/drawable-xxhdpi/demo_login_language_icon_light.png"
+    },
+    {
+        "merged": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/build/intermediates/merged_res/debug/color_bg_positive_btn.xml.flat",
+        "source": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/src/main/res/color/bg_positive_btn.xml"
+    },
+    {
+        "merged": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/build/intermediates/merged_res/debug/drawable-xxhdpi_demo_login_style_icon.png.flat",
+        "source": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/src/main/res-light/drawable-xxhdpi/demo_login_style_icon.png"
+    },
+    {
+        "merged": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/build/intermediates/merged_res/debug/layout_layout_dialog.xml.flat",
+        "source": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/src/main/res/layout/layout_dialog.xml"
+    },
+    {
+        "merged": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/build/intermediates/merged_res/debug/layout_im_about_grid_item.xml.flat",
+        "source": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/src/main/res/layout/im_about_grid_item.xml"
+    }
+]

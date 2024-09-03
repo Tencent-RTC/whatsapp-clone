@@ -1,0 +1,175 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUICallKit/tuicallkit-kt/src/main/AndroidManifest.xml:2:1-71:12
+INJECTED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUICallKit/tuicallkit-kt/src/main/AndroidManifest.xml:2:1-71:12
+INJECTED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUICallKit/tuicallkit-kt/src/main/AndroidManifest.xml:2:1-71:12
+	package
+		INJECTED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUICallKit/tuicallkit-kt/src/main/AndroidManifest.xml
+		ADDED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUICallKit/tuicallkit-kt/src/main/AndroidManifest.xml:2:1-71:12
+		INJECTED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUICallKit/tuicallkit-kt/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUICallKit/tuicallkit-kt/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.FOREGROUND_SERVICE
+ADDED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUICallKit/tuicallkit-kt/src/main/AndroidManifest.xml:4:5-77
+	android:name
+		ADDED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUICallKit/tuicallkit-kt/src/main/AndroidManifest.xml:4:22-74
+uses-permission#android.permission.FOREGROUND_SERVICE_CAMERA
+ADDED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUICallKit/tuicallkit-kt/src/main/AndroidManifest.xml:5:5-84
+	android:name
+		ADDED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUICallKit/tuicallkit-kt/src/main/AndroidManifest.xml:5:22-81
+uses-permission#android.permission.FOREGROUND_SERVICE_MICROPHONE
+ADDED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUICallKit/tuicallkit-kt/src/main/AndroidManifest.xml:6:5-88
+	android:name
+		ADDED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUICallKit/tuicallkit-kt/src/main/AndroidManifest.xml:6:22-85
+uses-permission#android.permission.FOREGROUND_SERVICE_CONNECTED_DEVICE
+ADDED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUICallKit/tuicallkit-kt/src/main/AndroidManifest.xml:7:5-94
+	android:name
+		ADDED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUICallKit/tuicallkit-kt/src/main/AndroidManifest.xml:7:22-91
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUICallKit/tuicallkit-kt/src/main/AndroidManifest.xml:8:5-78
+	android:name
+		ADDED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUICallKit/tuicallkit-kt/src/main/AndroidManifest.xml:8:22-75
+uses-permission#android.permission.WAKE_LOCK
+ADDED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUICallKit/tuicallkit-kt/src/main/AndroidManifest.xml:9:5-68
+	android:name
+		ADDED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUICallKit/tuicallkit-kt/src/main/AndroidManifest.xml:9:22-65
+uses-permission#android.permission.INTERNET
+ADDED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUICallKit/tuicallkit-kt/src/main/AndroidManifest.xml:10:5-67
+	android:name
+		ADDED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUICallKit/tuicallkit-kt/src/main/AndroidManifest.xml:10:22-64
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUICallKit/tuicallkit-kt/src/main/AndroidManifest.xml:11:5-71
+	android:name
+		ADDED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUICallKit/tuicallkit-kt/src/main/AndroidManifest.xml:11:22-68
+uses-permission#android.permission.MODIFY_AUDIO_SETTINGS
+ADDED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUICallKit/tuicallkit-kt/src/main/AndroidManifest.xml:12:5-80
+	android:name
+		ADDED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUICallKit/tuicallkit-kt/src/main/AndroidManifest.xml:12:22-77
+uses-permission#android.permission.CAMERA
+ADDED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUICallKit/tuicallkit-kt/src/main/AndroidManifest.xml:13:5-65
+	android:name
+		ADDED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUICallKit/tuicallkit-kt/src/main/AndroidManifest.xml:13:22-62
+uses-feature#android.hardware.camera
+ADDED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUICallKit/tuicallkit-kt/src/main/AndroidManifest.xml:15:5-60
+	android:name
+		ADDED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUICallKit/tuicallkit-kt/src/main/AndroidManifest.xml:15:19-57
+uses-feature#android.hardware.camera.autofocus
+ADDED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUICallKit/tuicallkit-kt/src/main/AndroidManifest.xml:16:5-70
+	android:name
+		ADDED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUICallKit/tuicallkit-kt/src/main/AndroidManifest.xml:16:19-67
+uses-permission#android.permission.BLUETOOTH
+ADDED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUICallKit/tuicallkit-kt/src/main/AndroidManifest.xml:18:5-20:38
+	android:maxSdkVersion
+		ADDED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUICallKit/tuicallkit-kt/src/main/AndroidManifest.xml:20:9-35
+	android:name
+		ADDED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUICallKit/tuicallkit-kt/src/main/AndroidManifest.xml:19:9-52
+uses-permission#android.permission.BLUETOOTH_ADMIN
+ADDED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUICallKit/tuicallkit-kt/src/main/AndroidManifest.xml:21:5-23:38
+	android:maxSdkVersion
+		ADDED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUICallKit/tuicallkit-kt/src/main/AndroidManifest.xml:23:9-35
+	android:name
+		ADDED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUICallKit/tuicallkit-kt/src/main/AndroidManifest.xml:22:9-58
+uses-permission#android.permission.BLUETOOTH_CONNECT
+ADDED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUICallKit/tuicallkit-kt/src/main/AndroidManifest.xml:25:5-76
+	android:name
+		ADDED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUICallKit/tuicallkit-kt/src/main/AndroidManifest.xml:25:22-73
+uses-permission#android.permission.ACCESS_NOTIFICATION_POLICY
+ADDED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUICallKit/tuicallkit-kt/src/main/AndroidManifest.xml:27:5-85
+	android:name
+		ADDED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUICallKit/tuicallkit-kt/src/main/AndroidManifest.xml:27:22-82
+uses-permission#android.permission.POST_NOTIFICATIONS
+ADDED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUICallKit/tuicallkit-kt/src/main/AndroidManifest.xml:28:5-77
+	android:name
+		ADDED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUICallKit/tuicallkit-kt/src/main/AndroidManifest.xml:28:22-74
+uses-permission#android.permission.MANAGE_OWN_CALLS
+ADDED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUICallKit/tuicallkit-kt/src/main/AndroidManifest.xml:29:5-75
+	android:name
+		ADDED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUICallKit/tuicallkit-kt/src/main/AndroidManifest.xml:29:22-72
+application
+ADDED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUICallKit/tuicallkit-kt/src/main/AndroidManifest.xml:31:5-69:19
+activity#com.tencent.qcloud.tuikit.tuicallkit.view.CallKitActivity
+ADDED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUICallKit/tuicallkit-kt/src/main/AndroidManifest.xml:32:9-36:66
+	android:screenOrientation
+		ADDED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUICallKit/tuicallkit-kt/src/main/AndroidManifest.xml:35:13-49
+	android:launchMode
+		ADDED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUICallKit/tuicallkit-kt/src/main/AndroidManifest.xml:34:13-44
+	android:theme
+		ADDED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUICallKit/tuicallkit-kt/src/main/AndroidManifest.xml:36:13-63
+	android:name
+		ADDED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUICallKit/tuicallkit-kt/src/main/AndroidManifest.xml:33:13-85
+provider#com.tencent.qcloud.tuikit.tuicallkit.internal.ServiceInitializer
+ADDED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUICallKit/tuicallkit-kt/src/main/AndroidManifest.xml:38:9-42:40
+	android:enabled
+		ADDED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUICallKit/tuicallkit-kt/src/main/AndroidManifest.xml:41:13-35
+	android:authorities
+		ADDED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUICallKit/tuicallkit-kt/src/main/AndroidManifest.xml:40:13-70
+	android:exported
+		ADDED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUICallKit/tuicallkit-kt/src/main/AndroidManifest.xml:42:13-37
+	android:name
+		ADDED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUICallKit/tuicallkit-kt/src/main/AndroidManifest.xml:39:13-92
+service#com.tencent.qcloud.tuikit.tuicallkit.extensions.TUICallService
+ADDED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUICallKit/tuicallkit-kt/src/main/AndroidManifest.xml:44:9-48:58
+	android:enabled
+		ADDED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUICallKit/tuicallkit-kt/src/main/AndroidManifest.xml:46:13-35
+	android:exported
+		ADDED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUICallKit/tuicallkit-kt/src/main/AndroidManifest.xml:47:13-37
+	android:foregroundServiceType
+		ADDED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUICallKit/tuicallkit-kt/src/main/AndroidManifest.xml:48:13-55
+	android:name
+		ADDED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUICallKit/tuicallkit-kt/src/main/AndroidManifest.xml:45:13-90
+service#com.tencent.qcloud.tuikit.tuicallkit.view.component.floatview.FloatWindowService
+ADDED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUICallKit/tuicallkit-kt/src/main/AndroidManifest.xml:50:9-53:40
+	android:enabled
+		ADDED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUICallKit/tuicallkit-kt/src/main/AndroidManifest.xml:52:13-35
+	android:exported
+		ADDED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUICallKit/tuicallkit-kt/src/main/AndroidManifest.xml:53:13-37
+	android:name
+		ADDED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUICallKit/tuicallkit-kt/src/main/AndroidManifest.xml:51:13-108
+activity#.extensions.inviteuser.SelectGroupMemberActivity
+ADDED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUICallKit/tuicallkit-kt/src/main/AndroidManifest.xml:55:9-59:66
+	android:screenOrientation
+		ADDED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUICallKit/tuicallkit-kt/src/main/AndroidManifest.xml:58:13-49
+	android:launchMode
+		ADDED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUICallKit/tuicallkit-kt/src/main/AndroidManifest.xml:57:13-44
+	android:theme
+		ADDED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUICallKit/tuicallkit-kt/src/main/AndroidManifest.xml:59:13-63
+	android:name
+		ADDED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUICallKit/tuicallkit-kt/src/main/AndroidManifest.xml:56:13-76
+receiver#com.tencent.qcloud.tuikit.tuicallkit.view.component.incomingview.IncomingCallReceiver
+ADDED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUICallKit/tuicallkit-kt/src/main/AndroidManifest.xml:61:9-68:20
+	android:enabled
+		ADDED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUICallKit/tuicallkit-kt/src/main/AndroidManifest.xml:63:13-35
+	android:exported
+		ADDED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUICallKit/tuicallkit-kt/src/main/AndroidManifest.xml:64:13-37
+	android:name
+		ADDED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUICallKit/tuicallkit-kt/src/main/AndroidManifest.xml:62:13-113
+intent-filter#action:name:reject_call_action
+ADDED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUICallKit/tuicallkit-kt/src/main/AndroidManifest.xml:65:13-67:29
+action#reject_call_action
+ADDED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUICallKit/tuicallkit-kt/src/main/AndroidManifest.xml:66:17-61
+	android:name
+		ADDED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUICallKit/tuicallkit-kt/src/main/AndroidManifest.xml:66:25-58
+uses-sdk
+INJECTED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUICallKit/tuicallkit-kt/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUICallKit/tuicallkit-kt/src/main/AndroidManifest.xml
+INJECTED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUICallKit/tuicallkit-kt/src/main/AndroidManifest.xml
+INJECTED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUICallKit/tuicallkit-kt/src/main/AndroidManifest.xml
+INJECTED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUICallKit/tuicallkit-kt/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUICallKit/tuicallkit-kt/src/main/AndroidManifest.xml
+		ADDED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUICallKit/tuicallkit-kt/src/main/AndroidManifest.xml
+		INJECTED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUICallKit/tuicallkit-kt/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUICallKit/tuicallkit-kt/src/main/AndroidManifest.xml
+		ADDED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUICallKit/tuicallkit-kt/src/main/AndroidManifest.xml
+		INJECTED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUICallKit/tuicallkit-kt/src/main/AndroidManifest.xml
+activity#com.tencent.qcloud.tuikit.tuicallkit.extensions.inviteuser.SelectGroupMemberActivity
+ADDED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUICallKit/tuicallkit-kt/src/main/AndroidManifest.xml:55:9-59:66
+	android:screenOrientation
+		ADDED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUICallKit/tuicallkit-kt/src/main/AndroidManifest.xml:58:13-49
+	android:launchMode
+		ADDED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUICallKit/tuicallkit-kt/src/main/AndroidManifest.xml:57:13-44
+	android:theme
+		ADDED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUICallKit/tuicallkit-kt/src/main/AndroidManifest.xml:59:13-63
+	android:name
+		ADDED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUICallKit/tuicallkit-kt/src/main/AndroidManifest.xml:56:13-76

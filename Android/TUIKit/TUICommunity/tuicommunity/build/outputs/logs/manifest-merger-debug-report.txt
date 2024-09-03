@@ -1,0 +1,87 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUICommunity/tuicommunity/src/main/AndroidManifest.xml:2:1-41:12
+INJECTED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUICommunity/tuicommunity/src/main/AndroidManifest.xml:2:1-41:12
+INJECTED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUICommunity/tuicommunity/src/main/AndroidManifest.xml:2:1-41:12
+	package
+		INJECTED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUICommunity/tuicommunity/src/main/AndroidManifest.xml
+		ADDED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUICommunity/tuicommunity/src/main/AndroidManifest.xml:2:1-41:12
+		INJECTED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUICommunity/tuicommunity/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUICommunity/tuicommunity/src/main/AndroidManifest.xml:2:11-69
+application
+ADDED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUICommunity/tuicommunity/src/main/AndroidManifest.xml:4:5-39:19
+activity#com.tencent.qcloud.tuikit.tuicommunity.ui.page.TopicInfoActivity
+ADDED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUICommunity/tuicommunity/src/main/AndroidManifest.xml:5:9-9:40
+	android:screenOrientation
+		ADDED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUICommunity/tuicommunity/src/main/AndroidManifest.xml:7:13-49
+	android:windowSoftInputMode
+		ADDED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUICommunity/tuicommunity/src/main/AndroidManifest.xml:8:13-67
+	android:exported
+		ADDED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUICommunity/tuicommunity/src/main/AndroidManifest.xml:9:13-37
+	android:name
+		ADDED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUICommunity/tuicommunity/src/main/AndroidManifest.xml:6:13-92
+activity#com.tencent.qcloud.tuikit.tuicommunity.ui.page.CommunitySettingsActivity
+ADDED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUICommunity/tuicommunity/src/main/AndroidManifest.xml:10:9-14:40
+	android:screenOrientation
+		ADDED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUICommunity/tuicommunity/src/main/AndroidManifest.xml:13:13-49
+	android:windowSoftInputMode
+		ADDED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUICommunity/tuicommunity/src/main/AndroidManifest.xml:12:13-67
+	android:exported
+		ADDED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUICommunity/tuicommunity/src/main/AndroidManifest.xml:14:13-37
+	android:name
+		ADDED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUICommunity/tuicommunity/src/main/AndroidManifest.xml:11:13-100
+activity#com.tencent.qcloud.tuikit.tuicommunity.ui.page.CreateTopicActivity
+ADDED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUICommunity/tuicommunity/src/main/AndroidManifest.xml:15:9-19:40
+	android:screenOrientation
+		ADDED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUICommunity/tuicommunity/src/main/AndroidManifest.xml:18:13-49
+	android:windowSoftInputMode
+		ADDED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUICommunity/tuicommunity/src/main/AndroidManifest.xml:17:13-67
+	android:exported
+		ADDED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUICommunity/tuicommunity/src/main/AndroidManifest.xml:19:13-37
+	android:name
+		ADDED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUICommunity/tuicommunity/src/main/AndroidManifest.xml:16:13-94
+activity#com.tencent.qcloud.tuikit.tuicommunity.ui.page.CommunityMemberActivity
+ADDED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUICommunity/tuicommunity/src/main/AndroidManifest.xml:21:9-25:40
+	android:screenOrientation
+		ADDED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUICommunity/tuicommunity/src/main/AndroidManifest.xml:24:13-49
+	android:windowSoftInputMode
+		ADDED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUICommunity/tuicommunity/src/main/AndroidManifest.xml:23:13-67
+	android:exported
+		ADDED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUICommunity/tuicommunity/src/main/AndroidManifest.xml:25:13-37
+	android:name
+		ADDED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUICommunity/tuicommunity/src/main/AndroidManifest.xml:22:13-98
+activity#com.tencent.qcloud.tuikit.tuicommunity.ui.page.JoinCommunityActivity
+ADDED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUICommunity/tuicommunity/src/main/AndroidManifest.xml:27:9-31:40
+	android:screenOrientation
+		ADDED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUICommunity/tuicommunity/src/main/AndroidManifest.xml:30:13-49
+	android:windowSoftInputMode
+		ADDED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUICommunity/tuicommunity/src/main/AndroidManifest.xml:29:13-67
+	android:exported
+		ADDED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUICommunity/tuicommunity/src/main/AndroidManifest.xml:31:13-37
+	android:name
+		ADDED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUICommunity/tuicommunity/src/main/AndroidManifest.xml:28:13-96
+activity#com.tencent.qcloud.tuikit.tuicommunity.ui.page.CreateCommunityActivity
+ADDED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUICommunity/tuicommunity/src/main/AndroidManifest.xml:33:9-37:40
+	android:screenOrientation
+		ADDED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUICommunity/tuicommunity/src/main/AndroidManifest.xml:36:13-49
+	android:windowSoftInputMode
+		ADDED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUICommunity/tuicommunity/src/main/AndroidManifest.xml:35:13-67
+	android:exported
+		ADDED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUICommunity/tuicommunity/src/main/AndroidManifest.xml:37:13-37
+	android:name
+		ADDED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUICommunity/tuicommunity/src/main/AndroidManifest.xml:34:13-98
+uses-sdk
+INJECTED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUICommunity/tuicommunity/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUICommunity/tuicommunity/src/main/AndroidManifest.xml
+INJECTED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUICommunity/tuicommunity/src/main/AndroidManifest.xml
+INJECTED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUICommunity/tuicommunity/src/main/AndroidManifest.xml
+INJECTED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUICommunity/tuicommunity/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUICommunity/tuicommunity/src/main/AndroidManifest.xml
+		ADDED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUICommunity/tuicommunity/src/main/AndroidManifest.xml
+		INJECTED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUICommunity/tuicommunity/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUICommunity/tuicommunity/src/main/AndroidManifest.xml
+		ADDED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUICommunity/tuicommunity/src/main/AndroidManifest.xml
+		INJECTED from /Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUICommunity/tuicommunity/src/main/AndroidManifest.xml

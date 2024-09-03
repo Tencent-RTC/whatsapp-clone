@@ -1,0 +1,36 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-my-rMM/values-my-rMM.xml",
+            "map": [
+                {
+                    "source": "/Users/vincepzhang/.gradle/caches/transforms-3/ff104cd4df75bb261fe64cf79124c3ab/transformed/jetified-oppo-vendor-3.1.0/res/values-my-rMM/values-my-rMM.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "69",
+                        "endOffsets": "120"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "122",
+                        "endColumns": "69",
+                        "endOffsets": "187"
+                    }
+                },
+                {
+                    "source": "/Users/vincepzhang/.gradle/caches/transforms-3/d6cf59670c5e26123c5aa21cb88b7493/transformed/jetified-push-6.11.0.300/res/values-my-rMM/values-my-rMM.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "66",
+                        "endOffsets": "117"
+                    }
+                }
+            ]
+        }
+    ]
+}

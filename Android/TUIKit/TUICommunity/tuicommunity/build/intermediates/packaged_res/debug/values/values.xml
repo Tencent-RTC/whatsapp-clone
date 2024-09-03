@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="community_banner_normal_color">#66FFFFFF</color>
+    <color name="community_banner_selected_color">#FFFFFFFF</color>
+    <color name="community_btn_negative">#ffffff</color>
+    <color name="community_btn_negative_hover">#cc3428</color>
+    <color name="community_btn_positive">#00a4ff</color>
+    <color name="community_btn_positive_hover">#006eff</color>
+    <color name="community_list_normal_color">#FFFFFFFF</color>
+    <color name="community_list_selected_color">#19006EFF</color>
+    <color name="community_more_introduction_disable_color">#333333</color>
+    <color name="community_profile_member_name_text_color">#888888</color>
+    <color name="community_setting_linear_content_default_color">#FF000000</color>
+    <color name="community_setting_linear_content_disable_color">#FF999999</color>
+    <color name="community_setting_linear_name_default_color">#FF666666</color>
+    <color name="community_text_color_gray">#696969</color>
+    <dimen name="community_profile_face_margin_left">15.36dp</dimen>
+    <dimen name="community_profile_face_margin_right">15.36dp</dimen>
+    <dimen name="community_profile_face_margin_top">11.5dp</dimen>
+    <dimen name="community_profile_face_size">46.08dp</dimen>
+    <dimen name="community_profile_group_id_size">12.48dp</dimen>
+    <dimen name="community_profile_group_name_size">17.28sp</dimen>
+    <dimen name="community_profile_height">69.12dp</dimen>
+    <dimen name="community_profile_item_height">46.08dp</dimen>
+    <dimen name="community_profile_member_grid_padding_left_right">19.2dp</dimen>
+    <dimen name="community_profile_member_grid_padding_top">11.52dp</dimen>
+    <dimen name="community_profile_member_item_name_size">9.6sp</dimen>
+    <dimen name="community_profile_member_item_width">48dp</dimen>
+    <string name="clear_message">Clear Chat History</string>
+    <string name="clear_message_tip">Are you sure you want to clear the chat history?</string>
+    <string name="community_accept">Agree</string>
+    <string name="community_add_group_member">Add member</string>
+    <string name="community_button_tips_select">Please select</string>
+    <string name="community_cancel">Cancel</string>
+    <string name="community_choose_avatar">Choose Avatar</string>
+    <string name="community_coming_soon">coming_soon</string>
+    <string name="community_community_information">Community information</string>
+    <string name="community_community_introduction">Community introduction</string>
+    <string name="community_community_name">Community name</string>
+    <string name="community_community_settings">Community settings</string>
+    <string name="community_completed">Completed</string>
+    <string name="community_copy">Copy</string>
+    <string name="community_copy_success_tip">Copy Success</string>
+    <string name="community_create_community">Create a community</string>
+    <string name="community_create_community_failed">Create community failed</string>
+    <string name="community_create_community_success">Create community success</string>
+    <string name="community_create_topic">Create topic</string>
+    <string name="community_create_topic_category">Create topic category</string>
+    <string name="community_create_topic_category_failed">Create topic category failed</string>
+    <string name="community_create_topic_category_success">Create topic category success</string>
+    <string name="community_create_topic_failed">Create topic failed</string>
+    <string name="community_create_topic_success">Create topic success</string>
+    <string name="community_default_category_announcement">Announcement</string>
+    <string name="community_default_category_communication">Communication</string>
+    <string name="community_delete_topic">Delete topic</string>
+    <string name="community_delete_topic_category">Delete topic category</string>
+    <string name="community_delete_topic_tip">Confirm to delete the topic</string>
+    <string name="community_disband_group">Disband the group</string>
+    <string name="community_edit_tips_input">Please input</string>
+    <string name="community_exit_community">Exit community</string>
+    <string name="community_experience_add_community">Add a new Community</string>
+    <string name="community_experience_create_community">Create a new Community</string>
+    <string name="community_experience_create_topic">Create a topic</string>
+    <string name="community_experience_delete_topic">Delete a topic</string>
+    <string name="community_experience_disband_community">Disband a new Community</string>
+    <string name="community_experience_more_demos">Experience more demos</string>
+    <string name="community_experience_reply_message">Reply a message in a topic</string>
+    <string name="community_experience_send_message">Send a message in a topic</string>
+    <string name="community_group_id_label">Community ID: </string>
+    <string name="community_integration_build_audio_video_call">Build the audio/video call feature</string>
+    <string name="community_integration_build_audio_video_call_link">https://www.tencentcloud.com/document/product/1047/34286#step-4.-build-the-audio.2Fvideo-call-feature</string>
+    <string name="community_integration_build_fragment">Build the core fragment</string>
+    <string name="community_integration_build_fragment_link">https://www.tencentcloud.com/document/product/1047/34286#step-3.-build-the-core-fragment</string>
+    <string name="community_integration_create_viewPager">Create viewPager</string>
+    <string name="community_integration_create_viewPager_link">https://www.tencentcloud.com/document/product/1047/34286#step-2.-create-viewpager</string>
+    <string name="community_integration_download_code">Download the source code of TUIKit</string>
+    <string name="community_integration_download_code_link">https://www.tencentcloud.com/document/product/1047/34286#integrating-module-source-code</string>
+    <string name="community_integration_login">Log in to TUIKit</string>
+    <string name="community_integration_login_link">https://www.tencentcloud.com/document/product/1047/34286#step-1.-log-in-to-tuikit</string>
+    <string name="community_invite">Invite</string>
+    <string name="community_join">Join</string>
+    <string name="community_join_community">Join a community</string>
+    <string name="community_joined">Joined</string>
+    <string name="community_network_connect_failed">The network is abnormal, please check the network settings</string>
+    <string name="community_network_connecting">Network connecting. . .</string>
+    <string name="community_no_category">No Category</string>
+    <string name="community_not_found_community">Not found the community</string>
+    <string name="community_over_limit_tip">Max allowed: %d</string>
+    <string name="community_owner">Owner</string>
+    <string name="community_personal_settings">Personal settings</string>
+    <string name="community_quick_integration">Quick integration with UI components in 1 minute</string>
+    <string name="community_recommended_experience">Recommended experience</string>
+    <string name="community_refuse">Decline</string>
+    <string name="community_remove_fail_tip">Remove failed</string>
+    <string name="community_remove_group_member">Remove member</string>
+    <string name="community_remove_member">Remove</string>
+    <string name="community_search_community">Search community</string>
+    <string name="community_search_community_id">Input community ID</string>
+    <string name="community_select_category">Select category</string>
+    <string name="community_select_cover">Select cover</string>
+    <string name="community_select_face">Select face</string>
+    <string name="community_self_nick_name">My group nickname</string>
+    <string name="community_settings">Settings</string>
+    <string name="community_settings_community_avatar">Avatar</string>
+    <string name="community_settings_community_cover">Cover</string>
+    <string name="community_settings_community_id">Community group ID</string>
+    <string name="community_settings_community_introduction">Introduction</string>
+    <string name="community_settings_community_name">Name</string>
+    <string name="community_settings_not_set">Not set</string>
+    <string name="community_share_community">Share community</string>
+    <string name="community_to_be_experienced">To do</string>
+    <string name="community_topic_category">Topic category</string>
+    <string name="community_topic_chat_hall">Chat hall</string>
+    <string name="community_topic_important_notice">Important notice</string>
+    <string name="community_topic_name">Topic name</string>
+    <string name="community_topic_newbie_report">Newbie report</string>
+    <string name="community_topic_settings">Topic detail</string>
+    <string name="community_topic_type">Topic type</string>
+    <string name="community_topic_type_live_desc">Support live broadcast likes, interactive barrage, suitable for live events, e-commerce delivery and other scenarios</string>
+    <string name="community_topic_type_live_title">Live Topic</string>
+    <string name="community_topic_type_live_title_coming">Live Topic (Coming soon)</string>
+    <string name="community_topic_type_text_desc">Support text, emoticon, picture, video and other types of message sending and receiving interaction, suitable for chatting, publishing activities/announcements and other scenarios</string>
+    <string name="community_topic_type_text_title">Text Topic</string>
+    <string name="community_topic_type_video_desc">Support real-time voice connection to microphone, video interaction, suitable for singing and chatting, game blackout and other scenarios</string>
+    <string name="community_topic_type_video_title">Voice/Video Topic</string>
+    <string name="community_topic_type_video_title_coming">Voice/Video Topic (Coming soon)</string>
+    <string name="community_transfer_owner">Transfer group owner</string>
+    <string name="community_user_list">User list</string>
+    <string name="drafts">[Drafts]</string>
+    <string name="ui_at_all">[@All]</string>
+    <string name="ui_at_all_me">[@All][Someone @ me]</string>
+    <string name="ui_at_me">[Someone @ me]</string>
+    <style name="BottomPopupAnimation">
+        <item name="android:windowEnterAnimation">@anim/community_pop_menu_in_anim</item>
+        <item name="android:windowExitAnimation">@anim/community_pop_menu_out_anim</item>
+    </style>
+    <style name="CommunityBottomSelectSheet" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+    <style name="CommunityBottomSelectSheet_Anim">
+        <item name="android:windowExitAnimation">@anim/community_bottom_select_sheet_exit</item>
+        <item name="android:windowEnterAnimation">@anim/community_bottom_select_sheet_enter</item>
+    </style>
+    <declare-styleable name="CommunityExperienceView">
+        <attr format="string|reference" name="content_text"/>
+    </declare-styleable>
+    <declare-styleable name="CommunityIndexLinkView">
+        <attr format="integer" name="content_index"/>
+        <attr format="string|reference" name="content_link_text"/>
+        <attr format="string|reference" name="content_link"/>
+    </declare-styleable>
+    <declare-styleable name="SelectTextButton">
+        <attr format="dimension" name="button_radius"/>
+        <attr format="dimension" name="border_width"/>
+        <attr format="dimension" name="button_left_top_radius"/>
+        <attr format="dimension" name="button_right_top_radius"/>
+        <attr format="dimension" name="button_right_bottom_radius"/>
+        <attr format="dimension" name="button_left_bottom_radius"/>
+        <attr format="color" name="color"/>
+    </declare-styleable>
+    <declare-styleable name="SettingsLinearView">
+        <attr format="string" name="setting_name"/>
+        <attr format="string|reference" name="setting_name_color"/>
+        <attr format="string" name="setting_content"/>
+        <attr format="color|reference" name="setting_content_color"/>
+        <attr format="boolean" name="setting_is_show_top_line"/>
+        <attr format="boolean" name="setting_is_show_bottom_line"/>
+        <attr format="boolean" name="setting_is_show_copy"/>
+        <attr format="boolean" name="setting_is_show_arrow"/>
+        <attr format="boolean" name="setting_is_show_content_text"/>
+        <attr format="boolean" name="setting_is_show_content_image"/>
+        <attr format="dimension" name="setting_content_image_width"/>
+        <attr format="dimension" name="setting_content_image_height"/>
+
+    </declare-styleable>
+    <declare-styleable name="TextCopyView">
+        <attr format="reference" name="bind_copy_text"/>
+    </declare-styleable>
+    <declare-styleable name="TextCountView">
+        <attr format="integer" name="limit_count"/>
+        <attr format="reference" name="bind_edit_text"/>
+    </declare-styleable>
+</resources>

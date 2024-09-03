@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipChildren="false"
+    android:clipToPadding="false"
+    android:orientation="vertical">
+
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/view_pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/main_navigation_bar"
+        android:layout_alignParentTop="true" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/main_navigation_bar"
+        android:background="#FFFFFFFF"
+        app:cardBackgroundColor="#FFFFFFFF"
+        android:layout_alignParentBottom="true"
+        app:cardElevation="10dp"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.tencent.qcloud.tim.demo.main.TabRecyclerView
+            android:id="@+id/tab_list"
+            android:clipChildren="false"
+            android:clipToPadding="false"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"/>
+
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>

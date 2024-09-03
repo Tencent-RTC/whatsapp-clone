@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="start"
+    android:id="@+id/forward_msg_layout"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/msg_forward_title"
+        android:layout_width="@dimen/forward_text_max_length"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical|start"
+        android:textColor="@color/black"
+        android:textDirection="locale"
+        android:maxLines="1"
+        android:maxWidth="@dimen/forward_text_max_length"
+        android:ellipsize="end"
+        android:textSize="15.36sp" />
+
+    <LinearLayout
+        android:layout_width="@dimen/forward_text_max_length"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:orientation="vertical">
+
+        <include android:id="@+id/first_line" layout="@layout/chat_forward_msg_content_line_layout"/>
+        <include android:id="@+id/second_line" layout="@layout/chat_forward_msg_content_line_layout"/>
+        <include android:id="@+id/third_line" layout="@layout/chat_forward_msg_content_line_layout"/>
+
+    </LinearLayout>
+
+    <View
+        android:background="@drawable/chat_divide_line"
+        android:layout_marginTop="6dp"
+        android:layout_width="match_parent"
+        android:layout_height="0.6dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/forward_chat_record"
+        android:layout_marginTop="8dp"
+        android:textColor="#888888"
+        android:textSize="8.6sp" />
+
+</LinearLayout>
+

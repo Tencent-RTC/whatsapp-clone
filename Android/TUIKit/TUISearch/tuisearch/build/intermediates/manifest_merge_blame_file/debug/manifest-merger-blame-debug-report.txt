@@ -1,0 +1,61 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.tencent.qcloud.tuikit.tuisearch" >
+4
+5    <uses-sdk
+6        android:minSdkVersion="19"
+6-->/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUISearch/tuisearch/src/main/AndroidManifest.xml
+7        android:targetSdkVersion="30" />
+7-->/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUISearch/tuisearch/src/main/AndroidManifest.xml
+8
+9    <application>
+9-->/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUISearch/tuisearch/src/main/AndroidManifest.xml:4:5-39:19
+10
+11        <!-- **************** Classic UI Activity Start **************** -->
+12        <activity
+12-->/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUISearch/tuisearch/src/main/AndroidManifest.xml:7:9-9:52
+13            android:name="com.tencent.qcloud.tuikit.tuisearch.classicui.page.SearchMainActivity"
+13-->/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUISearch/tuisearch/src/main/AndroidManifest.xml:8:13-97
+14            android:screenOrientation="portrait" />
+14-->/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUISearch/tuisearch/src/main/AndroidManifest.xml:9:13-49
+15        <activity
+15-->/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUISearch/tuisearch/src/main/AndroidManifest.xml:11:9-13:52
+16            android:name="com.tencent.qcloud.tuikit.tuisearch.classicui.page.SearchMoreListActivity"
+16-->/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUISearch/tuisearch/src/main/AndroidManifest.xml:12:13-101
+17            android:screenOrientation="portrait" />
+17-->/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUISearch/tuisearch/src/main/AndroidManifest.xml:13:13-49
+18        <activity
+18-->/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUISearch/tuisearch/src/main/AndroidManifest.xml:15:9-17:52
+19            android:name="com.tencent.qcloud.tuikit.tuisearch.classicui.page.SearchMoreMsgListActivity"
+19-->/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUISearch/tuisearch/src/main/AndroidManifest.xml:16:13-104
+20            android:screenOrientation="portrait" />
+20-->/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUISearch/tuisearch/src/main/AndroidManifest.xml:17:13-49
+21
+22        <!-- **************** Classic UI Activity End **************** -->
+23
+24
+25        <!-- **************** Minimalist UI Activity Start **************** -->
+26        <activity
+26-->/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUISearch/tuisearch/src/main/AndroidManifest.xml:25:9-27:52
+27            android:name="com.tencent.qcloud.tuikit.tuisearch.minimalistui.page.SearchMainMinimalistActivity"
+27-->/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUISearch/tuisearch/src/main/AndroidManifest.xml:26:13-110
+28            android:screenOrientation="portrait" />
+28-->/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUISearch/tuisearch/src/main/AndroidManifest.xml:27:13-49
+29        <activity
+29-->/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUISearch/tuisearch/src/main/AndroidManifest.xml:29:9-31:52
+30            android:name="com.tencent.qcloud.tuikit.tuisearch.minimalistui.page.SearchMoreListMinimalistActivity"
+30-->/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUISearch/tuisearch/src/main/AndroidManifest.xml:30:13-114
+31            android:screenOrientation="portrait" />
+31-->/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUISearch/tuisearch/src/main/AndroidManifest.xml:31:13-49
+32        <activity
+32-->/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUISearch/tuisearch/src/main/AndroidManifest.xml:33:9-35:52
+33            android:name="com.tencent.qcloud.tuikit.tuisearch.minimalistui.page.SearchMoreMsgListMinimalistActivity"
+33-->/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUISearch/tuisearch/src/main/AndroidManifest.xml:34:13-117
+34            android:screenOrientation="portrait" />
+34-->/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TUISearch/tuisearch/src/main/AndroidManifest.xml:35:13-49
+35
+36        <!-- **************** Minimalist UI Activity End **************** -->
+37
+38    </application>
+39
+40</manifest>

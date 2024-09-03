@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <include layout="@layout/search_minimalist_search_bar_layout" />
+
+    <!-- ScrollView-->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="24dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:orientation="vertical">
+
+            <!-- contact_layout-->
+            <RelativeLayout
+                android:id="@+id/contact_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/shape_search"
+                android:layout_marginBottom="24dp"
+                android:visibility="gone"
+                tools:visibility="visible">
+
+                <TextView
+                    android:id="@+id/contact_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginStart="24dp"
+                    android:layout_marginBottom="12dp"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:text="@string/contact_subtitle"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/more_contact_button"
+                    android:textSize="12sp"
+                    android:textColor="#007AFF"
+                    android:layout_alignBottom="@id/contact_title"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginEnd="20dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/search_more_label"/>
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/friend_rc_search"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/contact_title" />
+
+            </RelativeLayout>
+
+            <!-- group_layout-->
+            <RelativeLayout
+                android:id="@+id/group_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/shape_search"
+                android:layout_marginBottom="24dp"
+                android:visibility="gone"
+                tools:visibility="visible">
+
+                <TextView
+                    android:id="@+id/group_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginStart="24dp"
+                    android:layout_marginBottom="12dp"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:text="@string/group_subtitle"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:textSize="16sp"  />
+
+                <TextView
+                    android:id="@+id/more_group_button"
+                    android:textSize="12sp"
+                    android:textColor="#007AFF"
+                    android:layout_alignBottom="@id/group_title"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginEnd="20dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/search_more_label"/>
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/group_rc_search"
+                    android:layout_below="@id/group_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </RelativeLayout>
+
+            <!-- conversation_layout-->
+            <RelativeLayout
+                android:id="@+id/conversation_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/shape_search"
+                android:visibility="gone"
+                tools:visibility="visible">
+
+                <TextView
+                    android:id="@+id/conversation_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginStart="24dp"
+                    android:layout_marginBottom="12dp"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:text="@string/chat_record"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:textSize="16sp"  />
+
+                <TextView
+                    android:id="@+id/more_conversation_button"
+                    android:textSize="12sp"
+                    android:textColor="#007AFF"
+                    android:layout_alignBottom="@id/conversation_title"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginEnd="20dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/search_more_label"/>
+
+                <com.tencent.qcloud.tuikit.tuisearch.minimalistui.widget.PageRecycleView
+                    android:id="@+id/conversation_rc_search"
+                    android:layout_below="@id/conversation_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </RelativeLayout>
+
+
+            <include
+                android:id="@+id/not_found_area"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_marginTop="42dp"
+                android:visibility="gone"
+                tools:visibility="visible"
+                layout="@layout/search_minimalist_not_found_layout"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

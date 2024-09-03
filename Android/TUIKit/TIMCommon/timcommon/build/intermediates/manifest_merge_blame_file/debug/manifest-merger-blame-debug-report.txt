@@ -1,0 +1,71 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.tencent.qcloud.tuikit.timcommon" >
+4
+5    <uses-sdk
+6        android:minSdkVersion="19"
+6-->/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TIMCommon/timcommon/src/main/AndroidManifest.xml
+7        android:targetSdkVersion="30" />
+7-->/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TIMCommon/timcommon/src/main/AndroidManifest.xml
+8
+9    <application>
+9-->/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TIMCommon/timcommon/src/main/AndroidManifest.xml:4:5-37:19
+10        <activity
+10-->/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TIMCommon/timcommon/src/main/AndroidManifest.xml:6:9-8:52
+11            android:name="com.tencent.qcloud.tuikit.timcommon.component.activities.SelectionActivity"
+11-->/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TIMCommon/timcommon/src/main/AndroidManifest.xml:7:13-102
+12            android:screenOrientation="portrait" />
+12-->/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TIMCommon/timcommon/src/main/AndroidManifest.xml:8:13-49
+13        <activity
+13-->/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TIMCommon/timcommon/src/main/AndroidManifest.xml:9:9-11:52
+14            android:name="com.tencent.qcloud.tuikit.timcommon.component.activities.ImageSelectActivity"
+14-->/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TIMCommon/timcommon/src/main/AndroidManifest.xml:10:13-104
+15            android:screenOrientation="portrait" />
+15-->/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TIMCommon/timcommon/src/main/AndroidManifest.xml:11:13-49
+16        <activity
+16-->/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TIMCommon/timcommon/src/main/AndroidManifest.xml:13:9-15:52
+17            android:name="com.tencent.qcloud.tuikit.timcommon.component.activities.SelectionMinimalistActivity"
+17-->/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TIMCommon/timcommon/src/main/AndroidManifest.xml:14:13-112
+18            android:screenOrientation="portrait" />
+18-->/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TIMCommon/timcommon/src/main/AndroidManifest.xml:15:13-49
+19        <activity
+19-->/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TIMCommon/timcommon/src/main/AndroidManifest.xml:16:9-18:52
+20            android:name="com.tencent.qcloud.tuikit.timcommon.component.activities.ImageSelectMinimalistActivity"
+20-->/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TIMCommon/timcommon/src/main/AndroidManifest.xml:17:13-114
+21            android:screenOrientation="portrait" />
+21-->/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TIMCommon/timcommon/src/main/AndroidManifest.xml:18:13-49
+22        <activity
+22-->/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TIMCommon/timcommon/src/main/AndroidManifest.xml:20:9-25:74
+23            android:name="com.tencent.qcloud.tuikit.timcommon.util.ActivityResultResolver$ActivityResultProxyActivity"
+23-->/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TIMCommon/timcommon/src/main/AndroidManifest.xml:20:19-125
+24            android:configChanges="orientation|keyboardHidden|screenSize"
+24-->/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TIMCommon/timcommon/src/main/AndroidManifest.xml:21:13-74
+25            android:launchMode="singleTask"
+25-->/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TIMCommon/timcommon/src/main/AndroidManifest.xml:23:13-44
+26            android:multiprocess="true"
+26-->/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TIMCommon/timcommon/src/main/AndroidManifest.xml:22:13-40
+27            android:theme="@style/CoreActivityTranslucent"
+27-->/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TIMCommon/timcommon/src/main/AndroidManifest.xml:24:13-59
+28            android:windowSoftInputMode="stateHidden|stateAlwaysHidden" />
+28-->/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TIMCommon/timcommon/src/main/AndroidManifest.xml:25:13-72
+29
+30        <provider
+30-->/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TIMCommon/timcommon/src/main/AndroidManifest.xml:27:9-35:20
+31            android:name="com.tencent.qcloud.tuikit.timcommon.util.FileProvider"
+31-->/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TIMCommon/timcommon/src/main/AndroidManifest.xml:28:13-81
+32            android:authorities="${applicationId}.timcommon.fileprovider"
+32-->/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TIMCommon/timcommon/src/main/AndroidManifest.xml:29:13-74
+33            android:exported="false"
+33-->/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TIMCommon/timcommon/src/main/AndroidManifest.xml:30:13-37
+34            android:grantUriPermissions="true" >
+34-->/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TIMCommon/timcommon/src/main/AndroidManifest.xml:31:13-47
+35            <meta-data
+35-->/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TIMCommon/timcommon/src/main/AndroidManifest.xml:32:13-34:60
+36                android:name="android.support.FILE_PROVIDER_PATHS"
+36-->/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TIMCommon/timcommon/src/main/AndroidManifest.xml:33:17-67
+37                android:resource="@xml/file_paths_public" />
+37-->/Users/vincepzhang/UGit/github_workspace/whatsapp-clone/Android/TUIKit/TIMCommon/timcommon/src/main/AndroidManifest.xml:34:17-58
+38        </provider>
+39    </application>
+40
+41</manifest>
