@@ -241,6 +241,7 @@ import AdvListItem from '../components/AdvListItem.vue';
 import { Link, qrList, mobileList } from '../utils/link';
 import { genTestUserSig } from '../TUIKit';
 import { isPC, isH5 } from '../TUIKit/utils/env';
+import { TUICallKitServer } from '@tencentcloud/call-uikit-vue';
 
 const props = withDefaults(
   defineProps<{
@@ -330,6 +331,10 @@ const submitForm = (formEl: any) => {
 const login = (loginInfo: any) => {
   TUILogin.login(loginInfo)
     .then((res: any) => {
+    TUICallKitServer.getTUICallEngineInstance()?.reportLog?.({
+      name: 'WhatsAppClone',
+      data: {}
+    });
       router.push({ path: 'home' });
       TUIUserService.switchUserStatus({ displayOnlineStatus: true });
     })

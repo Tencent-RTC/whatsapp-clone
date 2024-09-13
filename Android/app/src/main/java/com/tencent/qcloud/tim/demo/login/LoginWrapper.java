@@ -132,6 +132,7 @@ public class LoginWrapper {
     }
 
     public void loginIMSDK(Context context, int sdkAppID, String userID, String userSig, final TUILoginConfig config, TUICallback tuiCallback) {
+        syncSolutionData();
         TUILogin.login(context, sdkAppID, userID, userSig, config, new TUICallback() {
             @Override
             public void onError(final int code, final String desc) {
@@ -152,6 +153,11 @@ public class LoginWrapper {
                 }
             }
         });
+    }
+
+    private void syncSolutionData() {
+        int uiPlatform = 37;
+        V2TIMManager.getInstance().callExperimentalAPI("setUIPlatform", uiPlatform, null);
     }
 
     private void tryToAutoLogin() {
