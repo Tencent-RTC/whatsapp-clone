@@ -15,10 +15,10 @@
 #import "Aspects.h"
 #import "TUIUtil.h"
 #import "TCLoginModel.h"
+#import "TXLiteAVSDK_TRTC/TRTCCloud.h"
 
 #if ENABLELIVE
 #import "TRTCSignalFactory.h"
-@import TXLiteAVSDK_TRTC;
 #endif
 
 #import "TUIBaseChatViewController.h"
@@ -185,6 +185,7 @@
 
     self.preloadMainVC = [self getMainController];
     
+    [self syncSolutionData];
     TUILoginConfig *config = [[TUILoginConfig alloc] init];
     config.initLocalStorageOnly = YES;
     @weakify(self)
@@ -197,9 +198,17 @@
     }];
 }
 
+- (void)syncSolutionData {
+    NSNumber *uiPlatform = @37;
+    [[V2TIMManager sharedInstance] callExperimentalAPI:@"setUIPlatform" param:uiPlatform succ:^(NSObject *result) {
+    } fail:^(int code, NSString *desc) {
+    }];
+}
+
 - (void)loginSDK:(NSString *)userID userSig:(NSString *)sig succ:(TSucc)succ fail:(TFail)fail {
     self.userID = userID;
     self.userSig = sig;
+    [self syncSolutionData];
     [TUILogin login:SDKAPPID userID:self.userID userSig:self.userSig config:self.loginConfig succ:^{
         if (self.preloadMainVC && [self.window.rootViewController isEqual:self.preloadMainVC]) {
             // main vc has load
